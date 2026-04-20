@@ -632,7 +632,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "CN1-2",
+    "used_designators": "CN1-3,USB1-2,DC1,RJ1",
     "variants": []
   },
   "sheets": [
