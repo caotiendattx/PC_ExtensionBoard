@@ -1,0 +1,4 @@
+"""PC-Coreboard - A new atopile project"""
+
+module App:
+    pass

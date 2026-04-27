@@ -632,13 +632,17 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "CN1-3,USB1-2,DC1,RJ1",
+    "used_designators": "CN1-3,USB1-2,U1-2,DC1,RJ1,PJ1,HDMI1,USBC1",
     "variants": []
   },
   "sheets": [
     [
       "6f8c8ec7-fa36-4248-8716-390866a3d0b0",
       "PC_ExtensionBoard"
+    ],
+    [
+      "9ed91725-6462-4203-9e3a-92dc03bf0c46",
+      "USB3.0"
     ]
   ],
   "text_variables": {},

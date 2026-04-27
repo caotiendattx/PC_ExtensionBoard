@@ -1,0 +1,27 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Hong_Cheng_HC_USB3_0_L168_WP_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C7501850", date="2026-04-27T17:08:36.562083+00:00", checksum="d41c42a1b9972401a768eb8c1bb569fd0523f7b31a869b2d0ff77ac72d7a585d">
+
+    trait is_atomic_part<manufacturer="Hong Cheng", partnumber="HC-USB3.0-L168-WP", footprint="USB-TH_USB3.0-A.kicad_mod", symbol="HC-USB3.0-L168-WP.kicad_sym", model="USB-A-TH_USB-AF-3002.STEP">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C7501850", manufacturer="Hong Cheng", partno="HC-USB3.0-L168-WP">
+    trait has_designator_prefix<prefix="U">
+    trait has_datasheet<datasheet="https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310271159_Hong-Cheng-HC-USB3-0-L168-WP_C7501850.pdf">
+
+    # pins
+    signal Dneg ~ pin 2
+    signal Dpos ~ pin 3
+    signal GND ~ pin 4
+    signal GND_DRAN ~ pin 7
+    signal SH ~ pin 10
+    signal SSRXneg ~ pin 5
+    signal SSRXpos ~ pin 6
+    signal SSTXneg ~ pin 8
+    signal SSTXpos ~ pin 9
+    signal VBUS ~ pin 1

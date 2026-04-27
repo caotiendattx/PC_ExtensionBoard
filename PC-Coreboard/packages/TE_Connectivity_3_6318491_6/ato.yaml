@@ -1,0 +1,10 @@
+requires-atopile: ^0.15.7
+paths:
+  src: ./
+  layout: ./layouts
+builds:
+  default:
+    entry: TE_Connectivity_3_6318491_6.ato:TE_Connectivity_3_6318491_6
+package:
+  identifier: local/te-connectivity-3-6318491-6
+  version: 0.0.1

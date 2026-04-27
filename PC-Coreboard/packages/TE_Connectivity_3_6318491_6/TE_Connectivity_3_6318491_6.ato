@@ -1,0 +1,4 @@
+from "parts/TE_Connectivity_3_6318491_6/TE_Connectivity_3_6318491_6.ato" import TE_Connectivity_3_6318491_6_package
+
+module TE_Connectivity_3_6318491_6:
+    package = new TE_Connectivity_3_6318491_6_package

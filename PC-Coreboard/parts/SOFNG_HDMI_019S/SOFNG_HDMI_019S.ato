@@ -1,0 +1,40 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component SOFNG_HDMI_019S_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C111617", date="2026-04-27T17:11:05.489636+00:00", checksum="6357eda25fcaef6fd6c7eaa2660bd39eea8342fe35cc6d23bc0833a445f133fd">
+
+    trait is_atomic_part<manufacturer="SOFNG", partnumber="HDMI-019S", footprint="HDMI-SMD_HDMI-019S.kicad_mod", symbol="HDMI-019S.kicad_sym", model="HDMI-SMD_HDMI-019S.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C111617", manufacturer="SOFNG", partno="HDMI-019S">
+    trait has_designator_prefix<prefix="HDMI">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2009111836_SOFNG-HDMI-019S_C111617.pdf">
+
+    # pins
+    signal CEC ~ pin 13
+    signal CK_SHIELD ~ pin 11
+    signal CKneg ~ pin 12
+    signal CKpos ~ pin 10
+    signal D0_SHIELD ~ pin 8
+    signal D0neg ~ pin 9
+    signal D0pos ~ pin 7
+    signal D1_SHIELD ~ pin 5
+    signal D1neg ~ pin 6
+    signal D1pos ~ pin 4
+    signal D2_SHIELD ~ pin 2
+    signal D2neg ~ pin 3
+    signal D2pos ~ pin 1
+    signal GND ~ pin 17
+    signal HEC ~ pin 14
+    signal HOT_PLUG_DET ~ pin 19
+    signal I2C_CLK ~ pin 15
+    signal I2C_DATA ~ pin 16
+    signal P5Vpos ~ pin 18
+    signal SHD ~ pin 20
+    SHD ~ pin 21
+    SHD ~ pin 22
+    SHD ~ pin 23
