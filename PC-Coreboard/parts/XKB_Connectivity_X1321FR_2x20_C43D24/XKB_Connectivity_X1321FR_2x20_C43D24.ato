@@ -1,0 +1,57 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component XKB_Connectivity_X1321FR_2x20_C43D24_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C2881906", date="2026-05-10T08:12:36.780396+00:00", checksum="e7fcb8fa586a849c3b651e2a294c865f8bd56f3ab2826bda82bba5c75862fa89">
+
+    trait is_atomic_part<manufacturer="XKB Connectivity", partnumber="X1321FR-2x20-C43D24", footprint="CONN-TH_40P_X1321FR-2X20-C43D24.kicad_mod", symbol="X1321FR-2X20-C43D24.kicad_sym", model="CONN-TH_40P_X1321FR-2X20-C43D24.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C2881906", manufacturer="XKB Connectivity", partno="X1321FR-2x20-C43D24">
+    trait has_designator_prefix<prefix="CN">
+    trait has_datasheet<datasheet="https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110120130_XKB-Connection-X1321FR-2x20-C43D24_C2881906.pdf">
+
+    # pins
+    pin 1
+    pin 40
+    pin 3
+    pin 38
+    pin 5
+    pin 36
+    pin 7
+    pin 34
+    pin 9
+    pin 32
+    pin 11
+    pin 30
+    pin 13
+    pin 28
+    pin 15
+    pin 26
+    pin 17
+    pin 24
+    pin 19
+    pin 22
+    pin 21
+    pin 20
+    pin 23
+    pin 18
+    pin 25
+    pin 16
+    pin 27
+    pin 14
+    pin 29
+    pin 12
+    pin 31
+    pin 10
+    pin 33
+    pin 8
+    pin 35
+    pin 6
+    pin 37
+    pin 4
+    pin 39
+    pin 2

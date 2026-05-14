@@ -450,7 +450,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -591,7 +591,18 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "USB": [
+        "D+",
+        "D-"
+      ],
+      "USBSS": [
+        "RX+",
+        "RX-",
+        "TX+",
+        "TX-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -632,7 +643,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "CN1-3,USB1-2,U1-2,DC1,RJ1,PJ1,HDMI1,USBC1",
+    "used_designators": "PJ1,HDMI1,J1-4,J12,RJ1,U2-13,DC1,#PWR3-16,#PWR18-63,C1-25,D1-5,D25-29,R12-16,R18-47",
     "variants": []
   },
   "sheets": [
@@ -641,8 +652,24 @@
       "PC_ExtensionBoard"
     ],
     [
-      "9ed91725-6462-4203-9e3a-92dc03bf0c46",
-      "USB3.0"
+      "ad3d2d88-3ffa-4785-a207-fecc3cd186a9",
+      "PC_CoreBoard"
+    ],
+    [
+      "6483f6bc-b70b-4928-93ba-bd87660c8c1d",
+      "HDMI"
+    ],
+    [
+      "159de6c0-52e6-4757-95c7-d6000a1c175d",
+      "USB_Audio"
+    ],
+    [
+      "d5783b1a-f6ab-498c-a6d2-017d56dd6434",
+      "Power"
+    ],
+    [
+      "ebf0009b-0f45-47f6-ae1d-1a3b0004ce68",
+      "Ethernet_Wifi"
     ]
   ],
   "text_variables": {},
