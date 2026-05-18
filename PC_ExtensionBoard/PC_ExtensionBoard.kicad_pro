@@ -631,6 +631,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -643,7 +651,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "PJ1,HDMI1,J1-4,J12,RJ1,U2-13,DC1,#PWR3-16,#PWR18-63,C1-25,D1-5,D25-29,R12-16,R18-47",
+    "used_designators": "J3,J5,J18,J100,#FLG2,#FLG5-6,#FLG10,#FLG12-15,R15,R17,R31,R34-35,R37,R40-42,R47-57,R86-87,R91-92,R96,R99-102,R104-105,R107-110,R113,R115-125,R132-142,R152-153,D4-8,D10-19,D36,#PWR17,#PWR25,#PWR27,#PWR35,#PWR37,#PWR39,#PWR41,#PWR43,#PWR45,#PWR47,#PWR50-51,#PWR58,#PWR77,#PWR79,#PWR81-82,#PWR84-85,#PWR88-90,#PWR93,#PWR95,#PWR99,#PWR103,#PWR109,#PWR111,#PWR113-114,#PWR116-120,#PWR123-129,#PWR133-134,#PWR136,#PWR138,#PWR140,#PWR142-146,#PWR149-156,#PWR158-164,#PWR166,#PWR174-183,#PWR185,#PWR195-197,#PWR439,#PWR441-446,#PWR448,USBC2,A2,A4,C21,C23-30,C39-40,C45,C48,C50,C52-55,C57-59,C61-62,C64,C66-67,C69-74,C79-82,C204-205,H2-5,Q1-8,L2-3,U9,U11-12,U19-21,U23,U49-50,F1",
     "variants": []
   },
   "sheets": [
@@ -661,15 +669,23 @@
     ],
     [
       "159de6c0-52e6-4757-95c7-d6000a1c175d",
-      "USB_Audio"
+      "USB_Audio_RJ45"
     ],
     [
       "d5783b1a-f6ab-498c-a6d2-017d56dd6434",
       "Power"
     ],
     [
-      "ebf0009b-0f45-47f6-ae1d-1a3b0004ce68",
-      "Ethernet_Wifi"
+      "e0373dc5-8a62-4a52-9d01-906bea33f6b6",
+      "M.2 Key M #1"
+    ],
+    [
+      "bc629ccc-801f-404f-8741-a70708896c6c",
+      "M.2 Key E"
+    ],
+    [
+      "af316c50-2c03-4317-9203-c5b8561360cf",
+      "MISC"
     ]
   ],
   "text_variables": {},
