@@ -1,0 +1,298 @@
+(footprint "L_WE-MAPI-4020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.3 -2.3 180)
+		(layer "F.SilkS")
+		(uuid "5806440f-b7a3-42f2-b010-24a33c0ea6b8")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "L_1u8_6.8A_WE-MAPI-4020"
+		(at -2.4 3.4 180)
+		(layer "F.Fab")
+		(uuid "2cefff62-c87c-48f3-9083-535fca4fdb8c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438356018.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fdd20a0-51fb-415d-b701-b425a3e7b02e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f08ed06-4e5e-4de6-81e6-e1ba1cf9adfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbbcf060-bbf3-4da2-8bad-65801ec56ee2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" "6.8 A"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83bd0c2c-48b5-4a1d-8a66-07ec5a24752b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISat" "6.5 A"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c2bedcb-4d82-4e1b-8117-2b97979dbb28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c445f4-ba91-4093-95bd-8f980a889f4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "74438356018"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f61309cd-ea22-414d-8004-ab04ab07a629")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Würth Elektronik"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d863c721-b7b0-4db8-9ca5-db5f5a73a82a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Public" "False"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72411471-c0bb-4f00-9a0e-6d0b8ec04ae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "4.1x4.1mm"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77b7a36-7578-4125-8e84-accd990bb02d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "1u8/6.8A"
+		(at 622.5 250.92 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0435f771-3696-4957-b11d-990b8a49b9f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Power")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.2 -2.2)
+		(end 2.2 2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65946884-f47e-414f-ad21-7f63c1becc21")
+	)
+	(fp_rect
+		(start -2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4bad1e26-2be6-4a4e-9803-3da31e387969")
+	)
+	(fp_rect
+		(start -2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae589925-9564-4386-8d46-36c6ea39c876")
+	)
+	(fp_rect
+		(start -2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "35bdeb62-520e-4cf6-8d6c-322a13a9e9b1")
+	)
+	(fp_line
+		(start -2.05 -2.05)
+		(end 2.05 -2.05)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "60872363-a8dd-44fd-be75-550014c32957")
+	)
+	(fp_line
+		(start -2.05 2.05)
+		(end -2.05 -2.05)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "4387745a-c221-4658-b480-22384b2ec09d")
+	)
+	(fp_line
+		(start 2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "6fe70e05-d275-482b-96fd-645b61701339")
+	)
+	(fp_line
+		(start 2.05 2.05)
+		(end -2.05 2.05)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "2946a6a8-e69b-41ea-a3b7-ccd501e06a5d")
+	)
+	(pad "1" smd roundrect
+		(at -1.185 0 90)
+		(size 3.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e9f013e4-cd53-4035-9649-cdbef551bb18")
+	)
+	(pad "2" smd roundrect
+		(at 1.185 0 90)
+		(size 3.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a85b16c2-b908-4585-b779-32a4660ca258")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/L_WE-MAPI-4020.step"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)

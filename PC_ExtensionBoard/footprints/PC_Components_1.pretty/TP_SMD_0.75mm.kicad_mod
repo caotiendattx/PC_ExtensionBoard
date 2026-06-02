@@ -1,0 +1,149 @@
+(footprint "TP_SMD_0.75mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.399999 0.4 0)
+		(layer "F.SilkS")
+		(uuid "d6c12864-69d5-4596-95e2-4d41e9964017")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "TP_0.75mm_SMD"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "89a914c7-e895-4bde-b4bf-4ce1da0816c9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e7774207-f88a-4ad1-baad-4261cc7ab93f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "8b64917c-7005-4391-90c8-d7d2c79bf95c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 517.9 -168.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc258c7f-cdd1-4cfc-acff-b7b25fcf0593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 517.9 -168.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cfac9ac-3557-413c-9344-1b3517729b43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 517.9 -168.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38109e07-007a-47f4-90c3-127f21c67a69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 517.9 -168.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14e8393a-d15e-4273-b334-96aa012ca3ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Public" "False"
+		(at 517.9 -168.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d71cce6e-6461-4e60-bcea-ceb094a5be55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Misc")
+	(sheetfile "misc.kicad_sch")
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0.475 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "138d05d4-34c3-45d8-852c-edf46ae82140")
+	)
+	(pad "1" smd circle
+		(at 0 0 180)
+		(size 0.75 0.75)
+		(layers "F.Cu" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.4)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1f801055-83eb-4cbe-a797-000d9173bbb6")
+	)
+	(embedded_fonts no)
+)

@@ -7,7 +7,7 @@ import is_auto_generated
 component Hong_Cheng_HC_USB3_0_L175_2X1_P_package:
     # This trait marks this file as auto-generated
     # If you want to manually change it, remove the trait
-    trait is_auto_generated<system="ato_part", source="easyeda:C7501881", date="2026-04-27T17:14:36.224931+00:00", checksum="58a968f4e9f454d748e8cfcc46f26a736b6273e56b0552c177f267a379706d5c">
+    trait is_auto_generated<system="ato_part", source="easyeda:C7501881", date="2026-06-01T16:05:35.080631+00:00", checksum="96fe8287a51dd7d76025be796de58289f179c7155cfee21fb9d0c6b8b1e1a4aa">
 
     trait is_atomic_part<manufacturer="Hong Cheng", partnumber="HC-USB3.0-L175-2X1-P", footprint="USB-A-TH_H181-AF2R06-12ALCR.kicad_mod", symbol="HC-USB3.0-L175-2X1-P.kicad_sym", model="USB-A-TH_H181-AF2R06-12ALCR.STEP">
     trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C7501881", manufacturer="Hong Cheng", partno="HC-USB3.0-L175-2X1-P">

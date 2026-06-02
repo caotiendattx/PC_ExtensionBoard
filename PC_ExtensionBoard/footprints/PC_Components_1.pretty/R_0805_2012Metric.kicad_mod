@@ -1,0 +1,374 @@
+(footprint "R_0805_2012Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 0.5 0)
+		(layer "F.SilkS")
+		(uuid "477e7f5a-f1f8-4aaa-b496-c6d34f6958a9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "R_0R001_0805"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "e77703f0-cba0-49df-94c8-6f91d4af5db3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-msma-automotive-smd-current-sense-resistor-metal-strip-data-sheet-elx1179.pdf"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "27f7d47a-d7e3-4a3e-a548-69f4759093da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c0c93331-bf53-484c-98e2-a3f8757e0348")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01e051b1-a696-4710-8efb-43aea8abc713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3136cf0e-998e-44fe-9528-fc147020f1fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "MSMA0805R0010FSM"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27826fa4-f61d-4a57-aaba-d5306b4040b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Eaton"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4fa5e2a-4752-4308-b145-eadce651ee6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Public" "False"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "859fc75f-24eb-4e0c-bbc0-7a5b37005bfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" "1%"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14f6037e-a451-417e-acc6-e4a54584fd9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "0R001"
+		(at 210.08 -305.67 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58fa21d7-6e02-4161-ba54-76e1a068f65e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "OCuLink")
+	(sheetfile "oculink.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.298 -0.701)
+		(end -0.3 -0.701)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "786975dc-b9eb-4c1a-b47b-3fc649083ea3")
+	)
+	(fp_line
+		(start 0.28 0.699)
+		(end -0.32 0.699)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc1d955f-e680-42d8-834a-703d30989537")
+	)
+	(fp_rect
+		(start 1.95 -0.9)
+		(end -1.95 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "70beab17-3196-4276-ae00-14850663bddb")
+	)
+	(fp_line
+		(start 0.949 0.68)
+		(end -0.951 0.68)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "150bda18-0fdc-47a9-9dff-9ad946176f8d")
+	)
+	(fp_line
+		(start 0.949 0.675)
+		(end 0.949 -0.677)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47ff043f-5759-4891-9cd9-099d6b295b2a")
+	)
+	(fp_line
+		(start 0.949 -0.682)
+		(end -0.951 -0.682)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "330c15cc-fe2a-456e-9385-0a9074581c9c")
+	)
+	(fp_line
+		(start -0.951 0.675)
+		(end -0.951 -0.677)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88e842aa-9735-4a6c-bdd0-b650f6a44dcf")
+	)
+	(fp_rect
+		(start -1 -0.657)
+		(end 0.998 0.655)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "dd0a935f-8573-42b6-a352-27b2668dca47")
+	)
+	(fp_line
+		(start 0.998 0.655)
+		(end 0.998 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "2e77a755-2a21-4b90-82da-97d12715fcee")
+	)
+	(fp_line
+		(start 0.498 0.655)
+		(end 0.998 0.655)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "823865db-b0a8-4c0f-9afe-851f87f3a919")
+	)
+	(fp_line
+		(start 0.498 0.655)
+		(end 0.498 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "66bd24f9-f469-49fc-adca-f57ce670126d")
+	)
+	(fp_line
+		(start 0.498 -0.625)
+		(end -0.5 -0.625)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "4a0ba616-aaa1-400f-9187-8317a10e5c62")
+	)
+	(fp_line
+		(start 0.498 -0.657)
+		(end 0.998 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "15ce787a-b5e8-43e7-a75b-6688eb4ece94")
+	)
+	(fp_line
+		(start -0.5 0.655)
+		(end -0.5 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "e8f1d160-64c8-4540-bc1f-f624cc6603f8")
+	)
+	(fp_line
+		(start -0.5 0.623)
+		(end 0.498 0.623)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "20f1d286-6ad1-46cd-ba7e-42c20970f801")
+	)
+	(fp_line
+		(start -1 0.655)
+		(end -0.5 0.655)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "4d4ab969-4581-4ca9-93e0-3fd129f5e96b")
+	)
+	(fp_line
+		(start -1 0.655)
+		(end -1 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "4626fa5b-5ea9-4791-8196-a794fec82022")
+	)
+	(fp_line
+		(start -1 -0.657)
+		(end -0.5 -0.657)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "17066110-4aec-4199-af19-2ff962cfcebf")
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0 180)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "853e64b3-3990-4d17-a58e-0160011c740d")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0 180)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e53faa9b-0cd5-477f-9dbb-8c46d378d1f6")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/R_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0.73)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

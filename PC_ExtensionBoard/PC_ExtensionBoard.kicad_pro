@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -137,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -187,7 +193,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +223,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -651,7 +665,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "J3,J5,J18,J100,#FLG2,#FLG5-6,#FLG10,#FLG12-15,R15,R17,R31,R34-35,R37,R40-42,R47-57,R86-87,R91-92,R96,R99-102,R104-105,R107-110,R113,R115-125,R132-142,R152-153,D4-8,D10-19,D36,#PWR17,#PWR25,#PWR27,#PWR35,#PWR37,#PWR39,#PWR41,#PWR43,#PWR45,#PWR47,#PWR50-51,#PWR58,#PWR77,#PWR79,#PWR81-82,#PWR84-85,#PWR88-90,#PWR93,#PWR95,#PWR99,#PWR103,#PWR109,#PWR111,#PWR113-114,#PWR116-120,#PWR123-129,#PWR133-134,#PWR136,#PWR138,#PWR140,#PWR142-146,#PWR149-156,#PWR158-164,#PWR166,#PWR174-183,#PWR185,#PWR195-197,#PWR439,#PWR441-446,#PWR448,USBC2,A2,A4,C21,C23-30,C39-40,C45,C48,C50,C52-55,C57-59,C61-62,C64,C66-67,C69-74,C79-82,C204-205,H2-5,Q1-8,L2-3,U9,U11-12,U19-21,U23,U49-50,F1",
+    "used_designators": "D9,D20,D28-29,#PWR19,#PWR59-76,#PWR78,#PWR80,#PWR83,#PWR86-87,#PWR91-92,C6,C10,C12,C31-33,C37-38,C41-42,R58-71,U13-16",
     "variants": []
   },
   "sheets": [

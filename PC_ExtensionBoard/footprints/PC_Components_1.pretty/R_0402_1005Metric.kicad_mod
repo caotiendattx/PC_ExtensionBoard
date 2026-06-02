@@ -1,0 +1,339 @@
+(footprint "R_0402_1005Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0402")
+	(tags "resistor SMD 0402")
+	(property "Reference" "REF**"
+		(at -3.6 -0.45 0)
+		(layer "F.SilkS")
+		(uuid "9a5a3ada-6152-4d73-b398-65528f573239")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(property "Value" "R_0R_0402"
+		(at -1.011843 1.772047 0)
+		(layer "F.Fab")
+		(uuid "6abe939f-98a3-4e5a-a416-c9a3dfaf3c46")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "219c6fe2-c650-4dc6-a52b-c4612bb80999")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b36199a0-3cda-4cef-9c54-f7ea27d3e0a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "193e42ad-cb59-4f80-8d6a-77ad3729b3e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current" "1A"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff25575e-0c47-4cc7-ab04-558b87df0ea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09b9e4a8-ecb3-459f-b80a-c3f1534b8ab1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "ERJ2GE0R00X"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffbcced5-14b7-4761-aecf-088446b3f3e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd4b1b9-24b9-4e19-b022-691f29d6c20f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Public" "False"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8000b52e-fdf9-49b0-a38f-7381286ebc33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" ""
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4874f08-538d-4def-aadd-08be5750fa78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "0R"
+		(at 272.06 -29.56 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53279a94-f8c5-4921-ae10-c02f8d2fe72f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "PCIe redriver")
+	(sheetfile "pcie_redriver.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.925 -0.47)
+		(end 0.925 0.47)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2af3d854-1de2-4011-9be3-f34b5c1c5112")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d6bf49ec-bb3b-4005-834c-dbdc2b859747")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "a8a84da4-f62e-4937-8254-1879be58a109")
+	)
+	(fp_line
+		(start 0.498 0.248)
+		(end 0.248 0.248)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "0e936b6e-bd2d-49e7-bf14-4912765efeaf")
+	)
+	(fp_line
+		(start 0.498 -0.25)
+		(end 0.498 0.248)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "890d04c5-07cb-4aac-9af4-1de40abb9b20")
+	)
+	(fp_line
+		(start 0.248 0.248)
+		(end 0.248 -0.25)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "b2219be1-9d4c-41f1-8399-de4aa290d034")
+	)
+	(fp_line
+		(start 0.248 -0.25)
+		(end 0.498 -0.25)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "fc3f0a6b-ae11-47c1-b4b7-2012090e78e3")
+	)
+	(fp_line
+		(start -0.25 0.23)
+		(end 0.248 0.23)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "1e65cd9b-31b7-46cc-bd4e-61e6a5440c62")
+	)
+	(fp_line
+		(start -0.25 -0.232)
+		(end 0.248 -0.232)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "210cc2c2-d04a-49d9-9e64-3e1bf7da8b15")
+	)
+	(fp_line
+		(start -0.25 -0.25)
+		(end -0.25 0.248)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "7e76fa31-3e88-4825-86b8-bdb3115d4e18")
+	)
+	(fp_line
+		(start -0.5 0.248)
+		(end -0.25 0.248)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "2095b923-5476-4b39-8dc2-3a150fe16a98")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.25 -0.25)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "a5060ba7-e2aa-4471-8ec7-801fac13bd24")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.5 0.248)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "d16fd1fe-2d5a-41dc-b52a-d65329e0696f")
+	)
+	(pad "1" smd roundrect
+		(at -0.48 0 180)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "40a8cdd5-82cb-4f26-8ff9-ea2b44e75743")
+	)
+	(pad "2" smd roundrect
+		(at 0.48 0 180)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.2)
+			(max_length 1)
+			(best_width_ratio 0.9)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1e7b1097-a556-4393-b0a1-3a6378e578d7")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 -0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
