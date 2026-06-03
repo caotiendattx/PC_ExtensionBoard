@@ -195,7 +195,8 @@
       ],
       "track_widths": [
         0.0,
-        0.15
+        0.15,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -606,6 +607,11 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "I2C": [
+        "SDA",
+        "SCL",
+        "~{INT}"
+      ],
       "USB": [
         "D+",
         "D-"
@@ -665,7 +671,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "D9,D20,D28-29,#PWR19,#PWR59-76,#PWR78,#PWR80,#PWR83,#PWR86-87,#PWR91-92,C6,C10,C12,C31-33,C37-38,C41-42,R58-71,U13-16",
+    "used_designators": "USBC3",
     "variants": []
   },
   "sheets": [

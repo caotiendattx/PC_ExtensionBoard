@@ -133077,6 +133077,327 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 22.86 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+				(at 22.86 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+				(at 22.86 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+				(at 22.86 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 2.5 mm, M2.5 Thread, WA-SMSI Series"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 22.86 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "9774025151R"
+				(at 22.86 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 22.86 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Public" "False"
+				(at 22.86 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 22.86 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "MECHANICAL, SPACER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Spacer_Drill3.7mm_H2.5mm_9774025151R_1_1"
+				(rectangle
+					(start 2.54 -2.54)
+					(end 7.62 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicropower:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 67.31 72.39)
@@ -133767,6 +134088,24 @@
 		(uuid "4a1ae129-1322-455e-aac8-4570edef055c")
 	)
 	(bus_entry
+		(at 180.34 332.74)
+		(size -1.27 -1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0d81d1-ea7f-4f04-aad9-01cfda274d6d")
+	)
+	(bus_entry
+		(at 180.34 335.28)
+		(size -1.27 -1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbe0381-1fc7-4d2b-966f-005fdd9cdb01")
+	)
+	(bus_entry
 		(at 194.31 185.42)
 		(size 2.54 2.54)
 		(stroke
@@ -134387,6 +134726,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 393.7) (xy 287.02 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10acb785-da30-487d-965e-be2d56300cc4")
+	)
+	(wire
+		(pts
 			(xy 55.88 261.62) (xy 69.85 261.62)
 		)
 		(stroke
@@ -134535,6 +134884,16 @@
 		)
 		(uuid "1a8f5239-3179-45f7-9b0f-6303a7fd41c5")
 	)
+	(wire
+		(pts
+			(xy 283.21 363.22) (xy 283.21 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a93a876-cf54-4c96-9b95-ff6ab7108e5e")
+	)
 	(bus
 		(pts
 			(xy 54.61 260.35) (xy 54.61 259.08)
@@ -134624,6 +134983,16 @@
 			(type default)
 		)
 		(uuid "289d3d95-d7c4-439f-ba3d-3af8d89947b3")
+	)
+	(wire
+		(pts
+			(xy 289.56 383.54) (xy 289.56 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c91b4a-1fe7-428f-b354-1c7af2ee3256")
 	)
 	(wire
 		(pts
@@ -134724,6 +135093,16 @@
 			(type default)
 		)
 		(uuid "34e8c86f-8330-4fdc-a6c0-177299ed83a9")
+	)
+	(wire
+		(pts
+			(xy 208.28 321.31) (xy 198.12 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c7d437-47ce-498a-9d0c-9bbd165abb1c")
 	)
 	(wire
 		(pts
@@ -134857,6 +135236,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 372.11) (xy 227.33 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a9d2be-544d-4fb1-a76d-bdcae39d6d0c")
+	)
+	(wire
+		(pts
 			(xy 118.11 168.91) (xy 118.11 171.45)
 		)
 		(stroke
@@ -134864,6 +135253,16 @@
 			(type default)
 		)
 		(uuid "41a9947d-2b02-4e79-b47a-bc99c28e3bc1")
+	)
+	(wire
+		(pts
+			(xy 224.79 393.7) (xy 226.06 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d03ffa-7a9c-4cc4-976a-f8b305c35d14")
 	)
 	(wire
 		(pts
@@ -135004,6 +135403,16 @@
 			(type default)
 		)
 		(uuid "563186c3-ba8b-41b5-bbc7-4591c3c52c9d")
+	)
+	(wire
+		(pts
+			(xy 226.06 381) (xy 227.33 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e1efae-9eb7-4ca3-82ae-9eaf1db7049c")
 	)
 	(wire
 		(pts
@@ -135247,6 +135656,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 394.97) (xy 224.79 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1473d3-6c05-45d1-b8e9-09f26573de91")
+	)
+	(wire
+		(pts
 			(xy 259.08 293.37) (xy 276.86 293.37)
 		)
 		(stroke
@@ -135254,6 +135673,16 @@
 			(type default)
 		)
 		(uuid "7a2566d5-e292-49b6-a380-4a421b8d954a")
+	)
+	(wire
+		(pts
+			(xy 198.12 332.74) (xy 180.34 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad530d7-002f-4dea-b589-0e11b216e11e")
 	)
 	(wire
 		(pts
@@ -135315,6 +135744,16 @@
 		)
 		(uuid "83eaf1bc-adff-41a2-ae59-637bdf8c708b")
 	)
+	(bus
+		(pts
+			(xy 179.07 334.01) (xy 179.07 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8463e11d-39c2-46fb-9e70-0797d094ef36")
+	)
 	(wire
 		(pts
 			(xy 67.31 41.91) (xy 67.31 44.45)
@@ -135364,6 +135803,16 @@
 			(type default)
 		)
 		(uuid "88397a4c-74ad-4e02-9e70-7ab67b80d4ef")
+	)
+	(wire
+		(pts
+			(xy 226.06 364.49) (xy 226.06 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88493c31-a545-4f29-8675-c39d7f2b7a8d")
 	)
 	(wire
 		(pts
@@ -135475,6 +135924,16 @@
 		)
 		(uuid "97e14985-d427-4887-a0a7-e77216a32245")
 	)
+	(bus
+		(pts
+			(xy 179.07 331.47) (xy 179.07 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7a36d0-998d-4e26-a291-636132d9cd30")
+	)
 	(wire
 		(pts
 			(xy 118.11 166.37) (xy 118.11 168.91)
@@ -135504,6 +135963,16 @@
 			(type default)
 		)
 		(uuid "9dae6c3f-cbe9-42c2-b403-7f197f5c6c37")
+	)
+	(wire
+		(pts
+			(xy 284.48 374.65) (xy 284.48 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df4681e-09fb-4b3a-8f90-2d02d339d490")
 	)
 	(wire
 		(pts
@@ -135544,6 +136013,16 @@
 			(type default)
 		)
 		(uuid "a030766f-34af-4953-961b-7d8c637d0b86")
+	)
+	(wire
+		(pts
+			(xy 208.28 323.85) (xy 201.93 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60c95a3-2f87-45af-8ae0-ef0e0456c2cd")
 	)
 	(wire
 		(pts
@@ -135627,6 +136106,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 323.85) (xy 201.93 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa3db26-3005-40c0-adf3-db54e4cfdee9")
+	)
+	(wire
+		(pts
 			(xy 118.11 143.51) (xy 118.11 146.05)
 		)
 		(stroke
@@ -135634,6 +136123,16 @@
 			(type default)
 		)
 		(uuid "b10f268d-60ca-45c1-bf5d-5efdb48b82ea")
+	)
+	(wire
+		(pts
+			(xy 180.34 335.28) (xy 201.93 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b5ccac-57f1-499a-a1ec-dbaa9ee9ae2d")
 	)
 	(wire
 		(pts
@@ -135665,6 +136164,16 @@
 		)
 		(uuid "b434a875-9016-4d18-aa11-371e60ee57bd")
 	)
+	(wire
+		(pts
+			(xy 226.06 373.38) (xy 226.06 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45a8c9b-60c4-4b67-98ad-140bae208722")
+	)
 	(bus
 		(pts
 			(xy 135.89 259.08) (xy 137.16 259.08)
@@ -135674,6 +136183,16 @@
 			(type default)
 		)
 		(uuid "b523af79-18e1-43f4-888e-f0d218bfde12")
+	)
+	(wire
+		(pts
+			(xy 284.48 373.38) (xy 285.75 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9006e31-a96c-494f-8311-a07e3211e46d")
 	)
 	(wire
 		(pts
@@ -135704,6 +136223,16 @@
 			(type default)
 		)
 		(uuid "ba71edc5-0be2-4536-a7be-faf46314f143")
+	)
+	(wire
+		(pts
+			(xy 226.06 363.22) (xy 227.33 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbda32da-ebff-4041-b786-6c9bfe0c4967")
 	)
 	(bus
 		(pts
@@ -135877,6 +136406,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 382.27) (xy 226.06 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b3d2a0-0bb6-4715-99a7-300e4f2f04cf")
+	)
+	(wire
+		(pts
 			(xy 118.11 153.67) (xy 118.11 156.21)
 		)
 		(stroke
@@ -135884,6 +136423,16 @@
 			(type default)
 		)
 		(uuid "cb344848-9222-4dff-ab49-b5009251057c")
+	)
+	(wire
+		(pts
+			(xy 283.21 361.95) (xy 284.48 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf32495-60b8-4fdf-873d-a29af7951e7d")
 	)
 	(wire
 		(pts
@@ -135904,6 +136453,26 @@
 			(type default)
 		)
 		(uuid "cf2d0885-663d-4780-9d08-d14068415104")
+	)
+	(wire
+		(pts
+			(xy 198.12 321.31) (xy 198.12 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb0a6ed-981a-4ebc-b96f-2209f676283b")
+	)
+	(bus
+		(pts
+			(xy 179.07 328.93) (xy 177.8 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03b223c-3a13-4909-8956-75ed200f7b6f")
 	)
 	(wire
 		(pts
@@ -136047,6 +136616,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 382.27) (xy 290.83 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e210e9a1-21f0-4a35-985d-31bfce0c9862")
+	)
+	(wire
+		(pts
 			(xy 208.28 283.21) (xy 190.5 283.21)
 		)
 		(stroke
@@ -136114,6 +136693,16 @@
 			(type default)
 		)
 		(uuid "f0d917c4-2a2f-468c-852e-f79b8459ddf1")
+	)
+	(wire
+		(pts
+			(xy 285.75 394.97) (xy 285.75 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fddb92-9e09-4116-8fbf-8f5a2b921dad")
 	)
 	(wire
 		(pts
@@ -136785,6 +137374,16 @@
 		)
 		(uuid "baf093de-20a6-4bf4-bd68-b75f11cb3c90")
 	)
+	(label "PCIE_{REF}.CK+"
+		(at 198.12 332.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbb4cecc-f742-42fd-a074-74ff450c041e")
+	)
 	(label "GBE0.MDI0-"
 		(at 196.85 190.5 0)
 		(effects
@@ -136864,6 +137463,16 @@
 			(justify right bottom)
 		)
 		(uuid "db6329d4-2e11-41dc-aca8-117cbd91c9bf")
+	)
+	(label "PCIE_{REF}.CK-"
+		(at 198.12 335.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e81def8f-a621-4452-bd59-de9487a6fea9")
 	)
 	(label "PCIe_{B1x4}.TX1-"
 		(at 208.28 298.45 180)
@@ -136982,6 +137591,17 @@
 			(justify left)
 		)
 		(uuid "293cc22e-13cf-4c4c-a9b4-70fd5a32c196")
+	)
+	(hierarchical_label "PCIE_{REF}{PCIe_{REF}}"
+		(shape output)
+		(at 177.8 328.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bd6d88e-a6b3-4560-b00b-b6c5537a7941")
 	)
 	(hierarchical_label "USB2{USB}"
 		(shape output)
@@ -137191,6 +137811,231 @@
 			(justify left)
 		)
 		(uuid "ec0f990e-1e50-41fa-a68c-7d8aba2866f9")
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 285.75 394.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0096061d-511c-4aad-8f03-f01eac85072e")
+		(property "Reference" "#PWR0193"
+			(at 285.75 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 400.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 294.64 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 294.64 405.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d9b11a1a-7be2-4308-a711-2943e6b1d4e9")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 227.33 363.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0df8d9da-2387-4518-a125-a5cc6da325a3")
+		(property "Reference" "H8"
+			(at 237.49 361.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 256.54 364.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 250.19 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 250.19 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 250.19 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 250.19 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 250.19 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7dc7c348-4992-4a64-a6c3-548b8ae9125d")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_13")
@@ -138586,6 +139431,110 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 224.79 394.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11532edb-4dd7-4e13-861d-df861dd84d53")
+		(property "Reference" "#PWR0192"
+			(at 224.79 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 400.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 233.68 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 233.68 405.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "00d3675d-0f03-47e5-8300-0a53811b5c70")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_5")
 		(lib_id "DatCao_Symbol:KBLH-E61_COMe_Type6_16U")
 		(at 223.52 146.05 0)
@@ -139973,6 +140922,110 @@
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
 					(reference "U3")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 284.48 374.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb3fc88-98a4-4e20-ae6b-c3e5d0af5358")
+		(property "Reference" "#PWR0190"
+			(at 284.48 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 293.37 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 293.37 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "05bb3ff7-5174-4207-ad0e-dd8f30b661cd")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0190")
+					(unit 1)
 				)
 			)
 		)
@@ -141371,6 +142424,127 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 284.48 361.95 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "265047d5-5a30-4e72-a02f-8d107f2d35ef")
+		(property "Reference" "H9"
+			(at 294.64 360.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 313.69 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 307.34 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 307.34 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 307.34 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 307.34 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 307.34 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d07d12ab-2fca-46ec-9b0f-4482bb311d6a")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_14")
 		(lib_id "DatCao_Symbol:KBLH-E61_COMe_Type6_16U")
 		(at 411.48 322.58 0)
@@ -142759,6 +143933,456 @@
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
 					(reference "U3")
 					(unit 15)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 283.21 363.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319fe498-645b-4791-b8ca-ae9928529e44")
+		(property "Reference" "#PWR0189"
+			(at 283.21 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 292.1 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 292.1 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "54efce4f-ea89-4e77-b085-988e3751cee6")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 227.33 381 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "328d287f-4609-43cd-b8b0-9e5a089b4c47")
+		(property "Reference" "H6"
+			(at 237.49 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 256.54 382.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 250.19 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 250.19 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 250.19 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 250.19 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 250.19 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "42e166e4-7dba-4211-9e93-6405724c8af1")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 226.06 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d4eaa52-d7db-456d-9b4f-0fd857b6a799")
+		(property "Reference" "#PWR0188"
+			(at 226.06 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 369.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 234.95 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 234.95 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "92fe9ad0-24e3-456b-9848-47df2c76c498")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 290.83 382.27 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "504c8ea0-27f4-45f3-9d3e-03ba7b8f4f95")
+		(property "Reference" "H11"
+			(at 300.99 381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 320.04 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 313.69 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 313.69 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 313.69 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 313.69 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 313.69 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5a8a6a93-69f2-48b6-a8a4-eac70d5a93f6")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H11")
+					(unit 1)
 				)
 			)
 		)
@@ -146940,6 +148564,127 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 227.33 372.11 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e7f5734-2e94-4364-8e1d-ac3923c0958f")
+		(property "Reference" "H7"
+			(at 237.49 370.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 256.54 373.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 250.19 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 250.19 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 250.19 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 250.19 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 250.19 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3e415a50-5019-4bb3-b34f-91186c3593cb")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_4")
 		(lib_id "DatCao_Symbol:KBLH-E61_COMe_Type6_16U")
 		(at 85.09 265.43 0)
@@ -149721,6 +151466,127 @@
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
 					(reference "U3")
 					(unit 12)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 226.06 393.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93ebf1e3-fa3e-4031-bb22-e212c8c1cd09")
+		(property "Reference" "H12"
+			(at 236.22 392.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 255.27 394.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 248.92 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 248.92 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 248.92 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 248.92 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 248.92 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "602c9ef9-ba81-41f0-a25f-ebb74f3d8802")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H12")
+					(unit 1)
 				)
 			)
 		)
@@ -153904,6 +155770,127 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 287.02 393.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6a5dc06-e142-4488-9f2c-7bd867a54011")
+		(property "Reference" "H13"
+			(at 297.18 392.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 316.23 394.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 309.88 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 309.88 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 309.88 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 309.88 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 309.88 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "22a62280-ce09-4079-85b5-790d3bfd57b1")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_8")
 		(lib_id "DatCao_Symbol:KBLH-E61_COMe_Type6_16U")
 		(at 410.21 166.37 0)
@@ -155297,6 +157284,335 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 226.06 373.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caea34c0-19df-490d-9d2f-ac3e3fb97ba1")
+		(property "Reference" "#PWR0187"
+			(at 226.06 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 378.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 234.95 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 234.95 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "871ab04e-9198-44e6-9ffc-019032ead50a")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 289.56 383.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb6c8740-4b57-49cb-9963-9c5501104315")
+		(property "Reference" "#PWR0191"
+			(at 289.56 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 388.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 298.45 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 298.45 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "83c77a87-bebe-4529-ada7-dae54c508647")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(at 285.75 373.38 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d42a394b-7ca5-4c1a-b173-439e7d69d84e")
+		(property "Reference" "H10"
+			(at 295.91 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 314.96 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+			(at 308.61 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+			(at 308.61 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 308.61 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 308.61 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 308.61 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "2b67ee70-e54f-4fd4-ad62-8c0d4ed98c93")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "KBLH-E61_COMe_Type6_16U_3")
 		(lib_id "DatCao_Symbol:KBLH-E61_COMe_Type6_16U")
 		(at 82.55 118.11 0)
@@ -156683,6 +158999,110 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 226.06 382.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da650b4c-600b-4db3-b1dc-2496daa994c2")
+		(property "Reference" "#PWR0186"
+			(at 226.06 388.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 387.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 234.95 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 234.95 392.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4e589a99-f58d-4400-9a36-0f088ac03a4f")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/ad3d2d88-3ffa-4785-a207-fecc3cd186a9"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
