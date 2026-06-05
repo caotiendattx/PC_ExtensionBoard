@@ -623,6 +623,16 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "DDI": [
+        "TX0+",
+        "TX0-",
+        "TX1+",
+        "TX1-",
+        "TX2+",
+        "TX2-",
+        "TX3+",
+        "TX3-"
+      ],
       "I2C": [
         "SDA",
         "SCL",

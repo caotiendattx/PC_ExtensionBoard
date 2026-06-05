@@ -203,4 +203,11 @@
 		(options "")
 		(descr "atopile: part lib: DOWO_SMF5_0A")
 	)
+	(lib
+		(name "FOXCONN_QT002206_2131_3H")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/../../parts/FOXCONN_QT002206_2131_3H")
+		(options "")
+		(descr "atopile: part lib: FOXCONN_QT002206_2131_3H")
+	)
 )

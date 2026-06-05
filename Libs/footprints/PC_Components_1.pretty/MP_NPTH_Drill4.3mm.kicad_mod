@@ -1,0 +1,79 @@
+(footprint "MP_NPTH_Drill4.3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4daf7ed3-3939-436c-a718-b945c0b1c9dd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "MP_NPTH_Drill4.3mm"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "70f86cbc-36b8-44b4-a01c-0012bf1f280b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "0c22b4e3-b5bc-4ef0-92f4-d6b6c9888d67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "0d676e17-de26-40d3-ab7e-7ab646bb91d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "71eeb6d1-9dd1-4fe2-9f1a-a8e28d5320b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 4.3 4.3)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "48a3bb8b-bbae-4606-a782-083a21fff52c")
+	)
+	(embedded_fonts no)
+)

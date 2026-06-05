@@ -133971,6 +133971,15 @@
 		(uuid "07bcbb12-2786-4898-80a1-b71e90613622")
 	)
 	(bus_entry
+		(at 195.58 46.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cbe77c-56c4-4f45-8d23-8514b1477d3c")
+	)
+	(bus_entry
 		(at 187.96 316.23)
 		(size 2.54 -2.54)
 		(stroke
@@ -133996,6 +134005,24 @@
 			(type default)
 		)
 		(uuid "0f154f72-82f8-4040-aaf9-37b8a4baecbf")
+	)
+	(bus_entry
+		(at 195.58 34.29)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112dea93-f28e-472e-ad9d-dfc983beff59")
+	)
+	(bus_entry
+		(at 195.58 49.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c3fd4a-d08a-4cd2-bc02-465d4d632dd8")
 	)
 	(bus_entry
 		(at 52.07 345.44)
@@ -134205,6 +134232,15 @@
 		(uuid "68f8d496-ce7b-4857-a775-969476ddb516")
 	)
 	(bus_entry
+		(at 195.58 29.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696d6007-926b-46c2-9bca-cce075d58e18")
+	)
+	(bus_entry
 		(at 49.53 274.32)
 		(size -1.27 -1.27)
 		(stroke
@@ -134275,6 +134311,24 @@
 			(type default)
 		)
 		(uuid "85bb1b16-ee57-4806-8611-a015d83f2c2f")
+	)
+	(bus_entry
+		(at 195.58 39.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c4a6bd-fa8e-4b73-8bd6-d69a108e6a10")
+	)
+	(bus_entry
+		(at 195.58 31.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ada039d-3862-44a4-9047-32fc7b3c7fd5")
 	)
 	(bus_entry
 		(at 139.7 342.9)
@@ -134448,6 +134502,15 @@
 		(uuid "c1a832b0-ed7a-43fb-b80e-214354e1fef3")
 	)
 	(bus_entry
+		(at 195.58 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a993ce-255a-44bb-b4ce-8dff63ac2683")
+	)
+	(bus_entry
 		(at 194.31 198.12)
 		(size 2.54 2.54)
 		(stroke
@@ -134511,6 +134574,15 @@
 		(uuid "dd3d8740-a746-4338-88b2-840d5bed8bd4")
 	)
 	(bus_entry
+		(at 195.58 36.83)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef792308-1b0b-4d0b-9816-dd8ca928cafe")
+	)
+	(bus_entry
 		(at 187.96 318.77)
 		(size 2.54 -2.54)
 		(stroke
@@ -134520,6 +134592,15 @@
 		(uuid "efd7b15b-e41c-4bdf-8599-3ad138219bf6")
 	)
 	(bus_entry
+		(at 195.58 41.91)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e4d9ba-92de-4b49-866b-712f116962e4")
+	)
+	(bus_entry
 		(at 140.97 271.78)
 		(size 1.27 -1.27)
 		(stroke
@@ -134527,6 +134608,15 @@
 			(type default)
 		)
 		(uuid "f21c184c-f535-43a3-8509-0a02c2f3a67e")
+	)
+	(bus_entry
+		(at 195.58 44.45)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fd6dac-b2a6-4a8f-8a23-a7272ed722b9")
 	)
 	(bus_entry
 		(at 194.31 187.96)
@@ -134603,6 +134693,16 @@
 			(type default)
 		)
 		(uuid "01abdfec-3770-45ff-bb5e-0edcafee3bcb")
+	)
+	(bus
+		(pts
+			(xy 191.77 50.8) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d78e89-e719-441f-9ff7-22198fb286f7")
 	)
 	(wire
 		(pts
@@ -134696,6 +134796,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 52.07) (xy 208.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3c71bd-0ec4-446a-97c1-e90de794c4fe")
+	)
+	(wire
+		(pts
 			(xy 120.65 266.7) (xy 139.7 266.7)
 		)
 		(stroke
@@ -134776,6 +134886,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 29.21) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1419f015-8c7d-407d-8594-25fd86807d89")
+	)
+	(wire
+		(pts
 			(xy 67.31 67.31) (xy 67.31 69.85)
 		)
 		(stroke
@@ -134793,6 +134913,16 @@
 			(type default)
 		)
 		(uuid "152b214b-8f10-47e7-9246-9e7ff15bc11d")
+	)
+	(wire
+		(pts
+			(xy 205.74 54.61) (xy 208.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17228088-d1fd-4ccf-bc49-c8a0b843c0af")
 	)
 	(wire
 		(pts
@@ -134934,6 +135064,16 @@
 		)
 		(uuid "1e953db3-8d28-4fdf-b96d-b4ab5f2d3776")
 	)
+	(bus
+		(pts
+			(xy 182.88 50.8) (xy 191.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4e1a7b-1fa4-403d-9423-5dc32ae19603")
+	)
 	(wire
 		(pts
 			(xy 118.11 80.01) (xy 118.11 82.55)
@@ -134943,6 +135083,16 @@
 			(type default)
 		)
 		(uuid "2019a62d-6330-441e-bbf4-fe8f475bca5d")
+	)
+	(bus
+		(pts
+			(xy 193.04 31.75) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2386275e-eb25-45ac-9292-d8d30b07cc1c")
 	)
 	(wire
 		(pts
@@ -135084,6 +135234,16 @@
 		)
 		(uuid "31965a92-5f51-4f72-b564-c178a01d4a65")
 	)
+	(bus
+		(pts
+			(xy 182.88 55.88) (xy 191.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335c15c5-3488-4cc6-8f9c-f6adb42e9296")
+	)
 	(wire
 		(pts
 			(xy 259.08 290.83) (xy 276.86 290.83)
@@ -135193,6 +135353,16 @@
 			(type default)
 		)
 		(uuid "3c5c645e-ba1b-42eb-8e40-8640e7dfd97d")
+	)
+	(wire
+		(pts
+			(xy 195.58 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8081b9-409d-4083-bff8-7c77a42328a5")
 	)
 	(wire
 		(pts
@@ -135446,6 +135616,16 @@
 	)
 	(bus
 		(pts
+			(xy 191.77 55.88) (xy 193.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c624852-8df1-44ff-a8e5-3bcff602a891")
+	)
+	(bus
+		(pts
 			(xy 48.26 270.51) (xy 48.26 269.24)
 		)
 		(stroke
@@ -135574,6 +135754,16 @@
 		)
 		(uuid "6e62aca9-1a75-4014-96ac-5b4ba124724f")
 	)
+	(bus
+		(pts
+			(xy 193.04 52.07) (xy 193.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e83af3b-81ee-41d5-999c-a2c33fe65da0")
+	)
 	(wire
 		(pts
 			(xy 259.08 298.45) (xy 276.86 298.45)
@@ -135656,6 +135846,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 46.99) (xy 208.28 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e9bee6-6291-41a3-a4a9-d05d13fa8689")
+	)
+	(wire
+		(pts
 			(xy 224.79 394.97) (xy 224.79 393.7)
 		)
 		(stroke
@@ -135683,6 +135883,16 @@
 			(type default)
 		)
 		(uuid "7ad530d7-002f-4dea-b589-0e11b216e11e")
+	)
+	(wire
+		(pts
+			(xy 195.58 49.53) (xy 208.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4f08dc-3e52-4765-9895-4bbbb26a3953")
 	)
 	(wire
 		(pts
@@ -135793,6 +136003,16 @@
 			(type default)
 		)
 		(uuid "856673a3-1c40-42c7-afc6-ddfaf41b3445")
+	)
+	(wire
+		(pts
+			(xy 195.58 39.37) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8823354d-c529-4295-b0b1-68e8f057234e")
 	)
 	(wire
 		(pts
@@ -136016,6 +136236,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 44.45) (xy 208.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a487ba11-7c26-42a2-bc34-6c3187f647b1")
+	)
+	(wire
+		(pts
+			(xy 195.58 41.91) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50add0f-7c1e-4f68-85a8-d0f8fa39e680")
+	)
+	(wire
+		(pts
 			(xy 208.28 323.85) (xy 201.93 323.85)
 		)
 		(stroke
@@ -136183,6 +136423,16 @@
 			(type default)
 		)
 		(uuid "b523af79-18e1-43f4-888e-f0d218bfde12")
+	)
+	(wire
+		(pts
+			(xy 195.58 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b4a646-5fa8-4036-9af5-26d2b277ef99")
 	)
 	(wire
 		(pts
@@ -136686,6 +136936,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ccaf98-7bd1-4373-843b-05c70d53a3ee")
+	)
+	(wire
+		(pts
 			(xy 120.65 347.98) (xy 139.7 347.98)
 		)
 		(stroke
@@ -136864,6 +137124,16 @@
 		)
 		(uuid "0294fccf-ccd2-434f-84a4-c2fd848b41a8")
 	)
+	(label "DDI1.SDA"
+		(at 196.85 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f206ff-2e12-4282-8934-00882a0bb221")
+	)
 	(label "USBSS2.RX+"
 		(at 127 340.36 0)
 		(effects
@@ -136873,6 +137143,16 @@
 			(justify left bottom)
 		)
 		(uuid "0a74f904-52bf-4384-8ae1-e75ca788035a")
+	)
+	(label "DDI1.SCL"
+		(at 196.85 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa3d628-130f-40ca-9a65-eea0b5423aaf")
 	)
 	(label "USB6.D+"
 		(at 130.81 266.7 0)
@@ -136923,6 +137203,16 @@
 			(justify right bottom)
 		)
 		(uuid "1a10d443-a56b-4a3b-be35-2be675bc43b5")
+	)
+	(label "DDI1.TX3-"
+		(at 195.58 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a6388b0-9bf1-4947-b639-b6928edda83c")
 	)
 	(label "USBSS3.RX-"
 		(at 124.46 353.06 0)
@@ -137014,6 +137304,46 @@
 		)
 		(uuid "32fd484f-bffb-4a4f-8581-2bed41b1ff1d")
 	)
+	(label "DDI1.TX1-"
+		(at 195.58 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34de24a2-d632-4649-9592-41cc642bcdfd")
+	)
+	(label "DDI1.TX0-"
+		(at 195.58 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35368793-2336-4a85-9b68-41294014274b")
+	)
+	(label "DDI1.TX3+"
+		(at 195.58 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3609c640-9ca2-4243-ad10-281b38f1d56e")
+	)
+	(label "DDI1.TX2-"
+		(at 195.58 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37bafa11-23c7-4f04-8fad-7ce8aa88a5a8")
+	)
 	(label "GBE0.MDI0+"
 		(at 196.85 187.96 0)
 		(effects
@@ -137063,6 +137393,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a9f3f55-80c3-4f36-a471-294273c51589")
+	)
+	(label "DDI1.TX0+"
+		(at 195.58 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5101fa0a-6750-447c-bc4d-9c5a3c1653ec")
 	)
 	(label "USBSS0.RX-"
 		(at 64.77 342.9 180)
@@ -137153,6 +137493,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f9a795e-a818-43b7-b482-98297f71d6fa")
+	)
+	(label "DDI1.TX1+"
+		(at 195.58 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "709cf536-362e-4db1-8633-00d5da47ed08")
 	)
 	(label "PCIe_{B1x4}.RX3+"
 		(at 208.28 311.15 180)
@@ -137273,6 +137623,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f7b7b6b-72c5-4d04-aad7-b8b30bb52054")
+	)
+	(label "DDI1.TX2+"
+		(at 195.58 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8feeaaee-d9bd-44c0-af87-1dc8ef35948f")
 	)
 	(label "USB6.D-"
 		(at 130.81 269.24 0)
@@ -137702,6 +138062,17 @@
 		)
 		(uuid "81e8c588-5ec7-49fd-a73e-a2e3e2482b1e")
 	)
+	(hierarchical_label "DDI1_HPD"
+		(shape input)
+		(at 205.74 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87316757-0271-41a2-ad22-49b296a3226e")
+	)
 	(hierarchical_label "VCC_12V"
 		(shape output)
 		(at 59.69 64.77 180)
@@ -137712,6 +138083,17 @@
 			(justify right)
 		)
 		(uuid "88447312-f291-4306-b312-76fba9257032")
+	)
+	(hierarchical_label "DDI1{I2C}"
+		(shape input)
+		(at 182.88 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93399dac-4c41-4cd3-bb41-071e27584e5f")
 	)
 	(hierarchical_label "~{GBE0_LINK_1000}"
 		(shape output)
@@ -137756,6 +138138,17 @@
 			(justify right)
 		)
 		(uuid "b9082370-088c-40ae-a48c-fb63c62873d5")
+	)
+	(hierarchical_label "DDI1{DDI}"
+		(shape input)
+		(at 182.88 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c12e52c0-6cb0-42ac-b62e-ecd7402adf18")
 	)
 	(hierarchical_label "USB_6_7_OC#"
 		(shape output)
@@ -138098,6 +138491,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 410.21 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 410.21 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -139603,6 +140007,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 223.52 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8a3")
 		)
@@ -141091,6 +141506,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 411.48 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 411.48 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142605,6 +143031,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 411.48 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 411.48 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144456,6 +144893,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 410.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8a6")
 		)
@@ -145848,6 +146296,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 223.52 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8a7")
 		)
@@ -147231,6 +147690,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 223.52 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 223.52 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148754,6 +149224,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 85.09 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8a9")
 		)
@@ -150138,6 +150619,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 410.21 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 410.21 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151661,6 +152153,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 85.09 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8ab")
 		)
@@ -153044,6 +153547,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 410.21 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 410.21 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -154437,6 +154951,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 85.09 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 85.09 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -155951,6 +156476,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 410.21 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 410.21 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -157681,6 +158217,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8af")
 		)
@@ -159178,6 +159725,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2761498"
+			(at 223.52 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A24"
 			(uuid "928dbc0f-8e20-40a8-bea8-9d4f37b8d8b0")
 		)
@@ -160561,6 +161119,17 @@
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
 			(at 223.52 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2761498"
+			(at 223.52 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
