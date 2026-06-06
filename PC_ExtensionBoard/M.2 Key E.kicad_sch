@@ -5,20 +5,14 @@
 	(uuid "7f464288-51fc-4e8e-bfcd-a0a30cc85ab0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "antmicroCapacitors0603:C_22u_16V_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
+		(symbol "A_PC_ExtensionBoard:Bus_M.2_2199230-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
+			(property "Reference" "J100"
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -26,867 +20,21 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_22u_16V_0603"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL10A226MO7JZNC"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "22u"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Dielectric" ""
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_22u_16V_0603_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22u_16V_0603_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 22.86 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LED_G_0603_LTST-C190GKT"
-				(at 22.86 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-				(at 22.86 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
-				(at 22.86 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "LTST-C190GKT"
-				(at 22.86 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Lite-On"
-				(at 22.86 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Color" "Green"
-				(at 22.86 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 22.86 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 22.86 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, LED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_G_0603_LTST-C190GKT_0_1"
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_G_0603_LTST-C190GKT_1_1"
-				(polyline
-					(pts
-						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 2.54) (xy 2.159 2.032) (xy 2.159 2.54) (xy 2.667 2.54) (xy 2.159 2.54) (xy 3.048 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 22.86 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
-				(at 22.86 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H2.5mm_9774025151R"
-				(at 22.86 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
-				(at 22.86 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 2.5 mm, M2.5 Thread, WA-SMSI Series"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 22.86 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "9774025151R"
-				(at 22.86 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 22.86 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 22.86 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 22.86 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "MECHANICAL, SPACER"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Spacer_Drill3.7mm_H2.5mm_9774025151R_1_1"
-				(rectangle
-					(start 2.54 -2.54)
-					(end 7.62 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -1.27)
-					(end 6.35 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroModules:Mech_M2_2230_H2.5mm"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at 25.4 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Mech_M2_2230_H2.5mm"
-				(at 25.4 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Mech_M2_2230_H2.5mm"
-				(at 25.4 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 25.4 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Mechanical model for M2 2230 2.5mm module"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 25.4 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 25.4 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 25.4 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "MODULE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Mech_M2_2230_H2.5mm_1_1"
-				(rectangle
-					(start 10.16 -6.35)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroPciConnectors:Bus_M.2_2199230-2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 45.72 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "Bus_M.2_2199230-2"
+				(at 15.24 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PC_Components_1:Bus_M.2_Socket_Key_E_TE_2199230-6"
 				(at 45.72 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -899,7 +47,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_E_TE_2199230-6"
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/418/9/ENG_DS_1_1773702_1NGFFQRG_EN_0214_1_1773702_1NGFF_-3328593.pdf"
 				(at 45.72 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -912,20 +60,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://eu.mouser.com/datasheet/2/418/9/ENG_DS_1_1773702_1NGFFQRG_EN_0214_1_1773702_1NGFF_-3328593.pdf"
-				(at 45.72 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Key E, PCI connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -936,55 +71,15 @@
 					)
 				)
 			)
-			(property "MPN" "2199230-2"
-				(at 45.72 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 45.72 -13.97 0)
+			(property "LCSC" "C23731731"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 45.72 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 45.72 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
 				)
 			)
 			(property "ki_keywords" "HORIZONTAL, SMT, PCIE, CONNECTOR"
@@ -2262,7 +1357,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_0R_0402"
+		(symbol "A_PC_ExtensionBoard:C_22u_16V_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2274,8 +1369,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
+			(property "Reference" "C33"
+				(at 1.2763 2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2283,7 +1378,580 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_22u_16V_0603"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
 					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PC_Components_1:C_0603_1608Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL10A226MO7JZNC"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "22u"
+				(at 3.8163 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C2762594"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_22u_16V_0603_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_22u_16V_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A_PC_ExtensionBoard:LED_G_0603_LTST-C190GKT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D15"
+				(at 3.81 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_G_0603_LTST-C190GKT"
+				(at 22.86 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PC_Components_1:LED_0603_1608Metric_G"
+				(at 22.86 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
+				(at 22.86 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-C190GKT"
+				(at -6.35 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Public" "False"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Color" "Green"
+				(at 1.27 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_G_0603_LTST-C190GKT_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_G_0603_LTST-C190GKT_1_1"
+				(polyline
+					(pts
+						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 2.54) (xy 2.159 2.032) (xy 2.159 2.54) (xy 2.667 2.54) (xy 2.159 2.54) (xy 3.048 1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A_PC_ExtensionBoard:Mech_M2_2230_H2.5mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A4"
+				(at 11.43 -0.6349 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Mech_M2_2230_H2.5mm"
+				(at 11.43 -3.1749 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PC_Components_1:Mech_M2_2230_H2.5mm"
+				(at 25.4 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 25.4 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 25.4 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "None"
+				(at 11.43 -5.7149 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MODULE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Mech_M2_2230_H2.5mm_1_1"
+				(rectangle
+					(start 10.16 -6.35)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A_PC_ExtensionBoard:R_0R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
 				)
 			)
 			(property "Value" "R_0R_0402"
@@ -2325,7 +1993,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2389,7 +2057,7 @@
 				)
 			)
 			(property "Val" "0R"
-				(at 20.32 -7.62 0)
+				(at 6.35 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2397,7 +2065,6 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Tolerance" ""
@@ -2501,7 +2168,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_10k_0402"
+		(symbol "A_PC_ExtensionBoard:R_10k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2513,8 +2180,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
+			(property "Reference" "R108"
+				(at 3.8101 -2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2522,7 +2189,7 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Value" "R_10k_0402"
@@ -2564,7 +2231,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2628,7 +2295,7 @@
 				)
 			)
 			(property "Val" "10k"
-				(at 20.32 -7.62 0)
+				(at 1.2701 -2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2636,7 +2303,7 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Tolerance" "1%"
@@ -2727,7 +2394,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_220R_0402"
+		(symbol "A_PC_ExtensionBoard:R_220R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2739,8 +2406,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
+			(property "Reference" "R129"
+				(at 3.81 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2748,7 +2415,7 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Value" "R_220R_0402"
@@ -2764,7 +2431,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2790,7 +2457,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2814,47 +2481,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
 			(property "Val" "220R"
-				(at 20.32 -7.62 0)
+				(at 1.27 -1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2862,23 +2490,11 @@
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2953,21 +2569,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
+		(symbol "A_PC_ExtensionBoard:Spacer_Drill3.7mm_H2.5mm_9774025151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 15.24 0 0)
+			(property "Reference" "H8"
+				(at 10.16 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "Spacer_Drill3.7mm_H2.5mm_9774025151R"
+				(at 29.21 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PC_Components_1:Spacer_Drill3.7mm_H2.5mm_9774025151R"
+				(at 22.86 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2979,33 +2610,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "+3V3"
-				(at -3.175 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 15.24 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 15.24 -10.16 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025151R.pdf"
+				(at 22.86 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3028,8 +2634,8 @@
 					)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 15.24 -2.54 0)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 22.86 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3041,8 +2647,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -5.08 0)
+			(property "MPN" "9774025151R"
+				(at 22.86 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3054,10 +2660,156 @@
 					(justify left bottom)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(property "Public" "False"
+				(at 22.86 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "MECHANICAL, SPACER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Spacer_Drill3.7mm_H2.5mm_9774025151R_1_1"
+				(rectangle
+					(start 2.54 -2.54)
+					(end 7.62 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3092,12 +2844,11 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3115,12 +2866,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3129,57 +2881,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 8.89 -2.54 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "GND"
-				(at 8.89 -5.08 0)
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 8.89 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3190,33 +2912,40 @@
 					)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 8.89 -7.62 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "License" "Apache-2.0"
-				(at 8.89 -10.16 0)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
-			(symbol "GND_1_1"
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -3229,10 +2958,12 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4709,7 +4440,7 @@
 		(uuid "d96685f8-56da-4224-a888-7e079e7c22a3")
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_220R_0402")
 		(at 152.4 130.81 90)
 		(unit 1)
 		(body_style 1)
@@ -4847,7 +4578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
+		(lib_id "power:+3.3V")
 		(at 152.4 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -4868,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 152.4 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
 		(at 127 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -4984,7 +4715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5069,6 +4800,57 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 147.32 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 147.32 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 147.32 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "71a35ae5-4925-4ff4-ba3f-a01d6c7b9f7a")
 		)
@@ -5085,7 +4867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
+		(lib_id "power:+3.3V")
 		(at 152.4 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5106,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 152.4 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +4970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
+		(lib_id "power:+3.3V")
 		(at 139.7 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -5209,7 +4991,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 139.7 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 152.4 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5394,7 +5176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(lib_id "A_PC_ExtensionBoard:C_22u_16V_0603")
 		(at 152.4 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -5583,7 +5365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "A_PC_ExtensionBoard:R_10k_0402")
 		(at 71.12 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -5619,7 +5401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +5542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(lib_id "A_PC_ExtensionBoard:C_22u_16V_0603")
 		(at 125.73 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -5949,7 +5731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
 		(at 59.69 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -5983,7 +5765,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 80.01 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6068,6 +5850,57 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 80.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 80.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 80.01 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 80.01 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "9d127189-2a02-402b-9108-a617c2599906")
 		)
@@ -6084,7 +5917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
 		(at 49.53 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -6118,7 +5951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 69.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 123.19 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6375,7 +6208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_220R_0402")
 		(at 139.7 130.81 90)
 		(unit 1)
 		(body_style 1)
@@ -6513,7 +6346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "A_PC_ExtensionBoard:R_10k_0402")
 		(at 80.01 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -6549,7 +6382,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +6523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 134.62 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -6793,7 +6626,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroModules:Mech_M2_2230_H2.5mm")
+		(lib_id "A_PC_ExtensionBoard:Mech_M2_2230_H2.5mm")
 		(at 182.88 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -6909,7 +6742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(lib_id "A_PC_ExtensionBoard:C_22u_16V_0603")
 		(at 143.51 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -7098,7 +6931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
 		(at 59.69 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -7132,7 +6965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 			(at 80.01 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7230,6 +7063,44 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 80.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 80.01 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 80.01 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "03f4001c-f48d-4d2b-bd0a-555d5ae11edd")
 		)
@@ -7246,7 +7117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
+		(lib_id "power:+3.3V")
 		(at 71.12 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -7269,7 +7140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 71.12 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 181.61 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -7458,7 +7329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 125.73 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -7561,7 +7432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "A_PC_ExtensionBoard:LED_G_0603_LTST-C190GKT")
 		(at 139.7 137.16 90)
 		(unit 1)
 		(body_style 1)
@@ -7685,7 +7556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H2.5mm_9774025151R")
+		(lib_id "A_PC_ExtensionBoard:Spacer_Drill3.7mm_H2.5mm_9774025151R")
 		(at 182.88 130.81 0)
 		(mirror x)
 		(unit 1)
@@ -7806,7 +7677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "A_PC_ExtensionBoard:LED_G_0603_LTST-C190GKT")
 		(at 152.4 137.16 90)
 		(unit 1)
 		(body_style 1)
@@ -7901,6 +7772,18 @@
 				(justify left)
 			)
 		)
+		(property "Public" "False"
+			(at 170.18 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(pin "1"
 			(uuid "0dedc05f-03d4-4eb7-93dc-b0faa0491cf8")
 		)
@@ -7917,7 +7800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPciConnectors:Bus_M.2_2199230-2")
+		(lib_id "A_PC_ExtensionBoard:Bus_M.2_2199230-2")
 		(at 87.63 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -8213,7 +8096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(lib_id "A_PC_ExtensionBoard:C_22u_16V_0603")
 		(at 134.62 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -8402,7 +8285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
+		(lib_id "power:GND")
 		(at 143.51 55.88 0)
 		(unit 1)
 		(body_style 1)

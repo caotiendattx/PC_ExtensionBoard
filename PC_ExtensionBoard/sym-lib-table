@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "A_PC_ExtensionBoard") (type "KiCad") (uri "C:/Users/Dustin/Desktop/PC_ExtensionBoard/Libs/symbol/A_PC_ExtensionBoard.kicad_sym") (options "") (descr ""))
+)
