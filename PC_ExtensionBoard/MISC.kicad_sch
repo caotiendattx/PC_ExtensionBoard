@@ -10349,7 +10349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 121.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10526,7 +10526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 623.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10823,7 +10823,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11120,7 +11120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 571.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11497,7 +11497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 586.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11685,7 +11685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 568.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12048,7 +12048,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 598.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12334,7 +12334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 562.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12509,7 +12509,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
 			(at 607.695 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12764,7 +12764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12953,7 +12953,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 76.2 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13130,7 +13130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 80.01 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13306,7 +13306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 598.17 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13481,7 +13481,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 689.61 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13775,7 +13775,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 571.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14302,7 +14302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 571.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14710,7 +14710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 613.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14994,7 +14994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 614.68 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15182,7 +15182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 549.91 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15357,7 +15357,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
 			(at 607.695 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15614,7 +15614,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 118.11 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16010,7 +16010,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 610.87 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16186,7 +16186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
 			(at 672.465 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16336,7 +16336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "PC_Components_1:C_0603_1608Metric"
 			(at 233.68 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16524,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
 			(at 672.465 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16673,7 +16673,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:VFQFPN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm"
+		(property "Footprint" "PC_Components_1:VFQFPN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm"
 			(at 668.02 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17038,7 +17038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 577.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17225,7 +17225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17523,7 +17523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-3"
+		(property "Footprint" "PC_Components_1:SOT-23-3"
 			(at 118.11 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17774,7 +17774,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18071,7 +18071,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 689.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18259,7 +18259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-3"
+		(property "Footprint" "PC_Components_1:SOT-23-3"
 			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18402,7 +18402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 254 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18592,7 +18592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 613.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18880,7 +18880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 72.39 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +19497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 224.79 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19685,7 +19685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 575.31 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19860,7 +19860,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 571.5 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20049,7 +20049,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "PC_Components_1:C_0603_1608Metric"
 			(at 568.96 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20236,7 +20236,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 571.5 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -20637,7 +20637,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -20826,7 +20826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 243.84 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -21015,7 +21015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 596.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21446,7 +21446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -21633,7 +21633,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -22034,7 +22034,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 689.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -22221,7 +22221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
 			(at 607.695 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22912,7 +22912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 556.26 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23087,7 +23087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -23276,7 +23276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 605.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -23732,7 +23732,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 689.61 82.55 0)
 			(hide yes)
 			(show_name no)

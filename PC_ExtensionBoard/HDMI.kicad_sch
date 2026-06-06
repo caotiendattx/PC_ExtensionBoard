@@ -7596,7 +7596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_DFRobot:D_SOD-323"
+		(property "Footprint" "PC_Components_1:SOT-323"
 			(at 347.98 163.195 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 80.3148 0)
 			(hide yes)
 			(show_name no)
@@ -8718,7 +8718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
+		(property "Footprint" "PC_Components_1:R_0603_1608Metric"
 			(at 475.742 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -9373,7 +9373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -9757,7 +9757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -10679,7 +10679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 68.8848 0)
 			(hide yes)
 			(show_name no)
@@ -10991,7 +10991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -11192,7 +11192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 300.99 91.7448 0)
 			(hide yes)
 			(show_name no)

@@ -3308,6 +3308,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "A_PC_ExtensionBoard:K2-1808SN-A4SW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "K2-1808SN-A4SW"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C92589:KEY-SMD_4P-L4.2-W3.2-P2.20-LS5.1-TL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_4-2mm-3-25mm_C92589.html"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C92589"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K2-1808SN-A4SW_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.02) (xy -0.25 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.76)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.76)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "A_PC_ExtensionBoard:L_1u8_14A_Coilcraft-XAL6030"
 			(pin_numbers
 				(hide yes)
@@ -5661,6 +5901,232 @@
 				)
 			)
 			(symbol "R_30k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "A_PC_ExtensionBoard:R_470R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R10"
+				(at 3.81 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "R_470R_0402"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CR0402-FX-4700GLF"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "470R"
+				(at 1.27 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify right)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Public" "False"
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_470R_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_470R_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -8601,6 +9067,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8739,6 +9475,172 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12575,6 +13477,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_36"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_36_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_36_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_4"
 			(power global)
 			(pin_numbers
@@ -14215,6 +15232,12 @@
 		(uuid "15cdce13-dd62-48fa-a43c-b93e73e14102")
 	)
 	(junction
+		(at 67.31 361.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2580a918-b6f0-4519-817c-f0024e7a545f")
+	)
+	(junction
 		(at 575.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14519,6 +15542,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5676219-450d-4e4e-9117-1e4d59a42a8d")
+	)
+	(junction
+		(at 41.91 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7020e3c-18ad-43d3-b746-eb80acdc6972")
 	)
 	(junction
 		(at 496.57 62.23)
@@ -14919,6 +15948,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 370.84) (xy 67.31 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca54505-6c7d-4202-8cd8-0969d5e65336")
+	)
+	(wire
+		(pts
 			(xy 351.79 88.9) (xy 354.33 88.9)
 		)
 		(stroke
@@ -15238,6 +16277,16 @@
 		)
 		(uuid "3888d3ba-8ee7-4126-b366-9e48cafcec86")
 	)
+	(polyline
+		(pts
+			(xy 581.66 262.89) (xy 398.78 262.89)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "39dfde1b-5188-4818-aff6-bc739ca3411f")
+	)
 	(wire
 		(pts
 			(xy 354.33 86.36) (xy 353.06 86.36)
@@ -15247,6 +16296,16 @@
 			(type default)
 		)
 		(uuid "3a0e3dd3-d902-402d-a3fb-0beeaf94729c")
+	)
+	(wire
+		(pts
+			(xy 562.61 281.94) (xy 562.61 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bacb661-8196-4251-ac83-d64587cbc73b")
 	)
 	(wire
 		(pts
@@ -15378,6 +16437,16 @@
 			(type default)
 		)
 		(uuid "47564b05-a83b-4883-9f64-5cfe27c49743")
+	)
+	(wire
+		(pts
+			(xy 62.23 367.03) (xy 62.23 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477edde2-c7a0-4343-9d45-0db99c91e2c8")
 	)
 	(wire
 		(pts
@@ -15518,6 +16587,16 @@
 			(type default)
 		)
 		(uuid "520dcdb8-b4a0-465c-bc8c-8fc04e6da7b8")
+	)
+	(wire
+		(pts
+			(xy 67.31 370.84) (xy 73.66 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529f0207-f4c2-4173-8d76-e26e5fbcc030")
 	)
 	(wire
 		(pts
@@ -15688,6 +16767,16 @@
 			(type default)
 		)
 		(uuid "60e624fa-013c-48f3-9d08-516b02cc3fdc")
+	)
+	(wire
+		(pts
+			(xy 38.1 372.11) (xy 41.91 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a5d834-4bca-4eb2-af28-c1c71dbbcad6")
 	)
 	(wire
 		(pts
@@ -15941,7 +17030,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 381) (xy 48.26 381)
+			(xy 41.91 381) (xy 48.26 381)
 		)
 		(stroke
 			(width 0)
@@ -16051,6 +17140,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 361.95) (xy 62.23 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84654b82-979d-454a-ba95-bf05395cf39b")
+	)
+	(wire
+		(pts
 			(xy 504.19 214.63) (xy 504.19 233.68)
 		)
 		(stroke
@@ -16148,6 +17247,16 @@
 			(type default)
 		)
 		(uuid "8db2b0ca-8336-4b4f-83cf-823eeb54520f")
+	)
+	(wire
+		(pts
+			(xy 41.91 367.03) (xy 41.91 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6ff899-565a-4a55-8832-d0368b2229a4")
 	)
 	(wire
 		(pts
@@ -16291,6 +17400,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 281.94) (xy 562.61 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81bf8ed-accd-4c37-8738-237aad7baec1")
+	)
+	(wire
+		(pts
 			(xy 520.7 213.36) (xy 510.54 213.36)
 		)
 		(stroke
@@ -16351,6 +17470,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 372.11) (xy 41.91 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab64cd27-aff0-4e1a-a424-022bf6e7d689")
+	)
+	(wire
+		(pts
 			(xy 375.92 81.28) (xy 375.92 80.01)
 		)
 		(stroke
@@ -16398,6 +17527,16 @@
 			(type default)
 		)
 		(uuid "b346d8fa-7949-432b-bd0e-05ec8b4c1253")
+	)
+	(wire
+		(pts
+			(xy 41.91 367.03) (xy 46.99 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e9f34b-a089-4cc1-930d-a5cd88c55696")
 	)
 	(wire
 		(pts
@@ -16491,6 +17630,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 361.95) (xy 46.99 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfba9a64-fabb-4ceb-9b6a-7adf53859167")
+	)
+	(wire
+		(pts
 			(xy 486.41 163.83) (xy 486.41 165.1)
 		)
 		(stroke
@@ -16568,6 +17717,16 @@
 			(type default)
 		)
 		(uuid "cac69942-848b-4065-b79c-ea7f4f9eb8e6")
+	)
+	(wire
+		(pts
+			(xy 67.31 355.6) (xy 67.31 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc79c0bb-1c9a-48fa-b4b7-c1aa88b22a20")
 	)
 	(wire
 		(pts
@@ -16829,6 +17988,16 @@
 		)
 		(uuid "e7b4f1d6-0d98-49a6-b1ca-66cd0e7807c0")
 	)
+	(polyline
+		(pts
+			(xy 397.51 186.69) (xy 397.51 262.89)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e7b758a9-d53f-4182-91ee-1b6a02ffb092")
+	)
 	(wire
 		(pts
 			(xy 369.57 81.28) (xy 370.84 81.28)
@@ -16898,6 +18067,26 @@
 			(type default)
 		)
 		(uuid "ecd8de68-2493-48c3-9929-c541bf4efe44")
+	)
+	(wire
+		(pts
+			(xy 562.61 292.1) (xy 562.61 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7bfd1b-2edd-46b4-85cf-006bae933f35")
+	)
+	(wire
+		(pts
+			(xy 46.99 355.6) (xy 67.31 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee43d8e6-8c05-41be-9fd1-5574aabd049e")
 	)
 	(wire
 		(pts
@@ -17058,6 +18247,16 @@
 			(type default)
 		)
 		(uuid "fbb41ec4-6e1b-4dde-bc1e-aebf1eef61f7")
+	)
+	(wire
+		(pts
+			(xy 546.1 281.94) (xy 549.91 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe04bf22-ceda-4fc1-9721-562fbb6df195")
 	)
 	(image
 		(at 542.29 247.65)
@@ -17837,16 +19036,6 @@
 		)
 		(uuid "97c24a5e-e05e-4c66-ae30-e92b81cd1211")
 	)
-	(label "PWRBTN"
-		(at 38.1 381 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad231065-def4-442a-b7c7-011c00187316")
-	)
 	(label "PG_{1V0}"
 		(at 330.2 146.05 0)
 		(effects
@@ -17910,6 +19099,39 @@
 			(justify right)
 		)
 		(uuid "95f50b8d-4443-4314-beb7-0c54d3605274")
+	)
+	(hierarchical_label "VCC_RTC"
+		(shape output)
+		(at 546.1 281.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d18e4e8d-789d-4d92-94f1-6f03dbbe22be")
+	)
+	(hierarchical_label "PWRBTN"
+		(shape input)
+		(at 41.91 381 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6ed5e2e-5d75-44b8-bca0-0e0772a76920")
+	)
+	(hierarchical_label "PWRBTN"
+		(shape input)
+		(at 38.1 372.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdbc03b7-04cd-42e3-ad37-802895cdeb0f")
 	)
 	(symbol
 		(lib_name "GND_4")
@@ -18246,7 +19468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 393.7 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -18624,7 +19846,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 527.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19080,7 +20302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 397.51 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19822,6 +21044,117 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_31")
+		(lib_id "power:GND")
+		(at 73.66 370.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28ff91dd-1fb1-409c-8b91-a74d47d3dedb")
+		(property "Reference" "#PWR0449"
+			(at 82.55 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 82.55 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 82.55 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9a0fa6af-a7a0-4664-8580-48fbd00f6c7b")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR0449")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B5.0ST5G")
 		(at 511.81 237.49 90)
 		(unit 1)
@@ -19949,7 +21282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 588.01 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -20214,6 +21547,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 562.61 297.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bddd4d9-19ab-4059-bf5c-1c60a823b1c7")
+		(property "Reference" "BT1"
+			(at 566.42 295.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery CMOS"
+			(at 566.42 297.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 562.61 295.656 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 562.61 295.656 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 562.61 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 562.61 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 562.61 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 562.61 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 562.61 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9ff879c-e92b-4102-b5cf-f1c99c541581")
+		)
+		(pin "2"
+			(uuid "497f3028-490d-4eb8-ab81-3d87bc71b41b")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A_PC_ExtensionBoard:R_10k_0402")
 		(at 285.75 67.31 90)
 		(unit 1)
@@ -20249,7 +21708,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 300.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -20582,7 +22041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 438.15 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20758,7 +22217,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 242.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -21862,7 +23321,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-5"
+		(property "Footprint" "PC_Components_1:SOT-23-5"
 			(at 530.86 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -22007,7 +23466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-5"
+		(property "Footprint" "PC_Components_1:SOT-23-5"
 			(at 396.24 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -22154,7 +23613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:QFN-20-1EP_3x3mm_P0.45mm_TPS56xxxx"
+		(property "Footprint" "PC_Components_1:QFN-20-1EP_3x3mm_P0.45mm_TPS56xxxx"
 			(at 320.04 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -22350,7 +23809,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 438.15 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -22637,7 +24096,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 554.99 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22826,7 +24285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 480.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -23225,7 +24684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 383.54 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -23414,7 +24873,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 480.06 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -23591,7 +25050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 336.55 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -23880,7 +25339,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-3"
+		(property "Footprint" "PC_Components_1:SOT-23-3"
 			(at 238.76 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24100,7 +25559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 351.79 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24463,7 +25922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0805_2012Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 378.46 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24860,7 +26319,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 551.18 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25536,7 +26995,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 367.03 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -25836,7 +27295,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 527.05 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -26100,7 +27559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "PC_Components_1:Vishay_PowerPAK_1212-8_Single"
 			(at 552.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -26325,7 +27784,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 363.22 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -27105,7 +28564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 288.29 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -27390,7 +28849,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 519.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -27565,7 +29024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-3"
+		(property "Footprint" "PC_Components_1:SOT-23-3"
 			(at 566.42 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -27708,7 +29167,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 360.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -27897,7 +29356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 544.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -28044,6 +29503,103 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:K2-1808SN-A4SW")
+		(at 54.61 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996df434-8a0e-4954-b31a-4579946da9f1")
+		(property "Reference" "SW1"
+			(at 54.61 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1808SN-A4SW"
+			(at 54.61 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:KEY-SMD_4P-L4.2-W3.2-P2.20-LS5.1-TL"
+			(at 54.61 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_4-2mm-3-25mm_C92589.html"
+			(at 54.61 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C92589"
+			(at 54.61 359.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "966a363d-1ee3-4bf7-8f75-0560210759e0")
+		)
+		(pin "2"
+			(uuid "3109d3ae-d88e-4a92-a79d-3db4dec956a0")
+		)
+		(pin "3"
+			(uuid "9bd76eea-2da6-4139-ae35-37df5c410fc8")
+		)
+		(pin "1"
+			(uuid "85f2681f-f2d8-4c38-a668-46d5fcfbfc34")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -28440,7 +29996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-8"
+		(property "Footprint" "PC_Components_1:SOT-23-8"
 			(at 354.33 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28772,6 +30328,85 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_36")
+		(lib_id "power:GND")
+		(at 562.61 302.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b06d8ecc-67de-462e-9c57-521e7ad6807c")
+		(property "Reference" "#PWR03"
+			(at 562.61 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 562.61 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 562.61 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 562.61 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 562.61 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45a24440-a7df-443d-8940-9b9abf01f0d0")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -29127,7 +30762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0805_2012Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 521.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -29546,6 +31181,183 @@
 		)
 	)
 	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_470R_0402")
+		(at 562.61 290.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b66c06d1-3414-4b1e-ae04-d8ba2fa80e94")
+		(property "Reference" "R15"
+			(at 565.15 287.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_470R_0402"
+			(at 575.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 577.85 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 580.39 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 562.61 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-4700GLF"
+			(at 582.93 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 585.47 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 588.01 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 590.55 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470R"
+			(at 565.15 289.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 572.77 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 593.09 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8add673d-1f3b-49d7-9cf5-e91c25f43786")
+		)
+		(pin "1"
+			(uuid "c7683187-8e39-4f69-a11a-59a473a38cc0")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 480.06 247.65 0)
 		(unit 1)
@@ -29655,7 +31467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-8"
+		(property "Footprint" "PC_Components_1:SOT-23-8"
 			(at 497.84 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -29889,6 +31701,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 553.72 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba8c333f-eb16-43b9-9025-c412e6621a60")
+		(property "Reference" "D5"
+			(at 553.4025 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 553.4025 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 553.72 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553.72 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 553.72 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e70a302-32ef-40e2-9da4-52600d03585c")
+		)
+		(pin "2"
+			(uuid "cff07ad8-7bff-43cd-a5e9-79eb3f4761c7")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A_PC_ExtensionBoard:R_10k_0402")
 		(at 255.27 55.88 180)
 		(unit 1)
@@ -29923,7 +31815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 234.95 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -30366,7 +32258,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 288.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -30542,7 +32434,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:L_WE-MAPI-4020"
+		(property "Footprint" "PC_Components_1:L_WE-MAPI-4020"
 			(at 468.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -31275,7 +33167,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:L_Coilcraft-XAL6030"
+		(property "Footprint" "PC_Components_1:L_Coilcraft-XAL6030"
 			(at 330.2 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -31746,7 +33638,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 499.11 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -32264,7 +34156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-563"
+		(property "Footprint" "PC_Components_1:SOT-563"
 			(at 434.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -32821,7 +34713,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 561.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -33551,7 +35443,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 358.14 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -33852,7 +35744,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
 			(at 515.62 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -34231,7 +36123,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 336.55 49.53 0)
 			(hide yes)
 			(show_name no)

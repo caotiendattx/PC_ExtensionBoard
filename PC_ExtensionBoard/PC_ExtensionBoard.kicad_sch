@@ -333,7 +333,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "159de6c0-52e6-4757-95c7-d6000a1c175d")
-		(property "Sheetname" "USB_Audio_RJ45"
+		(property "Sheetname" "USB_RJ45"
 			(at 97.79 244.3984 0)
 			(show_name no)
 			(do_not_autoplace no)

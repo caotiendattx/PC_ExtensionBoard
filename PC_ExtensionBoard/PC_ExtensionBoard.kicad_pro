@@ -697,7 +697,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "USBC3",
+    "used_designators": "SW1,R17,R332-333,RJ1,#PWR4,#PWR94,#PWR96,C21,C23,U2",
     "variants": []
   },
   "sheets": [
@@ -715,7 +715,7 @@
     ],
     [
       "159de6c0-52e6-4757-95c7-d6000a1c175d",
-      "USB_Audio_RJ45"
+      "USB_RJ45"
     ],
     [
       "d5783b1a-f6ab-498c-a6d2-017d56dd6434",

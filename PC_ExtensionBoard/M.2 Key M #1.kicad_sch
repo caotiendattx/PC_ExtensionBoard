@@ -4844,7 +4844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1694798c-b6ea-4360-9caa-cb5a0f7cc618")
-		(property "Reference" "H1"
+		(property "Reference" "H10"
 			(at 130.81 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +4947,7 @@
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/e0373dc5-8a62-4a52-9d01-906bea33f6b6"
-					(reference "H1")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5205,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 118.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6334,7 +6334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 166.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7543,7 +7543,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +7732,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
