@@ -1,0 +1,35 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Shenzhen_Kinghelm_Elec_KH_FG0_5_H2_0_16PIN_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C2797209", date="2026-06-11T17:04:44.320111+00:00", checksum="4e5508381d890d5ca14c991ad325a4b71e6a276fe508dac57544f7505a9d87b8">
+
+    trait is_atomic_part<manufacturer="Shenzhen Kinghelm Elec", partnumber="KH-FG0.5-H2.0-16PIN", footprint="FPC-SMD_KH-FG0.5-H2.0-16PIN.kicad_mod", symbol="KH-FG0.5-H2.0-16PIN.kicad_sym", model="FPC-SMD_KH-FG0.5-H2.0-16PIN.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C2797209", manufacturer="Shenzhen Kinghelm Elec", partno="KH-FG0.5-H2.0-16PIN">
+    trait has_designator_prefix<prefix="CN">
+    trait has_datasheet<datasheet="https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106041636_Shenzhen-Kinghelm-Elec-KH-FG0-5-H2-0-16PIN_C2797209.pdf">
+
+    # pins
+    pin 1
+    pin 2
+    pin 3
+    pin 4
+    pin 5
+    pin 6
+    pin 7
+    pin 8
+    pin 9
+    pin 10
+    pin 11
+    pin 12
+    pin 13
+    pin 14
+    pin 15
+    pin 16
+    pin 17
+    pin 18

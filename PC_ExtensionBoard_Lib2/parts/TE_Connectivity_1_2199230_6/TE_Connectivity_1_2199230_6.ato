@@ -1,0 +1,86 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component TE_Connectivity_1_2199230_6_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C4710843", date="2026-06-11T17:56:06.664962+00:00", checksum="a585988a5d1434ea4713a7e32c80f6d8c8f9dc5ec2c419aec850c425190ebb6c">
+
+    trait is_atomic_part<manufacturer="TE Connectivity", partnumber="1-2199230-6", footprint="PCIE-SMD_1-2199230-6.kicad_mod", symbol="1-2199230-6.kicad_sym", model="PCIE-SMD_1-2199230-6.STEP">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C4710843", manufacturer="TE Connectivity", partno="1-2199230-6">
+    trait has_designator_prefix<prefix="CN">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2410281742_TE-Connectivity-1-2199230-6_C4710843.pdf">
+
+    # pins
+    pin 1
+    pin 74
+    pin 3
+    pin 72
+    pin 5
+    pin 70
+    pin 7
+    pin 68
+    pin 9
+    pin 11
+    pin 13
+    pin 15
+    pin 17
+    pin 58
+    pin 19
+    pin 56
+    pin 21
+    pin 54
+    pin 23
+    pin 52
+    pin 25
+    pin 50
+    pin 27
+    pin 48
+    pin 29
+    pin 46
+    pin 31
+    pin 44
+    pin 33
+    pin 42
+    pin 35
+    pin 40
+    pin 37
+    pin 38
+    pin 39
+    pin 36
+    pin 41
+    pin 34
+    pin 43
+    pin 32
+    pin 45
+    pin 30
+    pin 47
+    pin 28
+    pin 49
+    pin 26
+    pin 51
+    pin 24
+    pin 53
+    pin 22
+    pin 55
+    pin 20
+    pin 57
+    pin 18
+    pin 16
+    pin 14
+    pin 12
+    pin 10
+    pin 67
+    pin 8
+    pin 69
+    pin 6
+    pin 71
+    pin 4
+    pin 73
+    pin 2
+    pin 75
+    signal SIG_SH1 ~ pin SH1
+    signal SIG_SH2 ~ pin SH2

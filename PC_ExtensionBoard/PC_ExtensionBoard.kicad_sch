@@ -926,6 +926,26 @@
 				(justify right)
 			)
 		)
+		(pin "HDA{HDA_Audio}" output
+			(at 257.81 314.96 270)
+			(uuid "586ed1c2-fb1c-499e-9b59-581b97d196d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SATA0{SATA}" output
+			(at 261.62 314.96 270)
+			(uuid "49f6cbc4-96c7-478f-8ea1-939521abad5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0"

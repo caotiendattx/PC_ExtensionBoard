@@ -1,0 +1,84 @@
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component TE_CONNECTIVITY_2199230_2_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C23731731", date="2026-06-11T17:55:36.725935+00:00", checksum="c828861f0d0c1e9f0b04a6d893e4f9a8de9b8c1b39a7f482efd3b7ef1cb2d89c">
+
+    trait is_atomic_part<manufacturer="TE CONNECTIVITY", partnumber="2199230-2", footprint="PCIE-SMD_2199230-4.kicad_mod", symbol="2199230-2.kicad_sym", model="PCIE-SMD_2199230-4.STEP">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C23731731", manufacturer="TE CONNECTIVITY", partno="2199230-2">
+    trait has_designator_prefix<prefix="CN">
+
+    # pins
+    pin 74
+    pin 72
+    pin 70
+    pin 68
+    pin 66
+    pin 64
+    pin 62
+    pin 60
+    pin 58
+    pin 56
+    pin 54
+    pin 52
+    pin 50
+    pin 48
+    pin 46
+    pin 44
+    pin 33
+    pin 42
+    pin 35
+    pin 40
+    pin 37
+    pin 38
+    pin 39
+    pin 36
+    pin 41
+    pin 34
+    pin 43
+    pin 32
+    pin 45
+    pin 47
+    pin 49
+    pin 51
+    pin 53
+    pin 55
+    pin 57
+    pin 59
+    pin 61
+    pin 63
+    pin 65
+    pin 67
+    pin 69
+    pin 71
+    pin 73
+    pin 75
+    pin 76
+    pin 77
+    pin 23
+    pin 2
+    pin 21
+    pin 4
+    pin 19
+    pin 6
+    pin 17
+    pin 8
+    pin 15
+    pin 10
+    pin 13
+    pin 12
+    pin 11
+    pin 14
+    pin 9
+    pin 16
+    pin 7
+    pin 18
+    pin 5
+    pin 20
+    pin 3
+    pin 22
+    pin 1

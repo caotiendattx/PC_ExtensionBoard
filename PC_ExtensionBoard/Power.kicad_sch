@@ -8993,6 +8993,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -16041,6 +16224,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 205.74) (xy 342.9 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266f23fa-a6ff-42f3-b04e-a440646d7e80")
+	)
+	(wire
+		(pts
 			(xy 539.75 85.09) (xy 542.29 85.09)
 		)
 		(stroke
@@ -16540,6 +16733,16 @@
 			(type default)
 		)
 		(uuid "4f739170-8cc7-409c-bcab-e32b7ad9d045")
+	)
+	(wire
+		(pts
+			(xy 351.79 205.74) (xy 342.9 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd6559d-ce58-430a-8d61-639728c94eb6")
 	)
 	(wire
 		(pts
@@ -18155,6 +18358,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 203.2) (xy 351.79 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5459183-6b6b-4dd0-8c12-b21074944ba1")
+	)
+	(wire
+		(pts
 			(xy 464.82 62.23) (xy 464.82 63.5)
 		)
 		(stroke
@@ -19379,6 +19592,17 @@
 	)
 	(hierarchical_label "PWRBTN"
 		(shape input)
+		(at 342.9 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed5f3f91-6f69-42fd-a809-f3fe4bb84866")
+	)
+	(hierarchical_label "PWRBTN"
+		(shape input)
 		(at 341.63 229.87 180)
 		(effects
 			(font
@@ -20523,6 +20747,117 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "power:GND")
+		(at 342.9 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c0e53c9-ea4b-4afb-b127-419487a62aa9")
+		(property "Reference" "#PWR0450"
+			(at 351.79 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 351.79 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 351.79 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4465d525-99ad-4c03-bb8f-2d6ee43a0fd9")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -31561,6 +31896,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C2077077"
+			(at 562.61 290.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8add673d-1f3b-49d7-9cf5-e91c25f43786")
 		)
@@ -31951,7 +32297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC_Components_1:D_SOD-323"
 			(at 553.72 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -31974,6 +32320,17 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 553.72 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C168799"
 			(at 553.72 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -34125,6 +34482,88 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 356.87 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84a2f76-1813-4600-b23f-8e2bad8695a7")
+		(property "Reference" "J4"
+			(at 358.14 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 358.14 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PC_Components_1:CONN-SMD_2P-P2.00_BX-PH2.0-2PWT"
+			(at 356.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 356.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b46893c5-e5ee-4c2c-89a0-29b441a14485")
+		)
+		(pin "1"
+			(uuid "9ed3c5ba-eb26-4704-bbad-55d70b09dda1")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "J4")
 					(unit 1)
 				)
 			)
