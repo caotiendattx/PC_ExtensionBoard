@@ -38,6 +38,16 @@
 	)
 	(bus
 		(pts
+			(xy 209.55 241.3) (xy 209.55 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2033b581-7ca5-43fb-8922-9cb8c8e04f30")
+	)
+	(bus
+		(pts
 			(xy 185.42 262.89) (xy 204.47 262.89)
 		)
 		(stroke
@@ -78,6 +88,16 @@
 	)
 	(bus
 		(pts
+			(xy 209.55 218.44) (xy 214.63 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3577d766-f4dd-4dfb-8496-4e3d9cca2d1f")
+	)
+	(bus
+		(pts
 			(xy 323.85 224.79) (xy 323.85 252.73)
 		)
 		(stroke
@@ -105,6 +125,16 @@
 			(type default)
 		)
 		(uuid "3c2056f9-93f3-4c5b-b361-a46eed85beda")
+	)
+	(bus
+		(pts
+			(xy 213.36 241.3) (xy 213.36 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3ad2ed-1ccc-459d-b285-0a7e457f943e")
 	)
 	(bus
 		(pts
@@ -266,6 +296,16 @@
 			(type default)
 		)
 		(uuid "d8e2d5dc-2e4d-49cf-ae0f-1c22c6f9f6b6")
+	)
+	(bus
+		(pts
+			(xy 213.36 220.98) (xy 214.63 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0996a3f-2ad3-4a06-8ef4-c5b9dd30d9b2")
 	)
 	(bus
 		(pts
@@ -560,8 +600,8 @@
 		)
 	)
 	(sheet
-		(at 204.47 245.11)
-		(size 107.95 69.85)
+		(at 204.47 241.3)
+		(size 107.95 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -575,7 +615,7 @@
 		)
 		(uuid "ad3d2d88-3ffa-4785-a207-fecc3cd186a9")
 		(property "Sheetname" "PC_CoreBoard"
-			(at 204.47 244.3984 0)
+			(at 217.678 240.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -586,7 +626,7 @@
 			)
 		)
 		(property "Sheetfile" "PC_Coreboard.kicad_sch"
-			(at 242.062 282.448 0)
+			(at 242.062 278.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -727,7 +767,7 @@
 			)
 		)
 		(pin "USB4{USB}" output
-			(at 259.08 245.11 90)
+			(at 259.08 241.3 90)
 			(uuid "d9f00261-98fb-4434-ae82-2b2ae9ddda67")
 			(effects
 				(font
@@ -737,7 +777,7 @@
 			)
 		)
 		(pin "USB5{USB}" output
-			(at 255.27 245.11 90)
+			(at 255.27 241.3 90)
 			(uuid "400185bc-c134-413a-97e9-cc554f48c489")
 			(effects
 				(font
@@ -747,7 +787,7 @@
 			)
 		)
 		(pin "USB6{USB}" output
-			(at 252.73 245.11 90)
+			(at 252.73 241.3 90)
 			(uuid "22b06b1d-a0ea-4310-af06-8cb0b3b6904a")
 			(effects
 				(font
@@ -757,7 +797,7 @@
 			)
 		)
 		(pin "USB7{USB}" output
-			(at 248.92 245.11 90)
+			(at 248.92 241.3 90)
 			(uuid "86bc1148-c9e7-4e9f-ad22-4b8158d25fc8")
 			(effects
 				(font
@@ -767,7 +807,7 @@
 			)
 		)
 		(pin "USB_2_3_OC#" output
-			(at 243.84 245.11 90)
+			(at 243.84 241.3 90)
 			(uuid "ac24bcef-8285-4bd5-bbd6-526fe9603063")
 			(effects
 				(font
@@ -864,6 +904,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PWRBTN" input
+			(at 209.55 241.3 90)
+			(uuid "e6981d1f-3eac-4abd-9b70-953809eb6369")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_RTC" output
+			(at 213.36 241.3 90)
+			(uuid "87dba420-0b19-4d09-a272-a67aa951118a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1262,6 +1322,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PWRBTN" input
+			(at 214.63 218.44 180)
+			(uuid "bf95ccad-2bce-42d1-a766-3bd0b28cc8f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_RTC" output
+			(at 214.63 220.98 180)
+			(uuid "8f87c250-4037-416a-bcd5-7fc4dd10db32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

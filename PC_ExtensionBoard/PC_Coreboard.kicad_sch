@@ -9169,6 +9169,14 @@
 		(at 265.43 195.58)
 		(uuid "02154a30-57f7-450f-a863-a6e25eafdbf2")
 	)
+	(no_connect
+		(at 472.44 143.51)
+		(uuid "bf8ce798-3dba-47af-a13a-a25e700c04b2")
+	)
+	(no_connect
+		(at 472.44 146.05)
+		(uuid "e583dd0a-1119-45f9-ad31-56db5b39e964")
+	)
 	(bus_entry
 		(at 54.61 358.14)
 		(size -2.54 2.54)
@@ -9260,6 +9268,15 @@
 		(uuid "25b57742-2942-45a3-bff2-4a489d4497ee")
 	)
 	(bus_entry
+		(at 412.75 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275ee66e-6fbc-4ca8-a1c3-d461cd2760d0")
+	)
+	(bus_entry
 		(at 194.31 298.45)
 		(size 2.54 -2.54)
 		(stroke
@@ -9267,6 +9284,15 @@
 			(type default)
 		)
 		(uuid "289646a2-a934-4806-85ee-12f78fe03bb6")
+	)
+	(bus_entry
+		(at 412.75 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327e65b1-ed79-499a-871b-d56320c0ecf8")
 	)
 	(bus_entry
 		(at 54.61 350.52)
@@ -9294,6 +9320,15 @@
 			(type default)
 		)
 		(uuid "3a25f088-e754-456c-b412-63847480338c")
+	)
+	(bus_entry
+		(at 412.75 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f766222-a894-4fba-ba23-5a3563694006")
 	)
 	(bus_entry
 		(at 200.66 207.01)
@@ -9557,6 +9592,15 @@
 		(uuid "8be96b85-753e-41e7-89d7-b59b0b91dc66")
 	)
 	(bus_entry
+		(at 412.75 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcab4b7-ff3c-44c4-ba61-222a4caa8320")
+	)
+	(bus_entry
 		(at 194.31 293.37)
 		(size 2.54 -2.54)
 		(stroke
@@ -9609,6 +9653,15 @@
 			(type default)
 		)
 		(uuid "af9d3525-fff5-4801-ab7c-00addac183ea")
+	)
+	(bus_entry
+		(at 412.75 161.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b012748d-2255-4813-a4b4-df483d5b3d6c")
 	)
 	(bus_entry
 		(at 283.21 288.29)
@@ -9690,6 +9743,15 @@
 			(type default)
 		)
 		(uuid "c04b7c64-8891-41e6-a75e-f54a456c388d")
+	)
+	(bus_entry
+		(at 412.75 143.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b7ad35-84af-4d8d-ad69-0811fae9144e")
 	)
 	(bus_entry
 		(at 200.66 195.58)
@@ -10044,6 +10106,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 140.97) (xy 477.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1011eb25-072d-4a3d-a4e6-182be858af56")
+	)
+	(wire
+		(pts
 			(xy 381 400.05) (xy 382.27 400.05)
 		)
 		(stroke
@@ -10181,6 +10253,16 @@
 			(type default)
 		)
 		(uuid "1d3e95bd-b332-4204-b29a-2e26c89d14bf")
+	)
+	(wire
+		(pts
+			(xy 59.69 102.87) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcf0323-23be-438d-b93a-27208c8b3bde")
 	)
 	(wire
 		(pts
@@ -10341,6 +10423,16 @@
 			(type default)
 		)
 		(uuid "28ddffe3-9a8b-4e8e-86e5-e48ebaa63eee")
+	)
+	(bus
+		(pts
+			(xy 412.75 135.89) (xy 412.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b47825a-1a16-4caa-a9a7-84691a925c2c")
 	)
 	(wire
 		(pts
@@ -10734,6 +10826,26 @@
 	)
 	(bus
 		(pts
+			(xy 412.75 140.97) (xy 412.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528bf506-5198-46ba-81b3-4162724b4d75")
+	)
+	(wire
+		(pts
+			(xy 415.29 146.05) (xy 421.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558a43cf-8aac-45fe-b80e-d8ca7a9c910e")
+	)
+	(bus
+		(pts
 			(xy 49.53 351.79) (xy 48.26 351.79)
 		)
 		(stroke
@@ -10952,6 +11064,16 @@
 		)
 		(uuid "709745a3-730b-4f58-833c-cd60d8d6422c")
 	)
+	(bus
+		(pts
+			(xy 412.75 135.89) (xy 411.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f6b9ee-3e8e-4216-972c-77193aeff66e")
+	)
 	(wire
 		(pts
 			(xy 214.63 293.37) (xy 196.85 293.37)
@@ -11071,6 +11193,16 @@
 			(type default)
 		)
 		(uuid "7ad530d7-002f-4dea-b589-0e11b216e11e")
+	)
+	(wire
+		(pts
+			(xy 415.29 148.59) (xy 421.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0f1660-0dcf-407c-b759-ef2eec3a22de")
 	)
 	(wire
 		(pts
@@ -11414,6 +11546,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 140.97) (xy 421.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f9dd39-9cb7-4819-8a77-8da7e6a84b67")
+	)
+	(wire
+		(pts
 			(xy 118.11 143.51) (xy 118.11 146.05)
 		)
 		(stroke
@@ -11524,6 +11666,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 163.83) (xy 477.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6adc93-ff0c-4f5f-8e32-9eca6091bf63")
+	)
+	(wire
+		(pts
 			(xy 118.11 181.61) (xy 118.11 184.15)
 		)
 		(stroke
@@ -11594,6 +11746,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 151.13) (xy 421.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f23747-4457-422c-85df-ab92facd2d3f")
+	)
+	(wire
+		(pts
 			(xy 214.63 308.61) (xy 196.85 308.61)
 		)
 		(stroke
@@ -11631,6 +11793,16 @@
 			(type default)
 		)
 		(uuid "b523af79-18e1-43f4-888e-f0d218bfde12")
+	)
+	(wire
+		(pts
+			(xy 472.44 140.97) (xy 477.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76f1d91-d530-40a9-ac7f-d2900b9ff19e")
 	)
 	(wire
 		(pts
@@ -12224,6 +12396,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 143.51) (xy 421.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41e3948-cc8e-431e-844f-17b5431264d1")
+	)
+	(wire
+		(pts
 			(xy 118.11 138.43) (xy 118.11 140.97)
 		)
 		(stroke
@@ -12331,6 +12513,16 @@
 			(type default)
 		)
 		(uuid "ffce85f1-3563-41ee-bce8-840a9815c449")
+	)
+	(label "BITCLK"
+		(at 415.29 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0292e74a-17df-4253-bfd7-3d3df26204f6")
 	)
 	(label "PCIe_{B1x2}.TX0+"
 		(at 267.97 285.75 0)
@@ -12481,6 +12673,16 @@
 			(justify right bottom)
 		)
 		(uuid "29a8a050-8548-4633-9aec-15e711e427cf")
+	)
+	(label "SPKR"
+		(at 415.29 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2afca6e2-7e6d-4df8-8790-a8a04703ce97")
 	)
 	(label "PCIe_{B1x2}.RX1-"
 		(at 267.97 293.37 0)
@@ -12752,6 +12954,16 @@
 		)
 		(uuid "7ad0ee30-5b22-4524-965b-d27c5ca9823a")
 	)
+	(label "RST"
+		(at 415.29 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b391796-6e9d-44d8-a30b-58cb7e8b54d1")
+	)
 	(label "PCIe_{B1x2}.RX1+"
 		(at 267.97 290.83 0)
 		(effects
@@ -12892,6 +13104,16 @@
 		)
 		(uuid "98f5f4ff-4c7a-4ccb-81b4-909983ecc991")
 	)
+	(label "SYNC"
+		(at 415.29 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a09c3de4-079c-45e1-9f6b-e2efdeb04340")
+	)
 	(label "USB1.D+"
 		(at 64.77 261.62 180)
 		(effects
@@ -13012,6 +13234,16 @@
 		)
 		(uuid "d049f4c5-84c6-4538-a240-13030bc0f5a4")
 	)
+	(label "SDIN0"
+		(at 417.83 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1492b3a-1de5-4f63-ab71-510fb6adf571")
+	)
 	(label "USB3.D+"
 		(at 58.42 271.78 180)
 		(effects
@@ -13021,6 +13253,16 @@
 			(justify right bottom)
 		)
 		(uuid "d57f89b5-15ec-4df9-8f2f-a3de636bb0fb")
+	)
+	(label "SDOUT"
+		(at 415.29 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d71f1911-517d-4eba-821b-b38330fb0ba0")
 	)
 	(label "USB1.D-"
 		(at 64.77 264.16 180)
@@ -13148,6 +13390,17 @@
 		)
 		(uuid "00eefab1-5e25-4941-877d-e6c67248782f")
 	)
+	(hierarchical_label "HDA{HDA_Audio}"
+		(shape output)
+		(at 411.48 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1434be4a-ef52-4bd9-84e3-63880d2c1101")
+	)
 	(hierarchical_label "GBE0{GbE}"
 		(shape output)
 		(at 196.85 184.15 180)
@@ -13268,6 +13521,17 @@
 			(justify left)
 		)
 		(uuid "7442b4d3-7a52-4b59-863c-bd49307d0903")
+	)
+	(hierarchical_label "PWRBTN"
+		(shape input)
+		(at 59.69 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cadd1c5-9b17-4c46-a07c-cbe7c2347e0f")
 	)
 	(hierarchical_label "PCIe_{B1x4}{PCIe}"
 		(shape output)
@@ -15047,7 +15311,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:KBLH-E61_COMe_Type6_16U")
-		(at 436.88 273.05 0)
+		(at 436.88 285.75 0)
 		(unit 15)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15058,7 +15322,7 @@
 		(fields_autoplaced yes)
 		(uuid "12cc57da-1433-4899-b0dc-ea5c58b6e949")
 		(property "Reference" "U3"
-			(at 447.04 256.54 0)
+			(at 447.04 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15069,7 +15333,7 @@
 			)
 		)
 		(property "Value" "KBLH-E61_COMe_Type6_16U"
-			(at 447.04 259.08 0)
+			(at 447.04 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15080,7 +15344,7 @@
 			)
 		)
 		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
-			(at 436.88 270.51 0)
+			(at 436.88 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15092,7 +15356,7 @@
 			)
 		)
 		(property "Datasheet" "KBLH-E61 specification V1.0"
-			(at 436.88 273.05 0)
+			(at 436.88 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15104,7 +15368,7 @@
 			)
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
-			(at 436.88 275.59 0)
+			(at 436.88 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15115,7 +15379,7 @@
 			)
 		)
 		(property "LCSC" "C2761498"
-			(at 436.88 273.05 0)
+			(at 436.88 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +18355,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:KBLH-E61_COMe_Type6_16U")
-		(at 436.88 242.57 0)
+		(at 436.88 255.27 0)
 		(unit 14)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18102,7 +18366,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b8ca672-6cca-4cce-83dc-8f634e0336b1")
 		(property "Reference" "U3"
-			(at 447.04 228.6 0)
+			(at 447.04 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18113,7 +18377,7 @@
 			)
 		)
 		(property "Value" "KBLH-E61_COMe_Type6_16U"
-			(at 447.04 231.14 0)
+			(at 447.04 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18124,7 +18388,7 @@
 			)
 		)
 		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
-			(at 436.88 240.03 0)
+			(at 436.88 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18136,7 +18400,7 @@
 			)
 		)
 		(property "Datasheet" "KBLH-E61 specification V1.0"
-			(at 436.88 242.57 0)
+			(at 436.88 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18148,7 +18412,7 @@
 			)
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
-			(at 436.88 245.11 0)
+			(at 436.88 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18159,7 +18423,7 @@
 			)
 		)
 		(property "LCSC" "C2761498"
-			(at 436.88 242.57 0)
+			(at 436.88 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27253,7 +27517,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:KBLH-E61_COMe_Type6_16U")
-		(at 436.88 177.8 0)
+		(at 436.88 190.5 0)
 		(unit 12)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27264,7 +27528,7 @@
 		(fields_autoplaced yes)
 		(uuid "a875449d-405e-4352-aff3-5521dda6a87e")
 		(property "Reference" "U3"
-			(at 447.04 157.48 0)
+			(at 447.04 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27275,7 +27539,7 @@
 			)
 		)
 		(property "Value" "KBLH-E61_COMe_Type6_16U"
-			(at 447.04 160.02 0)
+			(at 447.04 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27286,7 +27550,7 @@
 			)
 		)
 		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
-			(at 436.88 175.26 0)
+			(at 436.88 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27298,7 +27562,7 @@
 			)
 		)
 		(property "Datasheet" "KBLH-E61 specification V1.0"
-			(at 436.88 177.8 0)
+			(at 436.88 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27310,7 +27574,7 @@
 			)
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
-			(at 436.88 180.34 0)
+			(at 436.88 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27321,7 +27585,7 @@
 			)
 		)
 		(property "LCSC" "C2761498"
-			(at 436.88 177.8 0)
+			(at 436.88 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28656,7 +28920,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:KBLH-E61_COMe_Type6_16U")
-		(at 436.88 309.88 0)
+		(at 436.88 322.58 0)
 		(unit 16)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28667,7 +28931,7 @@
 		(fields_autoplaced yes)
 		(uuid "aef497d8-859d-4946-ae2e-147d9b297da4")
 		(property "Reference" "U3"
-			(at 447.04 289.56 0)
+			(at 447.04 302.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28678,7 +28942,7 @@
 			)
 		)
 		(property "Value" "KBLH-E61_COMe_Type6_16U"
-			(at 447.04 292.1 0)
+			(at 447.04 304.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28689,7 +28953,7 @@
 			)
 		)
 		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
-			(at 436.88 307.34 0)
+			(at 436.88 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28701,7 +28965,7 @@
 			)
 		)
 		(property "Datasheet" "KBLH-E61 specification V1.0"
-			(at 436.88 309.88 0)
+			(at 436.88 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28713,7 +28977,7 @@
 			)
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
-			(at 436.88 312.42 0)
+			(at 436.88 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28724,7 +28988,7 @@
 			)
 		)
 		(property "LCSC" "C2761498"
-			(at 436.88 309.88 0)
+			(at 436.88 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32999,7 +33263,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:KBLH-E61_COMe_Type6_16U")
-		(at 436.88 209.55 0)
+		(at 436.88 222.25 0)
 		(unit 13)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33010,7 +33274,7 @@
 		(fields_autoplaced yes)
 		(uuid "baee0012-3a0a-49f4-ae9f-01bafbd51710")
 		(property "Reference" "U3"
-			(at 447.04 194.31 0)
+			(at 447.04 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33021,7 +33285,7 @@
 			)
 		)
 		(property "Value" "KBLH-E61_COMe_Type6_16U"
-			(at 447.04 196.85 0)
+			(at 447.04 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33032,7 +33296,7 @@
 			)
 		)
 		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
-			(at 436.88 207.01 0)
+			(at 436.88 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33044,7 +33308,7 @@
 			)
 		)
 		(property "Datasheet" "KBLH-E61 specification V1.0"
-			(at 436.88 209.55 0)
+			(at 436.88 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33056,7 +33320,7 @@
 			)
 		)
 		(property "Description" "KBLH-E61 COM Express Basic Type 6 grouped into 16 interface units; bus-friendly same-side TX/RX lane layout"
-			(at 436.88 212.09 0)
+			(at 436.88 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33067,7 +33331,7 @@
 			)
 		)
 		(property "LCSC" "C2761498"
-			(at 436.88 209.55 0)
+			(at 436.88 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

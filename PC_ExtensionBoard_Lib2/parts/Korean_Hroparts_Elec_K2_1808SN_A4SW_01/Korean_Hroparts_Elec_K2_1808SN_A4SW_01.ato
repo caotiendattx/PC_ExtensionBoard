@@ -1,0 +1,21 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Korean_Hroparts_Elec_K2_1808SN_A4SW_01_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C92589", date="2026-06-06T13:22:46.214483+00:00", checksum="0e5721e419c34ad96f5d581e7c6bcea9693e1af9947a9bdd094e5c12d23fe1ba">
+
+    trait is_atomic_part<manufacturer="Korean Hroparts Elec", partnumber="K2-1808SN-A4SW-01", footprint="KEY-SMD_4P-L4.2-W3.2-P2.20-LS5.1-TL.kicad_mod", symbol="K2-1808SN-A4SW.kicad_sym", model="KEY-SMD_4P-L4.2-W3.2-H2.5-LS5.1-P2.2.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C92589", manufacturer="Korean Hroparts Elec", partno="K2-1808SN-A4SW-01">
+    trait has_designator_prefix<prefix="SW">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2108131530_Korean-Hroparts-Elec-K2-1808SN-A4SW-01_C92589.pdf">
+
+    # pins
+    pin 1
+    pin 2
+    pin 3
+    pin 4

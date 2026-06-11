@@ -7216,7 +7216,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:Antenna_SMA-KWE_C20415790_")
-		(at 238.76 64.77 0)
+		(at 274.32 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7227,7 +7227,7 @@
 		(fields_autoplaced yes)
 		(uuid "94d52e9d-f8c1-4e0a-bff2-d6943dba8f36")
 		(property "Reference" "U2"
-			(at 238.76 49.53 0)
+			(at 274.32 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7237,7 +7237,7 @@
 			)
 		)
 		(property "Value" "10GHz"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7249,7 @@
 			)
 		)
 		(property "Footprint" "ACLAB:SMA-TH_SMA-KWE"
-			(at 238.76 64.77 0)
+			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7260,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMA-KWE/21743972.html"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +7272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 64.77 0)
+			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7283,7 +7283,7 @@
 			)
 		)
 		(property "SYMBOL" "SMA-KWE_C20415790"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7295,7 +7295,7 @@
 			)
 		)
 		(property "DEVICE" "SMA-KWE_C20415790"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7307,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "内孔 SMA 弯头"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7319,7 +7319,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C20415790"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7331,7 +7331,7 @@
 			)
 		)
 		(property "MANUFACTURER" "cntitle(中戈泰斗)"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,7 +7343,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "SMA-KWE"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,7 +7355,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "弯插"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7367,7 +7367,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7379,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7391,7 +7391,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7403,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7415,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Board Side"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7427,7 +7427,7 @@
 			)
 		)
 		(property "INTERFACE" "Inner Bore"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7439,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" "1"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +7451,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" "7.8mm"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7463,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10GHz"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7475,7 @@
 			)
 		)
 		(property "RF SERIES" "SMA"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,7 +7487,7 @@
 			)
 		)
 		(property "IMPEDANCE" "50Ω"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7499,7 +7499,7 @@
 			)
 		)
 		(property "STYLE" "Elbow"
-			(at 238.76 64.77 90)
+			(at 274.32 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

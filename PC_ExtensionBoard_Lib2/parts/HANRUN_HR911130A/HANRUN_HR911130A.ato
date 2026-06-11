@@ -1,0 +1,33 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component HANRUN_HR911130A_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C54408", date="2026-06-06T14:26:38.227869+00:00", checksum="bdf77389b6996dfa7b0431a12516649bfee61e31740da32fa899b438b99cb9b7">
+
+    trait is_atomic_part<manufacturer="HANRUN", partnumber="HR911130A", footprint="RJ45-TH_HR911130A.kicad_mod", symbol="HR911130A.kicad_sym", model="RJ45-TH_HR911130A.STEP">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C54408", manufacturer="HANRUN", partno="HR911130A">
+    trait has_designator_prefix<prefix="RJ">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_1811141815_HANRUN-Zhongshan-HanRun-Elec-HR911130A_C54408.pdf">
+
+    # pins
+    pin 14
+    pin 13
+    pin 11
+    pin 12
+    signal MDI0neg ~ pin MDI0-
+    signal MDI0pos ~ pin MDI0+
+    signal MDI1neg ~ pin MDI1-
+    signal MDI1pos ~ pin MDI1+
+    signal MDI2neg ~ pin MDI2-
+    signal MDI2pos ~ pin MDI2+
+    signal MDI3neg ~ pin MDI3-
+    signal MDI3pos ~ pin MDI3+
+    signal SIG_P1 ~ pin P1
+    signal SIG_P10 ~ pin P10
+    signal SIG_SHIELD0 ~ pin SHIELD0
+    signal SIG_SHIELD1 ~ pin SHIELD1

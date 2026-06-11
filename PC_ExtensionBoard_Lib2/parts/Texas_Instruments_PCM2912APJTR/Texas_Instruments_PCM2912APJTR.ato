@@ -1,0 +1,48 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Texas_Instruments_PCM2912APJTR_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C475497", date="2026-06-06T15:43:25.058208+00:00", checksum="edcafc317d430c4002c91a2774b905dfca0fc155dadf29ba626145866c88af6f">
+
+    trait is_atomic_part<manufacturer="Texas Instruments", partnumber="PCM2912APJTR", footprint="TQFP-32_L7.0-W7.0-P0.80-LS9.0-TL.kicad_mod", symbol="PCM2912APJTR.kicad_sym", model="TQFP-32_L7.0-W7.0-H1.2-LS9.0-P0.80.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C475497", manufacturer="Texas Instruments", partno="PCM2912APJTR">
+    trait has_designator_prefix<prefix="U">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2003092031_Texas-Instruments-PCM2912APJTR_C475497.pdf">
+
+    # pins
+    signal AGND ~ pin 13
+    signal BGND ~ pin 1
+    signal DGND ~ pin 6
+    signal Dneg ~ pin 3
+    signal Dpos ~ pin 4
+    signal FL ~ pin 9
+    signal FR ~ pin 10
+    signal HGND ~ pin 20
+    signal MAMP ~ pin 23
+    signal MBIAS ~ pin 17
+    signal MMUTE ~ pin 30
+    signal PGND ~ pin 25
+    signal POWER ~ pin 24
+    signal TEST0 ~ pin 28
+    signal TEST1 ~ pin 27
+    signal VBUS ~ pin 2
+    signal VCCA ~ pin 15
+    signal VCCL ~ pin 19
+    signal VCCP ~ pin 26
+    signal VCCR ~ pin 21
+    signal VCOM1 ~ pin 11
+    signal VCOM2 ~ pin 12
+    signal VDD ~ pin 5
+    signal VIN ~ pin 16
+    signal VOUTL ~ pin 18
+    signal VOUTR ~ pin 22
+    signal XTI ~ pin 8
+    signal XTO ~ pin 7
+    signal nPLAY ~ pin 32
+    signal nREC ~ pin 31
+    signal nSSPND ~ pin 29

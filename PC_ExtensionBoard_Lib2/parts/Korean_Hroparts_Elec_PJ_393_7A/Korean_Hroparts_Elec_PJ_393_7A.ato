@@ -1,0 +1,24 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Korean_Hroparts_Elec_PJ_393_7A_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C128990", date="2026-06-10T15:15:22.765941+00:00", checksum="40ad9fcb2c82e925831def83851bf0be31c8e0f7e94e5a805ead2ef55922ae8f">
+
+    trait is_atomic_part<manufacturer="Korean Hroparts Elec", partnumber="PJ-393-7A", footprint="AUDIO-SMD_PJ-393-7A.kicad_mod", symbol="PJ-393-7A.kicad_sym", model="AUDIO-SMD_PJ-393-7A.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C128990", manufacturer="Korean Hroparts Elec", partno="PJ-393-7A">
+    trait has_designator_prefix<prefix="Audio">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_1912251606_Korean-Hroparts-Elec-PJ-393-7A_C128990.pdf">
+
+    # pins
+    pin 1
+    pin 2
+    pin 3
+    pin 4
+    pin 5
+    pin 6
+    pin 7
