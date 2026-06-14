@@ -15281,7 +15281,7 @@
 	)
 	(text "+3V3_AON LDO"
 		(exclude_from_sim no)
-		(at 495.3 130.81 0)
+		(at 398.018 185.166 0)
 		(effects
 			(font
 				(size 2 2)
@@ -15395,12 +15395,6 @@
 		(uuid "42009553-a8b4-44d7-a98f-bffc28614d28")
 	)
 	(junction
-		(at 285.75 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4390b49b-14d5-4c26-b008-a3676f64dc49")
-	)
-	(junction
 		(at 321.31 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15417,6 +15411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46957b5c-c4a2-44ff-8e45-064a45c5abe0")
+	)
+	(junction
+		(at 256.54 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d90d561-5c89-43f1-8c25-39a6fc8a89d8")
 	)
 	(junction
 		(at 240.03 50.8)
@@ -15521,6 +15521,12 @@
 		(uuid "8fb50668-cc91-457d-8c0f-dd7ee81d4a79")
 	)
 	(junction
+		(at 281.94 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951e8e94-089b-432b-ac48-3fff3109b527")
+	)
+	(junction
 		(at 532.13 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15533,7 +15539,7 @@
 		(uuid "9a26e511-4014-45a9-b994-e9a7ce78b538")
 	)
 	(junction
-		(at 496.57 163.83)
+		(at 420.37 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b959193-7e23-4011-b5f4-5545433ffc22")
@@ -15563,7 +15569,7 @@
 		(uuid "a25d0dee-42c4-4df8-86c1-53e298e08f1d")
 	)
 	(junction
-		(at 528.32 163.83)
+		(at 452.12 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c74818-ed6a-4573-af4a-f32e25d6c008")
@@ -15587,7 +15593,7 @@
 		(uuid "bba0450b-19a4-43ae-a45c-59e87bf035c7")
 	)
 	(junction
-		(at 541.02 163.83)
+		(at 464.82 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf83a479-d931-4dcb-8805-89537b6f9d6a")
@@ -15611,7 +15617,7 @@
 		(uuid "c7528143-eaf9-40b8-af77-d3c5c654bb4f")
 	)
 	(junction
-		(at 486.41 163.83)
+		(at 410.21 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae63908-7c27-4ed8-a68c-c2ddc4dd2ba0")
@@ -15657,6 +15663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e10eba1b-a906-4aee-8dd5-ad6aa8938b05")
+	)
+	(junction
+		(at 285.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37f535e-4545-49fd-bb81-258709cc52c1")
 	)
 	(junction
 		(at 321.31 63.5)
@@ -15723,6 +15735,10 @@
 		(uuid "5d6b072a-55dd-4385-9a94-91271e32d197")
 	)
 	(no_connect
+		(at 262.89 242.57)
+		(uuid "80f39152-5dc3-4b6c-9e4a-291287fd021d")
+	)
+	(no_connect
 		(at 557.53 217.17)
 		(uuid "9a21f531-4e25-4aaa-99a6-22711e974490")
 	)
@@ -15784,7 +15800,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 163.83) (xy 530.86 163.83)
+			(xy 452.12 161.29) (xy 454.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -15842,6 +15858,16 @@
 		)
 		(uuid "046e16f2-20f7-4a0e-b163-8c3af409bfa3")
 	)
+	(wire
+		(pts
+			(xy 285.75 71.12) (xy 285.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0592987e-440d-4de7-a68d-d51ff69ddf5e")
+	)
 	(bus
 		(pts
 			(xy 485.14 83.82) (xy 485.14 86.36)
@@ -15872,6 +15898,16 @@
 		)
 		(uuid "07e4dc98-2e5f-406a-954e-8084c2f26375")
 	)
+	(wire
+		(pts
+			(xy 256.54 231.14) (xy 256.54 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0912a42a-9684-4e36-8517-5b9af0f9ef9e")
+	)
 	(bus
 		(pts
 			(xy 344.17 80.01) (xy 342.9 78.74)
@@ -15884,7 +15920,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 166.37) (xy 519.43 166.37)
+			(xy 441.96 163.83) (xy 443.23 163.83)
 		)
 		(stroke
 			(width 0)
@@ -15954,7 +15990,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 162.56) (xy 486.41 163.83)
+			(xy 410.21 160.02) (xy 410.21 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16254,7 +16290,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 166.37) (xy 496.57 166.37)
+			(xy 421.64 163.83) (xy 420.37 163.83)
 		)
 		(stroke
 			(width 0)
@@ -16325,6 +16361,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 231.14) (xy 276.86 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3162c58a-52be-42a2-b473-932b2ada4c67")
+	)
+	(wire
+		(pts
+			(xy 276.86 236.22) (xy 256.54 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318a63fc-7aa3-4e4e-9aef-863fc7788ed9")
+	)
+	(wire
+		(pts
 			(xy 532.13 62.23) (xy 537.21 62.23)
 		)
 		(stroke
@@ -16365,7 +16421,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 163.83) (xy 497.84 163.83)
+			(xy 420.37 161.29) (xy 421.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16545,7 +16601,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 163.83) (xy 528.32 165.1)
+			(xy 452.12 161.29) (xy 452.12 162.56)
 		)
 		(stroke
 			(width 0)
@@ -16646,7 +16702,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 166.37) (xy 519.43 170.18)
+			(xy 443.23 163.83) (xy 443.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -17027,6 +17083,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 226.06) (xy 261.62 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6366498c-aeea-4116-ba1b-66eeed694c16")
+	)
+	(wire
+		(pts
 			(xy 462.28 218.44) (xy 462.28 214.63)
 		)
 		(stroke
@@ -17037,6 +17103,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 245.11) (xy 262.89 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65aaa585-1dfb-4aae-b397-ea0a1fd8d573")
+	)
+	(wire
+		(pts
 			(xy 513.08 92.71) (xy 514.35 92.71)
 		)
 		(stroke
@@ -17044,6 +17120,26 @@
 			(type default)
 		)
 		(uuid "66f2884d-beff-4a80-80af-b4f5bf0fb9d7")
+	)
+	(wire
+		(pts
+			(xy 261.62 219.71) (xy 281.94 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6732d2c2-f2c7-412e-be9e-778a8b69b8a4")
+	)
+	(wire
+		(pts
+			(xy 259.08 247.65) (xy 262.89 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a418615-8f67-4537-b01b-f40eb7ff8b35")
 	)
 	(wire
 		(pts
@@ -17167,7 +17263,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 163.83) (xy 496.57 163.83)
+			(xy 410.21 161.29) (xy 420.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17257,7 +17353,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 162.56) (xy 541.02 163.83)
+			(xy 464.82 160.02) (xy 464.82 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17517,13 +17613,33 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 163.83) (xy 541.02 163.83)
+			(xy 459.74 161.29) (xy 464.82 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8db2b0ca-8336-4b4f-83cf-823eeb54520f")
+	)
+	(wire
+		(pts
+			(xy 281.94 234.95) (xy 288.29 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5d7997-8a97-4bfe-a1e3-f5b33d3fbd69")
+	)
+	(wire
+		(pts
+			(xy 252.73 236.22) (xy 256.54 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f022c21-583a-470b-9427-4d8f7974f61e")
 	)
 	(wire
 		(pts
@@ -17534,6 +17650,16 @@
 			(type default)
 		)
 		(uuid "8f6ff899-565a-4a55-8832-d0368b2229a4")
+	)
+	(wire
+		(pts
+			(xy 256.54 231.14) (xy 261.62 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903cb207-8a03-4e8f-9c35-355e16f9cd69")
 	)
 	(polyline
 		(pts
@@ -17564,6 +17690,16 @@
 			(type default)
 		)
 		(uuid "93434fea-3f38-4c9e-a287-d5113f303bcd")
+	)
+	(wire
+		(pts
+			(xy 281.94 219.71) (xy 281.94 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93683bed-f653-4cf8-bbac-1be7e18d6733")
 	)
 	(wire
 		(pts
@@ -17617,6 +17753,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 234.95) (xy 281.94 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99941160-642d-498e-8002-35df6b558562")
+	)
+	(wire
+		(pts
 			(xy 480.06 242.57) (xy 480.06 247.65)
 		)
 		(stroke
@@ -17664,6 +17810,16 @@
 			(type default)
 		)
 		(uuid "9f2ed56c-fa38-4d35-a172-e605350ac856")
+	)
+	(wire
+		(pts
+			(xy 254 212.09) (xy 254 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fae7533-c6df-496c-a5e8-0c7a18608c19")
 	)
 	(wire
 		(pts
@@ -17877,7 +18033,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 166.37) (xy 496.57 163.83)
+			(xy 420.37 163.83) (xy 420.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17907,6 +18063,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 209.55) (xy 262.89 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6acba94-ed97-469f-9fe4-4e6eaafa7648")
+	)
+	(wire
+		(pts
 			(xy 306.07 74.93) (xy 306.07 73.66)
 		)
 		(stroke
@@ -17924,6 +18090,16 @@
 			(type default)
 		)
 		(uuid "b94c2b82-fc70-4283-bb68-8ad5d96096b9")
+	)
+	(wire
+		(pts
+			(xy 281.94 226.06) (xy 276.86 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf14a70-7fd3-4dfd-9f2d-37f2485727a0")
 	)
 	(wire
 		(pts
@@ -18007,7 +18183,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 163.83) (xy 486.41 165.1)
+			(xy 410.21 161.29) (xy 410.21 162.56)
 		)
 		(stroke
 			(width 0)
@@ -18184,6 +18360,16 @@
 			(type default)
 		)
 		(uuid "d010d651-42a6-4d4a-bcb2-f59f7a2e6891")
+	)
+	(wire
+		(pts
+			(xy 262.89 212.09) (xy 254 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d311406e-cb13-40e1-935a-b9a208daf853")
 	)
 	(wire
 		(pts
@@ -18468,7 +18654,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 68.58) (xy 285.75 68.58)
+			(xy 276.86 71.12) (xy 285.75 71.12)
 		)
 		(stroke
 			(width 0)
@@ -18668,7 +18854,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 163.83) (xy 528.32 163.83)
+			(xy 441.96 161.29) (xy 452.12 161.29)
 		)
 		(stroke
 			(width 0)
@@ -18705,6 +18891,16 @@
 			(type default)
 		)
 		(uuid "fc471d01-b211-4103-8477-57696d546325")
+	)
+	(wire
+		(pts
+			(xy 259.08 250.19) (xy 259.08 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd248520-7cd2-4cf2-b5ff-89a6ea84eca6")
 	)
 	(wire
 		(pts
@@ -19455,7 +19651,7 @@
 		(uuid "2ccb2cd8-164d-4662-ab25-4933db7af952")
 	)
 	(label "PG_{3V3}"
-		(at 279.4 68.58 0)
+		(at 276.86 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19567,6 +19763,39 @@
 			(justify right)
 		)
 		(uuid "95f50b8d-4443-4314-beb7-0c54d3605274")
+	)
+	(hierarchical_label "RESETBTN"
+		(shape input)
+		(at 252.73 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adc499ec-1067-46a8-acc4-cb965c132255")
+	)
+	(hierarchical_label "RESETBTN"
+		(shape input)
+		(at 256.54 245.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6b00d92-9377-4f36-80e2-aa1cd7b6a9ff")
+	)
+	(hierarchical_label "RESETBTN"
+		(shape input)
+		(at 254 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bea88721-0877-43a1-b8d6-127111567280")
 	)
 	(hierarchical_label "VCC_RTC"
 		(shape output)
@@ -19836,7 +20065,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:+5V_AON")
-		(at 486.41 162.56 0)
+		(at 410.21 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19846,7 +20075,7 @@
 		(dnp no)
 		(uuid "043fc01c-057c-4cae-8e05-4a3511b839d0")
 		(property "Reference" "#PWR0142"
-			(at 486.41 166.37 0)
+			(at 410.21 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19857,7 +20086,7 @@
 			)
 		)
 		(property "Value" "+5V_AON"
-			(at 486.41 158.75 0)
+			(at 410.21 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19867,7 +20096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 486.41 162.56 0)
+			(at 410.21 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19878,7 +20107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 486.41 162.56 0)
+			(at 410.21 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19889,7 +20118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 486.41 162.56 0)
+			(at 410.21 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19906,6 +20135,117 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "power:GND")
+		(at 254 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c671f24-93e7-42ce-9e0a-e2dcc2c17372")
+		(property "Reference" "#PWR0451"
+			(at 262.89 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 254 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 262.89 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 262.89 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "28e2a415-eac2-4253-abef-e29056a23270")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -20212,7 +20552,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 541.02 163.83 270)
+		(at 464.82 161.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20223,7 +20563,7 @@
 		(fields_autoplaced yes)
 		(uuid "14e8075c-5e9a-4a00-81ae-464246da6659")
 		(property "Reference" "#FLG014"
-			(at 542.925 163.83 0)
+			(at 466.725 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20234,7 +20574,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 544.83 163.8299 90)
+			(at 468.63 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20245,7 +20585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 541.02 163.83 0)
+			(at 464.82 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20256,7 +20596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 541.02 163.83 0)
+			(at 464.82 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20267,7 +20607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 541.02 163.83 0)
+			(at 464.82 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20866,7 +21206,7 @@
 	(symbol
 		(lib_name "GND_20")
 		(lib_id "power:GND")
-		(at 486.41 170.18 0)
+		(at 410.21 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20876,7 +21216,7 @@
 		(dnp no)
 		(uuid "1cd61c69-335e-41ef-b930-ea08795752e1")
 		(property "Reference" "#PWR0143"
-			(at 495.3 172.72 0)
+			(at 419.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20889,7 +21229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 486.41 173.99 0)
+			(at 410.21 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20900,7 +21240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 495.3 177.8 0)
+			(at 419.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20913,7 +21253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 495.3 182.88 0)
+			(at 419.1 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20926,7 +21266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 486.41 170.18 0)
+			(at 410.21 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20937,7 +21277,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 495.3 177.8 0)
+			(at 419.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20950,7 +21290,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 495.3 180.34 0)
+			(at 419.1 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20969,6 +21309,117 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "power:GND")
+		(at 259.08 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e95cbd0-f794-4462-81e5-7c873378e0e6")
+		(property "Reference" "#PWR0452"
+			(at 267.97 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "460ae017-c222-499f-876c-58bf5711051d")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -22968,6 +23419,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 267.97 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "336cf5d7-2388-42c0-aa03-f1fd263d0b2f")
+		(property "Reference" "J5"
+			(at 269.24 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 269.24 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PC_Components_1:CONN-SMD_2P-P2.00_BX-PH2.0-2PWT"
+			(at 267.97 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccda94d9-fe52-4aaa-9bf3-c79262499840")
+		)
+		(pin "1"
+			(uuid "8093e44c-1863-4c24-9132-baac639439f7")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A_PC_ExtensionBoard:+3V3_AON")
 		(at 347.98 129.54 0)
 		(unit 1)
@@ -23320,6 +23853,160 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "#PWR0444")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:TPD2E2U06_SC70")
+		(at 262.89 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39723f96-9ce8-4082-8223-cdd5820027c7")
+		(property "Reference" "D8"
+			(at 271.78 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD2E2U06_SC70"
+			(at 275.59 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:SC70-3"
+			(at 275.59 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf?ts=1706006131823&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fdiodes%252Fesd-protection-diodes%252Fproducts.html"
+			(at 275.59 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD2E2U06DCKR"
+			(at 271.78 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 275.59 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 275.59 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 275.59 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC" "C1855726"
+			(at 262.89 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b450c422-f5cf-4d6f-913e-90c0674f60f5")
+		)
+		(pin "2"
+			(uuid "ed8ec2c8-ca66-4e95-be4e-854c5702ed3f")
+		)
+		(pin "3"
+			(uuid "31244911-2fe5-4e29-80d1-4efb3e9f5994")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -23708,7 +24395,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:TLV73333PDBVT")
-		(at 497.84 163.83 0)
+		(at 421.64 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23719,7 +24406,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d692d09-52de-450a-90c5-5dc5881b2301")
 		(property "Reference" "U23"
-			(at 508 156.21 0)
+			(at 431.8 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23730,7 +24417,7 @@
 			)
 		)
 		(property "Value" "TLV73333PDBVT"
-			(at 530.86 179.07 0)
+			(at 454.66 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23743,7 +24430,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:SOT-23-5"
-			(at 530.86 181.61 0)
+			(at 454.66 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23756,7 +24443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv733p.pdf?ts=1702303961350&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV733P%252Fpart-details%252FTLV73330PDBVR"
-			(at 530.86 184.15 0)
+			(at 454.66 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23769,7 +24456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 497.84 163.83 0)
+			(at 421.64 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23780,7 +24467,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 530.86 168.91 0)
+			(at 454.66 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23793,7 +24480,7 @@
 			)
 		)
 		(property "MPN" "TLV73333PDBVT"
-			(at 508 158.75 0)
+			(at 431.8 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23804,7 +24491,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 530.86 173.99 0)
+			(at 454.66 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23817,7 +24504,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 530.86 176.53 0)
+			(at 454.66 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25703,7 +26390,7 @@
 	(symbol
 		(lib_name "GND_25")
 		(lib_id "power:GND")
-		(at 528.32 170.18 0)
+		(at 452.12 167.64 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25714,7 +26401,7 @@
 		(dnp no)
 		(uuid "5060d00a-5075-494a-9c24-dd15e074d84c")
 		(property "Reference" "#PWR0152"
-			(at 519.43 172.72 0)
+			(at 443.23 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25727,7 +26414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 528.32 173.99 0)
+			(at 452.12 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25738,7 +26425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 519.43 177.8 0)
+			(at 443.23 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25751,7 +26438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 519.43 182.88 0)
+			(at 443.23 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25764,7 +26451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 528.32 170.18 0)
+			(at 452.12 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25775,7 +26462,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 519.43 177.8 0)
+			(at 443.23 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25788,7 +26475,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 519.43 180.34 0)
+			(at 443.23 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25957,7 +26644,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:+3V3_AON")
-		(at 541.02 162.56 0)
+		(at 464.82 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25967,7 +26654,7 @@
 		(dnp no)
 		(uuid "51f95a02-d91b-4d37-af41-62062b5b8d22")
 		(property "Reference" "#PWR0153"
-			(at 541.02 166.37 0)
+			(at 464.82 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25978,7 +26665,7 @@
 			)
 		)
 		(property "Value" "+3V3_AON"
-			(at 541.02 157.48 0)
+			(at 464.82 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25988,7 +26675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 541.02 162.56 0)
+			(at 464.82 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25999,7 +26686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 541.02 162.56 0)
+			(at 464.82 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26010,7 +26697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 541.02 162.56 0)
+			(at 464.82 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26796,7 +27483,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
-		(at 530.86 163.83 0)
+		(at 454.66 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26806,7 +27493,7 @@
 		(dnp no)
 		(uuid "5c0c5c08-d35d-4d3a-919f-896f96af04bc")
 		(property "Reference" "R119"
-			(at 533.4 158.75 0)
+			(at 457.2 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26817,7 +27504,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 551.18 176.53 0)
+			(at 474.98 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26830,7 +27517,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 551.18 179.07 0)
+			(at 474.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26843,7 +27530,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 551.18 181.61 0)
+			(at 474.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26856,7 +27543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 530.86 163.83 0)
+			(at 454.66 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26867,7 +27554,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 551.18 184.15 0)
+			(at 474.98 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26880,7 +27567,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 551.18 186.69 0)
+			(at 474.98 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26893,7 +27580,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 551.18 189.23 0)
+			(at 474.98 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26906,7 +27593,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 551.18 191.77 0)
+			(at 474.98 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26919,7 +27606,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 533.4 161.29 0)
+			(at 457.2 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26930,7 +27617,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 551.18 173.99 0)
+			(at 474.98 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26942,7 +27629,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 551.18 194.31 0)
+			(at 474.98 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26955,7 +27642,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 551.18 194.31 0)
+			(at 474.98 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28929,6 +29616,117 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "power:GND")
+		(at 288.29 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86d1ab23-e2ea-4833-9a12-803db9ceb5e9")
+		(property "Reference" "#PWR0453"
+			(at 297.18 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 297.18 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 297.18 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f58cd22f-a7be-4bd4-acb0-aeb6e0ad42ba")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
@@ -34650,7 +35448,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:C_1u_0402")
-		(at 486.41 170.18 90)
+		(at 410.21 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34661,7 +35459,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a742e7-9453-4e99-9746-3ff6df755a29")
 		(property "Reference" "C66"
-			(at 488.95 166.3635 90)
+			(at 412.75 163.8235 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34673,7 +35471,7 @@
 			)
 		)
 		(property "Value" "C_1u_0402"
-			(at 496.57 149.86 0)
+			(at 420.37 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34686,7 +35484,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
-			(at 499.11 149.86 0)
+			(at 422.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34699,7 +35497,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 501.65 149.86 0)
+			(at 425.45 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34712,7 +35510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 486.41 170.18 0)
+			(at 410.21 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34723,7 +35521,7 @@
 			)
 		)
 		(property "MPN" "C1005X6S1A105K050BC"
-			(at 504.19 149.86 0)
+			(at 427.99 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34736,7 +35534,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 506.73 149.86 0)
+			(at 430.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34749,7 +35547,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 509.27 149.86 0)
+			(at 433.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34762,7 +35560,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 511.81 149.86 0)
+			(at 435.61 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34775,7 +35573,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 488.95 168.9035 90)
+			(at 412.75 166.3635 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34787,7 +35585,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 514.35 149.86 0)
+			(at 438.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34799,7 +35597,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 516.89 149.86 0)
+			(at 440.69 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34811,7 +35609,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 519.43 149.86 0)
+			(at 443.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35901,6 +36699,103 @@
 		)
 	)
 	(symbol
+		(lib_id "A_PC_ExtensionBoard:K2-1808SN-A4SW")
+		(at 269.24 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec336ccb-9b21-450c-83fb-fe1d9bebf97a")
+		(property "Reference" "SW2"
+			(at 269.24 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1808SN-A4SW"
+			(at 269.24 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PC_Components_1:KEY-SMD_4P-L4.2-W3.2-P2.20-LS5.1-TL"
+			(at 269.24 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_4-2mm-3-25mm_C92589.html"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C92589"
+			(at 269.24 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d193549d-9177-42b9-89ea-e6301e5988fb")
+		)
+		(pin "2"
+			(uuid "908626f9-bdc8-4ae0-9016-fe28a51deff7")
+		)
+		(pin "3"
+			(uuid "f5b80367-a0c5-4ca0-a01e-2d8a13f84389")
+		)
+		(pin "1"
+			(uuid "446f5c9b-945a-47d8-bd41-25528ebbf274")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A_PC_ExtensionBoard:DC-044A-20A_")
 		(at 290.83 118.11 0)
 		(unit 1)
@@ -36656,7 +37551,7 @@
 	(symbol
 		(lib_name "GND_23")
 		(lib_id "power:GND")
-		(at 519.43 170.18 0)
+		(at 443.23 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36666,7 +37561,7 @@
 		(dnp no)
 		(uuid "f5af8b38-df28-484a-8b75-e16515e8cdf5")
 		(property "Reference" "#PWR0150"
-			(at 528.32 172.72 0)
+			(at 452.12 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36679,7 +37574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 519.43 173.99 0)
+			(at 443.23 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36690,7 +37585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 528.32 177.8 0)
+			(at 452.12 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36703,7 +37598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 528.32 182.88 0)
+			(at 452.12 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36716,7 +37611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 519.43 170.18 0)
+			(at 443.23 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36727,7 +37622,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 528.32 177.8 0)
+			(at 452.12 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36740,7 +37635,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 528.32 180.34 0)
+			(at 452.12 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36766,7 +37661,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:C_1u_0402")
-		(at 528.32 170.18 270)
+		(at 452.12 167.64 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -36778,7 +37673,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6de6a02-f119-40d5-b943-9d0a3bc454a1")
 		(property "Reference" "C69"
-			(at 525.78 166.3635 90)
+			(at 449.58 163.8235 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36790,7 +37685,7 @@
 			)
 		)
 		(property "Value" "C_1u_0402"
-			(at 518.16 149.86 0)
+			(at 441.96 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36803,7 +37698,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:C_0402_1005Metric"
-			(at 515.62 149.86 0)
+			(at 439.42 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36816,7 +37711,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 513.08 149.86 0)
+			(at 436.88 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36829,7 +37724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 528.32 170.18 0)
+			(at 452.12 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36840,7 +37735,7 @@
 			)
 		)
 		(property "MPN" "C1005X6S1A105K050BC"
-			(at 510.54 149.86 0)
+			(at 434.34 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36853,7 +37748,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 508 149.86 0)
+			(at 431.8 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36866,7 +37761,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 505.46 149.86 0)
+			(at 429.26 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36879,7 +37774,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 502.92 149.86 0)
+			(at 426.72 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36892,7 +37787,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 525.78 168.9035 90)
+			(at 449.58 166.3635 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36904,7 +37799,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 500.38 149.86 0)
+			(at 424.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36916,7 +37811,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 497.84 149.86 0)
+			(at 421.64 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36928,7 +37823,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 495.3 149.86 0)
+			(at 419.1 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

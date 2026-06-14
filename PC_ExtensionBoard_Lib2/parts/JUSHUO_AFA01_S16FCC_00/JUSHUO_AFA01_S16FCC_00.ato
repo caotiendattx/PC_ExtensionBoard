@@ -1,0 +1,35 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component JUSHUO_AFA01_S16FCC_00_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C262387", date="2026-06-12T06:39:01.256807+00:00", checksum="b5e0eb3bf8ba3eabd60cce6562c05b3e959d4823d863173edea9e76f247e1010">
+
+    trait is_atomic_part<manufacturer="JUSHUO", partnumber="AFA01-S16FCC-00", footprint="FPC-SMD_P1.00-16P_FGS-XJ-H2.0.kicad_mod", symbol="AFA01-S16FCC-00.kicad_sym", model="FPC-SMD_P1.00-16P_FGS-XJ-H2.0.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C262387", manufacturer="JUSHUO", partno="AFA01-S16FCC-00">
+    trait has_designator_prefix<prefix="FPC">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFA01-S16FCC-00_C262387.pdf">
+
+    # pins
+    pin 1
+    pin 2
+    pin 3
+    pin 4
+    pin 5
+    pin 6
+    pin 7
+    pin 8
+    pin 9
+    pin 10
+    pin 11
+    pin 12
+    pin 13
+    pin 14
+    pin 15
+    pin 16
+    pin 17
+    pin 18

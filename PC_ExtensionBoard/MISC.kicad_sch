@@ -8064,7 +8064,7 @@
 		)
 	)
 	(rectangle
-		(start 622.3 205.74)
+		(start 622.3 201.93)
 		(end 828.04 271.78)
 		(stroke
 			(width 0)
@@ -22695,7 +22695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PC_Components_1:FPC-SMD_P0.50-16P_FGS-XJ-H2.0"
 			(at 793.75 237.49 0)
 			(hide yes)
 			(show_name no)

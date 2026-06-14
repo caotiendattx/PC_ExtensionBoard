@@ -77,4 +77,18 @@
 		(options "")
 		(descr "atopile: part lib: TE_Connectivity_1_2199230_6")
 	)
+	(lib
+		(name "JUSHUO_AFA01_S16FCC_00")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/../../parts/JUSHUO_AFA01_S16FCC_00")
+		(options "")
+		(descr "atopile: part lib: JUSHUO_AFA01_S16FCC_00")
+	)
+	(lib
+		(name "JUSHUO_AFC01_S16FCC_00")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/../../parts/JUSHUO_AFC01_S16FCC_00")
+		(options "")
+		(descr "atopile: part lib: JUSHUO_AFC01_S16FCC_00")
+	)
 )
