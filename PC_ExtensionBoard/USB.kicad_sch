@@ -19155,7 +19155,7 @@
 		)
 		(uuid "527e7c9a-d16e-46c3-8538-0c91b4471178")
 	)
-	(hierarchical_label "~{GBE0_LINK_1000}"
+	(hierarchical_label "~{GBE0_LINK}"
 		(shape input)
 		(at 709.93 424.18 0)
 		(effects
@@ -26700,7 +26700,6 @@
 		)
 		(property "Value" "+3.3V"
 			(at 689.864 413.004 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

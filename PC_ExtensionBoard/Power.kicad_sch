@@ -16330,6 +16330,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 50.8) (xy 229.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be2e490-c440-4d0f-b066-0590f5bdd6df")
+	)
+	(wire
+		(pts
 			(xy 346.71 92.71) (xy 351.79 92.71)
 		)
 		(stroke
@@ -16949,6 +16959,16 @@
 			(type default)
 		)
 		(uuid "578293d4-02c1-4032-9435-fe891bb44b66")
+	)
+	(wire
+		(pts
+			(xy 580.39 62.23) (xy 575.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a6062e-a7f3-46ee-9baf-1923c9792cd5")
 	)
 	(wire
 		(pts
@@ -18133,6 +18153,16 @@
 	)
 	(wire
 		(pts
+			(xy 577.85 50.8) (xy 580.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc2341f-1c87-41e9-a199-0a93015443e1")
+	)
+	(wire
+		(pts
 			(xy 537.21 62.23) (xy 546.1 62.23)
 		)
 		(stroke
@@ -18791,6 +18821,16 @@
 			(type default)
 		)
 		(uuid "f6c1e491-150b-49fd-b5ce-e8f32515eccf")
+	)
+	(wire
+		(pts
+			(xy 580.39 50.8) (xy 580.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cffadd-d730-4ca0-9946-dcc76747e51d")
 	)
 	(wire
 		(pts
@@ -19730,6 +19770,28 @@
 			(justify right)
 		)
 		(uuid "05251ae4-5f3f-4fa9-b9be-9eb5d4c76ea0")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 577.85 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17eb5248-dc4d-49e2-90a0-39db16e7bed9")
+	)
+	(hierarchical_label "+12V"
+		(shape output)
+		(at 226.06 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a45f88e-1a37-49b7-bfea-248944485ab0")
 	)
 	(hierarchical_label "I2C{I2C}"
 		(shape input)
@@ -34839,14 +34901,15 @@
 				)
 			)
 		)
-		(property "Value" "+12V_AON"
-			(at 229.87 44.45 0)
+		(property "Value" "+12V"
+			(at 232.41 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -37293,14 +37356,15 @@
 				)
 			)
 		)
-		(property "Value" "+12V_AON"
-			(at 402.59 52.07 0)
+		(property "Value" "+12V"
+			(at 405.13 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
