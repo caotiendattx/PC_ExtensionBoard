@@ -29619,13 +29619,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PJ-3938PJ"
+	(symbol "PJ-393-7A"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "CN"
+		(property "Reference" "Audio"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29635,7 +29635,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ-393 8PJ"
+		(property "Value" "PJ-393-7A"
 			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29645,7 +29645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C668609:FL_002"
+		(property "Footprint" "C128990:AUDIO-SMD_PJ-393-7A"
 			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29655,11 +29655,10 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Connectors_3-5-Headphone-Socket-14-5mm-6-0mm_C128990.html"
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29677,8 +29676,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C668609"
-			(at 0 -19.05 0)
+		(property "LCSC Part" "C128990"
+			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29687,21 +29686,10 @@
 				)
 			)
 		)
-		(symbol "PJ-3938PJ_0_1"
-			(rectangle
-				(start -6.35 7.37)
-				(end -4.32 -8.89)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "PJ-393-7A_0_1"
 			(polyline
 				(pts
-					(xy 3.81 -8.89) (xy -2.54 -8.89) (xy -2.79 -8.13) (xy -3.05 -8.89)
+					(xy -2.03 3.81) (xy -2.29 2.79)
 				)
 				(stroke
 					(width 0)
@@ -29713,7 +29701,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.06 -3.81) (xy -1.78 -3.81) (xy -2.03 -3.05) (xy -2.29 -3.81)
+					(xy -2.03 3.81) (xy -1.78 2.79)
 				)
 				(stroke
 					(width 0)
@@ -29725,7 +29713,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 8.89) (xy -5.08 8.89) (xy -5.33 8.89) (xy -5.33 7.37)
+					(xy -2.03 -1.27) (xy -2.29 -2.29)
 				)
 				(stroke
 					(width 0)
@@ -29737,7 +29725,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 6.35) (xy 1.02 6.35) (xy 0 6.35) (xy 0 8.89) (xy -0.51 8.38)
+					(xy -2.03 -1.27) (xy -1.78 -2.29)
 				)
 				(stroke
 					(width 0)
@@ -29749,7 +29737,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.27) (xy 1.02 1.27) (xy 0 1.27) (xy 0 3.81) (xy -0.51 3.3)
+					(xy -2.03 -8.89) (xy -2.29 -7.87)
 				)
 				(stroke
 					(width 0)
@@ -29761,7 +29749,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1.27) (xy 2.03 -1.27) (xy 1.02 -1.27) (xy 1.02 -3.81) (xy 0.51 -3.3)
+					(xy -2.03 -8.89) (xy -1.78 -7.87)
 				)
 				(stroke
 					(width 0)
@@ -29773,7 +29761,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -6.35) (xy 2.79 -6.35) (xy 1.78 -6.35) (xy 1.78 -8.89) (xy 1.27 -8.38)
+					(xy 2.54 8.89) (xy -7.37 8.89) (xy -7.37 -5.08) (xy -8.89 -2.79)
 				)
 				(stroke
 					(width 0)
@@ -29785,7 +29773,67 @@
 			)
 			(polyline
 				(pts
-					(xy 5.59 3.81) (xy -1.02 3.81) (xy -1.27 3.05) (xy -1.52 3.81)
+					(xy 2.54 3.81) (xy -4.57 3.81) (xy -5.08 2.54) (xy -5.59 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.03 1.27) (xy -2.03 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy -4.57 -1.27) (xy -5.08 -2.79) (xy -5.59 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.03 -3.81) (xy -2.03 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -6.35) (xy -2.03 -6.35) (xy -2.03 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -8.89) (xy -4.32 -8.89) (xy -5.08 -7.62) (xy -5.59 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -29796,8 +29844,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 8.89 180)
-				(length 2.54)
+				(at 7.62 8.89 180)
+				(length 5.08)
 				(name "1"
 					(effects
 						(font
@@ -29814,8 +29862,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 3.81 180)
-				(length 2.54)
+				(at 7.62 -8.89 180)
+				(length 5.08)
 				(name "2"
 					(effects
 						(font
@@ -29832,8 +29880,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -3.81 180)
-				(length 2.54)
+				(at 7.62 -1.27 180)
+				(length 5.08)
 				(name "3"
 					(effects
 						(font
@@ -29850,8 +29898,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -8.89 180)
-				(length 2.54)
+				(at 7.62 3.81 180)
+				(length 5.08)
 				(name "4"
 					(effects
 						(font
@@ -29868,8 +29916,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 6.35 180)
-				(length 2.54)
+				(at 7.62 -6.35 180)
+				(length 5.08)
 				(name "5"
 					(effects
 						(font
@@ -29886,8 +29934,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 1.27 180)
-				(length 2.54)
+				(at 7.62 -3.81 180)
+				(length 5.08)
 				(name "6"
 					(effects
 						(font
@@ -29904,8 +29952,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -1.27 180)
-				(length 2.54)
+				(at 7.62 1.27 180)
+				(length 5.08)
 				(name "7"
 					(effects
 						(font
@@ -29914,24 +29962,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 6.35 -6.35 180)
-				(length 2.54)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

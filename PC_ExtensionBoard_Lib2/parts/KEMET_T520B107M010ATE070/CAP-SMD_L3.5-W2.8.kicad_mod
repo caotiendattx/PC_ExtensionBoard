@@ -1,0 +1,126 @@
+(footprint "KEMET_T520B107M010ATE070:CAP-SMD_L3.5-W2.8"
+	(version 20241229)
+	(generator "faebryk_convert")
+	(generator_version "v5")
+	(layer "F.Cu")
+	(tedit "5DC5F6A4")
+	(uuid "0dddc51a-d244-4643-91a5-ac1405e7cd54")
+	(property "Reference" "REF**"
+		(at 0 -4)
+		(layer "F.SilkS")
+		(uuid "3165e4aa-d4d9-4ee0-bed3-680ced0755ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-SMD_L3.5-W2.8"
+		(at 0 4)
+		(layer "F.Fab")
+		(uuid "a7768702-2cad-4c1b-8ba6-4706f197c732")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 1.75 -1.4)
+		(end 1.78 -1.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(locked no)
+		(uuid "9f9098c3-4937-43ef-a28a-f9fd405b0e9e")
+	)
+	(fp_line
+		(start 0.7 -1.48)
+		(end 0.7 1.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "8fb77f86-b8fc-4945-b6a5-883383704588")
+	)
+	(fp_line
+		(start -1.83 -1.48)
+		(end 1.82 -1.48)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "a0d533a2-6fec-454a-bc56-1d97c7e1e574")
+	)
+	(fp_line
+		(start -1.83 1.47)
+		(end 1.82 1.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "9556fc77-854c-47e5-b149-39b9ba07dc1d")
+	)
+	(fp_line
+		(start -1.83 -1.48)
+		(end -1.83 -1.39)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "31ffb8cd-24cd-4a91-9f0e-ebdeb985bd73")
+	)
+	(fp_line
+		(start -1.83 1.47)
+		(end -1.83 1.39)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "6972d708-ea35-4f95-b7cc-1539a464d02f")
+	)
+	(pad "2" smd rect
+		(at -1.8 0 0)
+		(size 1.61 2.38)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d18bf08-2ec8-4210-a9f7-a3de799e2994")
+	)
+	(pad "1" smd rect
+		(at 1.8 0 0)
+		(size 1.61 2.38)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31efa71f-f175-4d5d-85d9-b04388977635")
+	)
+	(model "${KIPRJMOD}/../../parts/KEMET_T520B107M010ATE070/CASE-B_L3.5-W2.8-H1.9.step"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(embedded_fonts no)
+)

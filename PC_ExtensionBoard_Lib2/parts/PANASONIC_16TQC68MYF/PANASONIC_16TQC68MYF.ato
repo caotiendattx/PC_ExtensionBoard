@@ -1,0 +1,19 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component PANASONIC_16TQC68MYF_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C147770", date="2026-06-15T18:01:19.081287+00:00", checksum="da4372b638df6c15f4a1f4cc302a225c1901992c99fa6de66d29d59dd906d539">
+
+    trait is_atomic_part<manufacturer="PANASONIC", partnumber="16TQC68MYF", footprint="CAP-SMD_L7.3-W4.3-R-RD.kicad_mod", symbol="16TQC68MYF.kicad_sym", model="CASE-E_L7.3-W4.3-H4.1.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C147770", manufacturer="PANASONIC", partno="16TQC68MYF">
+    trait has_designator_prefix<prefix="C">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-16TQC68MYF_C147770.pdf">
+
+    # pins
+    pin 1
+    pin 2

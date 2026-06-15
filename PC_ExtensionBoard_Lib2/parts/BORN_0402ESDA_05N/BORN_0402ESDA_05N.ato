@@ -1,0 +1,19 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component BORN_0402ESDA_05N_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C316049", date="2026-06-14T16:13:23.938989+00:00", checksum="0e671f3b7e7a7cc8061d630f3bb06c34b00958a6dd910a12b313d26ffd96d03b">
+
+    trait is_atomic_part<manufacturer="BORN", partnumber="0402ESDA-05N", footprint="D0402-BI.kicad_mod", symbol="0402ESDA-05N.kicad_sym", model="D0402_L1-W0.5-H0.4-LS1.0.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C316049", manufacturer="BORN", partno="0402ESDA-05N">
+    trait has_designator_prefix<prefix="D">
+    trait has_datasheet<datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BORN-0402ESDA-05N_C316049.pdf">
+
+    # pins
+    pin 2
+    pin 1

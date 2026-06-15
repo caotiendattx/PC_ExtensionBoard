@@ -1,0 +1,23 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component HOOYA_DC_528_2_0_HY_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C2851176", date="2026-06-15T16:58:58.710468+00:00", checksum="b447fd5eb40dc9db1e66e017c0df57a36d514250f6edb39952afdca2f1c5c1a8">
+
+    trait is_atomic_part<manufacturer="HOOYA", partnumber="DC-528φ2.0(HY)", footprint="DC-IN-TH_DC-528-2.0-HY.kicad_mod", symbol="DC-528φ2.0(HY).kicad_sym">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C2851176", manufacturer="HOOYA", partno="DC-528φ2.0(HY)">
+    trait has_designator_prefix<prefix="U">
+    trait has_datasheet<datasheet="https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207111801_HOOYA-DC-528-2-0-HY_C2851176.pdf">
+
+    # pins
+    pin 4
+    pin 2
+    pin 1
+    pin 3
+    pin 5
+    pin 6

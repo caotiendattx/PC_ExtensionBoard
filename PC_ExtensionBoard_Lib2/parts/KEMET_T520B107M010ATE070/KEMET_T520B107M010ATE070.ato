@@ -1,0 +1,19 @@
+import has_datasheet
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component KEMET_T520B107M010ATE070_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C600583", date="2026-06-15T17:59:56.570581+00:00", checksum="1bef8af0bc51f5b5da7f2ba5add2057cf23383d70cc47f76d526ff87968eaaf1">
+
+    trait is_atomic_part<manufacturer="KEMET", partnumber="T520B107M010ATE070", footprint="CAP-SMD_L3.5-W2.8.kicad_mod", symbol="T520B107M010ATE070.kicad_sym", model="CASE-B_L3.5-W2.8-H1.9.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C600583", manufacturer="KEMET", partno="T520B107M010ATE070">
+    trait has_designator_prefix<prefix="C">
+    trait has_datasheet<datasheet="https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-T520B107M010ATE070_C600583.pdf">
+
+    # pins
+    pin 1
+    pin 2

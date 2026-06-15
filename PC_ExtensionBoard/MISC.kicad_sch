@@ -3884,6 +3884,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4157,18 +4340,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x16_MountingPin"
-				(at 1.27 -22.86 0)
+			(property "Reference" "J3"
+				(at 2.54 -0.3555 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4178,7 +4351,18 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "Conn_01x16_MountingPin"
+				(at 2.54 -2.8955 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PC_Components_1:FPC-SMD_P0.50-16P_FGS-XJ-H2.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4722,24 +4906,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7669,6 +7835,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+15V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+15V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -8391,16 +8693,100 @@
 		(uuid "ffdce170-896a-4707-8c8c-1b329c4d9846")
 	)
 	(no_connect
+		(at 262.89 97.79)
+		(uuid "08bc682f-56ae-4cb6-b1b8-a0fc38ed0a9c")
+	)
+	(no_connect
+		(at 262.89 64.77)
+		(uuid "127f1818-a7ec-442d-a22e-547e0980a312")
+	)
+	(no_connect
+		(at 262.89 46.99)
+		(uuid "233dd48c-c50d-4992-af99-d3b158fbd751")
+	)
+	(no_connect
+		(at 262.89 90.17)
+		(uuid "23cd72bd-622f-4f94-899c-e25e23f2a2bd")
+	)
+	(no_connect
+		(at 207.01 125.73)
+		(uuid "24bfa98a-87a2-4dc2-b7a6-a535ef05e290")
+	)
+	(no_connect
+		(at 262.89 67.31)
+		(uuid "258eb2c1-88da-4cb5-b21c-0839ab5f89fc")
+	)
+	(no_connect
+		(at 262.89 123.19)
+		(uuid "300d2ff4-f694-4029-8a7c-6f2746fb056e")
+	)
+	(no_connect
+		(at 207.01 52.07)
+		(uuid "3b1a89d9-c687-4e5a-b215-a3167c9eedda")
+	)
+	(no_connect
+		(at 262.89 113.03)
+		(uuid "421abe07-d3fb-4839-a02e-529ed52b201e")
+	)
+	(no_connect
+		(at 262.89 92.71)
+		(uuid "42698a3e-b1be-4c19-8638-4b1c2cca795c")
+	)
+	(no_connect
+		(at 207.01 57.15)
+		(uuid "4597918f-5581-4a42-aa6f-85f513f40470")
+	)
+	(no_connect
+		(at 207.01 62.23)
+		(uuid "503c803e-7e16-4ace-9d46-35039de32acf")
+	)
+	(no_connect
+		(at 262.89 100.33)
+		(uuid "585d16e7-a211-41c6-8df8-933527367292")
+	)
+	(no_connect
+		(at 207.01 123.19)
+		(uuid "5a1deae2-7265-4d86-ac94-dced7d4fcd1d")
+	)
+	(no_connect
 		(at 753.11 73.66)
 		(uuid "621bf69a-e640-4c6d-9469-0487e17de4c9")
+	)
+	(no_connect
+		(at 262.89 110.49)
+		(uuid "65bdedf0-491f-4abf-958c-775c7a450ef4")
 	)
 	(no_connect
 		(at 106.68 73.66)
 		(uuid "6e3bf052-62fd-4d18-b542-651c054c8d98")
 	)
 	(no_connect
+		(at 262.89 102.87)
+		(uuid "72831c74-d925-4f6a-b8fe-6e376eeb5325")
+	)
+	(no_connect
+		(at 262.89 62.23)
+		(uuid "745db882-0340-4bd0-a8a4-f95fc50fc47d")
+	)
+	(no_connect
+		(at 262.89 49.53)
+		(uuid "7b4a167e-adcd-4c45-8fd9-9743cf5dd2ec")
+	)
+	(no_connect
+		(at 262.89 128.27)
+		(uuid "81d7ec90-b33e-4ee4-b706-7399139cd933")
+	)
+	(no_connect
 		(at 753.11 83.82)
 		(uuid "84c0349f-5d87-48a5-92e3-a7260d1fbd08")
+	)
+	(no_connect
+		(at 207.01 69.85)
+		(uuid "88bc0679-ece4-4bfe-b530-5b2f99b8be1f")
+	)
+	(no_connect
+		(at 262.89 77.47)
+		(uuid "8a68ff48-eab3-46b2-95e6-cafde9c2ee15")
 	)
 	(no_connect
 		(at 753.11 81.28)
@@ -8411,16 +8797,80 @@
 		(uuid "8e8c509a-07ff-4d9a-99a1-59db2c360f52")
 	)
 	(no_connect
+		(at 262.89 95.25)
+		(uuid "9b44d29d-973b-4140-ba8c-03e791cbf584")
+	)
+	(no_connect
+		(at 262.89 54.61)
+		(uuid "9c6a04bf-9d62-494f-915d-16b5270deb31")
+	)
+	(no_connect
+		(at 207.01 67.31)
+		(uuid "a372c1d8-069e-49ff-bfc4-c04e30102f3f")
+	)
+	(no_connect
+		(at 207.01 46.99)
+		(uuid "ada1b998-fb61-44c9-8fb0-e60d99172f05")
+	)
+	(no_connect
+		(at 262.89 57.15)
+		(uuid "b5b1a12e-97f7-4749-b703-e377f2fdae86")
+	)
+	(no_connect
+		(at 207.01 120.65)
+		(uuid "b61a42b0-87a6-43ea-8874-1338cbbfd774")
+	)
+	(no_connect
+		(at 207.01 72.39)
+		(uuid "bd0493b7-1890-4f2d-a2a5-77634fddc130")
+	)
+	(no_connect
+		(at 262.89 85.09)
+		(uuid "c178e56e-9475-41b0-b40a-5fea2636989a")
+	)
+	(no_connect
+		(at 262.89 72.39)
+		(uuid "ca3f05b9-50dc-413d-8b8e-92aac854df69")
+	)
+	(no_connect
 		(at 753.11 76.2)
 		(uuid "ce81a128-6bb9-489a-a8e8-01629b247563")
+	)
+	(no_connect
+		(at 207.01 64.77)
+		(uuid "d9c9f181-a661-4150-b61b-af6693e40f0d")
+	)
+	(no_connect
+		(at 207.01 107.95)
+		(uuid "da806e01-0e3a-4e4a-9f26-d1d9cdd857b8")
 	)
 	(no_connect
 		(at 753.11 88.9)
 		(uuid "e573942b-e1a0-4b12-a68d-333d469dca8f")
 	)
 	(no_connect
+		(at 207.01 54.61)
+		(uuid "eca43432-e528-4eaa-8505-c5c4dedd108d")
+	)
+	(no_connect
+		(at 262.89 52.07)
+		(uuid "eca81c0f-7dc4-43bf-95e2-2d4004e5225f")
+	)
+	(no_connect
+		(at 262.89 59.69)
+		(uuid "f2838b3b-5b15-441e-ba43-f0e73423e4d5")
+	)
+	(no_connect
 		(at 754.38 181.61)
 		(uuid "f349fbb4-a49f-46cf-b3dc-a88d198c2c98")
+	)
+	(no_connect
+		(at 262.89 125.73)
+		(uuid "f43f2d83-6813-4aab-979d-1399e18a96be")
+	)
+	(no_connect
+		(at 262.89 120.65)
+		(uuid "fb5229c7-19f5-4398-b90d-cc5a13e19315")
 	)
 	(bus_entry
 		(at 283.21 118.11)
@@ -8441,6 +8891,15 @@
 		(uuid "27312f7c-4e62-4edf-b2ad-91d77a3a6705")
 	)
 	(bus_entry
+		(at 784.86 299.72)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb2059f-3c9a-4c02-bcf5-988355d2be3d")
+	)
+	(bus_entry
 		(at 726.44 234.95)
 		(size 2.54 2.54)
 		(stroke
@@ -8448,6 +8907,15 @@
 			(type default)
 		)
 		(uuid "562b89f5-acf1-40a4-ad9c-f1d1f51ff2c9")
+	)
+	(bus_entry
+		(at 784.86 297.18)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5820ae14-1b71-45d7-ba35-aa608d2c24c6")
 	)
 	(bus_entry
 		(at 798.83 58.42)
@@ -8565,6 +9033,16 @@
 			(type default)
 		)
 		(uuid "ee31c5bd-899e-4dca-a0ae-b4e09bd9953f")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 207.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0094d591-76f7-4dc1-b29d-132af0ba2d93")
 	)
 	(wire
 		(pts
@@ -8746,6 +9224,16 @@
 		)
 		(uuid "14808f14-412c-4dba-83e6-5105056515b2")
 	)
+	(bus
+		(pts
+			(xy 784.86 302.26) (xy 784.86 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152bb21f-0ba5-48aa-9768-cc0b5700e5ef")
+	)
 	(wire
 		(pts
 			(xy 643.89 91.44) (xy 651.51 91.44)
@@ -8838,6 +9326,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 113.03) (xy 207.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc611a4-8586-45d1-ade1-df6508179a16")
+	)
+	(wire
+		(pts
 			(xy 703.58 171.45) (xy 703.58 176.53)
 		)
 		(stroke
@@ -8858,7 +9356,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 86.36) (xy 297.18 86.36)
+			(xy 284.48 92.71) (xy 298.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8908,7 +9406,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 83.82) (xy 297.18 83.82)
+			(xy 284.48 90.17) (xy 298.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9128,6 +9626,16 @@
 	)
 	(wire
 		(pts
+			(xy 774.7 289.56) (xy 801.37 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bf827e-4751-4a8b-8a66-de60ca3c7d40")
+	)
+	(wire
+		(pts
 			(xy 237.49 39.37) (xy 237.49 34.29)
 		)
 		(stroke
@@ -9318,6 +9826,16 @@
 	)
 	(wire
 		(pts
+			(xy 779.78 292.1) (xy 779.78 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59215045-de68-4377-9665-8b3cb963bc0b")
+	)
+	(wire
+		(pts
 			(xy 110.49 73.66) (xy 110.49 78.74)
 		)
 		(stroke
@@ -9375,6 +9893,16 @@
 			(type default)
 		)
 		(uuid "625660ee-d73e-49d6-a923-b3cd04987475")
+	)
+	(wire
+		(pts
+			(xy 787.4 297.18) (xy 801.37 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e0065a-f205-415c-99ae-715883d6ecfd")
 	)
 	(wire
 		(pts
@@ -9465,6 +9993,16 @@
 			(type default)
 		)
 		(uuid "6a48a453-ab6a-4f7e-a1bd-28c8e55e8328")
+	)
+	(wire
+		(pts
+			(xy 195.58 110.49) (xy 207.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da03922-49b0-45f1-a7ed-09e06079645e")
 	)
 	(wire
 		(pts
@@ -9618,6 +10156,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 118.11) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eab34cf-bdae-45a3-b9ab-be7c7737ca01")
+	)
+	(wire
+		(pts
 			(xy 726.44 158.75) (xy 726.44 160.02)
 		)
 		(stroke
@@ -9755,6 +10303,16 @@
 			(type default)
 		)
 		(uuid "8d415475-149b-4b3f-bf53-97bcc03f5f05")
+	)
+	(wire
+		(pts
+			(xy 184.15 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da333bf-4dbf-42e6-811b-92f18d998f0f")
 	)
 	(wire
 		(pts
@@ -9955,6 +10513,16 @@
 			(type default)
 		)
 		(uuid "a8145dc6-d08b-4d1b-aa74-c8380edd748e")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f310a-10a9-4b11-95a7-a5c8357208fa")
 	)
 	(wire
 		(pts
@@ -10248,6 +10816,16 @@
 	)
 	(wire
 		(pts
+			(xy 801.37 292.1) (xy 779.78 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce80df6d-01ec-4fb3-9530-8ed720731be1")
+	)
+	(wire
+		(pts
 			(xy 237.49 34.29) (xy 237.49 29.21)
 		)
 		(stroke
@@ -10308,6 +10886,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 110.49) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d623001a-1bea-4d1a-9928-03a1656d2a47")
+	)
+	(wire
+		(pts
 			(xy 184.15 90.17) (xy 190.5 90.17)
 		)
 		(stroke
@@ -10335,6 +10923,16 @@
 			(type dash)
 		)
 		(uuid "d9f74603-051d-4b33-ae51-c70cc994236d")
+	)
+	(wire
+		(pts
+			(xy 787.4 294.64) (xy 801.37 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabbc3a5-e145-4f2a-b602-d80df5cc97d1")
 	)
 	(wire
 		(pts
@@ -10586,6 +11184,16 @@
 		)
 		(uuid "eeeb0648-1719-4f04-9f59-bc68bea2480e")
 	)
+	(bus
+		(pts
+			(xy 784.86 302.26) (xy 783.59 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef183ddb-20b0-45f1-a66a-01cf5c23bd36")
+	)
 	(wire
 		(pts
 			(xy 698.5 109.22) (xy 698.5 107.95)
@@ -10695,6 +11303,16 @@
 			(type default)
 		)
 		(uuid "f9de8fb4-4815-4edc-a1e4-5ca8e74a6083")
+	)
+	(wire
+		(pts
+			(xy 184.15 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf83993-3c9a-4927-b259-66c956cad212")
 	)
 	(wire
 		(pts
@@ -10856,6 +11474,16 @@
 		)
 		(uuid "6b195563-ca85-4a4c-a6ec-ee379e2f7a0f")
 	)
+	(label "FAN.TACH"
+		(at 787.4 294.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ca68719-fc00-4bda-891e-4f6a42d0805a")
+	)
 	(label "DIF1+"
 		(at 755.65 66.04 0)
 		(effects
@@ -10977,7 +11605,7 @@
 		(uuid "c034af12-1b8e-4460-88fd-c871336c7f7e")
 	)
 	(label "MCU_SWDIO"
-		(at 283.21 83.82 0)
+		(at 284.48 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11025,6 +11653,16 @@
 			(justify right bottom)
 		)
 		(uuid "db5579c6-f9ea-4acf-9192-963549733d74")
+	)
+	(label "FAN.PWM"
+		(at 787.4 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db6e8570-5630-48e3-9140-f2614367d00d")
 	)
 	(label "LED_R"
 		(at 191.77 82.55 0)
@@ -11097,7 +11735,7 @@
 		(uuid "eaa732e9-ca1c-45d4-93eb-b7b063d2b9c5")
 	)
 	(label "MCU_SWCLK"
-		(at 283.21 86.36 0)
+		(at 284.48 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11193,6 +11831,28 @@
 		)
 		(uuid "275613a5-129d-47b5-8810-33dbab5f4640")
 	)
+	(hierarchical_label "FAN{FAN_CON}"
+		(shape output)
+		(at 783.59 302.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3548c550-2a7e-47ca-92db-a3c2265cb648")
+	)
+	(hierarchical_label "EN0"
+		(shape output)
+		(at 184.15 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58a16160-ac12-490f-b560-69fa38084fd4")
+	)
 	(hierarchical_label "MCU_I2C1{I2C}"
 		(shape input)
 		(at 287.02 111.76 0)
@@ -11270,6 +11930,17 @@
 		)
 		(uuid "98e39c01-c873-48d3-acdc-274347719742")
 	)
+	(hierarchical_label "EN1"
+		(shape output)
+		(at 184.15 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99524d97-a604-4974-8846-8b65ae2df024")
+	)
 	(hierarchical_label "PCIE_{REFIN}{PCIe_{REF}}"
 		(shape input)
 		(at 685.8 74.93 180)
@@ -11291,6 +11962,17 @@
 			(justify left)
 		)
 		(uuid "b244dc18-857c-4211-b680-3e82bba79cea")
+	)
+	(hierarchical_label "EN2"
+		(shape output)
+		(at 184.15 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca8636b6-5305-4b0d-8dd8-f700a591b373")
 	)
 	(hierarchical_label "~{CLKREQ1}"
 		(shape input)
@@ -11335,6 +12017,17 @@
 			(justify left)
 		)
 		(uuid "e94891e3-467d-4e1d-a1dc-caab63d81e67")
+	)
+	(hierarchical_label "EN3"
+		(shape output)
+		(at 184.15 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed32ebf8-7196-4bf5-b012-90ffbf5d8fd3")
 	)
 	(hierarchical_label "SUSCLK"
 		(shape output)
@@ -11841,6 +12534,317 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
+		(at 195.58 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c571000-7731-43a4-8e07-c3c647662de8")
+		(property "Reference" "R248"
+			(at 187.96 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 175.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 175.26 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "0R"
+			(at 196.85 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 175.26 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 175.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 175.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "784e95ea-f649-4683-9aa1-a7c06fab7898")
+		)
+		(pin "2"
+			(uuid "273c56e3-9793-4ab3-9459-9f340ef7db7e")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 713.74 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d34adf2-fecb-4e85-b534-f12afad4e739")
+		(property "Reference" "R190"
+			(at 713.74 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 734.06 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 734.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 734.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 713.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 734.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 720.852 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 713.74 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c064e9f-cd90-4646-99fc-e7a445dba176")
+		)
+		(pin "1"
+			(uuid "a78cde90-0349-4ad1-8b61-08851e070f89")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R190")
 					(unit 1)
 				)
 			)
@@ -12840,182 +13844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 684.53 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "202fabe3-a04f-4d94-befb-c2d12cc34ffc")
-		(property "Reference" "R185"
-			(at 683.26 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 671.83 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 669.29 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 666.75 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 684.53 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 664.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 661.67 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 659.13 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 656.59 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "1k"
-			(at 683.26 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 674.37 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 654.05 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "e7715eed-1628-4632-85bb-3b158a3c001a")
-		)
-		(pin "1"
-			(uuid "b34334fb-ad8e-413e-94fb-23882c55893d")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 754.38 115.57 0)
 		(unit 1)
@@ -13203,8 +14031,8 @@
 		)
 	)
 	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 718.82 93.98 180)
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
+		(at 195.58 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13212,9 +14040,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "27746d72-8049-495b-953a-11e5fa6a3825")
-		(property "Reference" "R189"
-			(at 713.74 92.71 0)
+		(uuid "2946e110-6b1d-4ee6-b73a-fc10b32b7244")
+		(property "Reference" "R246"
+			(at 187.96 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13222,11 +14050,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R_1k_0402"
-			(at 698.5 81.28 0)
+		(property "Value" "R_0R_0402"
+			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13239,7 +14066,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 698.5 78.74 0)
+			(at 175.26 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,8 +14078,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 698.5 76.2 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 175.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13265,7 +14092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 718.82 93.98 0)
+			(at 195.58 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13275,8 +14102,8 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 698.5 73.66 0)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 175.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13288,8 +14115,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 698.5 71.12 0)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13302,7 +14129,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 698.5 68.58 0)
+			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13315,7 +14142,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 698.5 66.04 0)
+			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13327,8 +14154,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "1k"
-			(at 721.36 92.71 0)
+		(property "Val" "0R"
+			(at 196.85 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13336,23 +14163,35 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 698.5 83.82 0)
+		(property "Tolerance" ""
+			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 175.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Public" "False"
-			(at 698.5 63.5 0)
+			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13363,16 +14202,16 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
-			(uuid "5a1ab074-ea17-49cc-ab3b-7fd2a04e4fe6")
-		)
 		(pin "1"
-			(uuid "08decf3a-ba03-4019-8c32-2e61aad6c0a0")
+			(uuid "be49cadc-cc94-497c-83a8-3e85470a617d")
+		)
+		(pin "2"
+			(uuid "0343de94-5b99-4ccf-aa4a-bf71104a442f")
 		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R189")
+					(reference "R246")
 					(unit 1)
 				)
 			)
@@ -13483,182 +14322,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0283")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 678.18 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e5521f2-1355-40ba-a27b-3199570d93e1")
-		(property "Reference" "R184"
-			(at 676.91 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 665.48 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 662.94 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 660.4 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 678.18 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 657.86 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 655.32 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 652.78 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 650.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "1k"
-			(at 676.91 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 668.02 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 647.7 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "f67478b5-700f-45ca-8454-7a23796befa2")
-		)
-		(pin "1"
-			(uuid "bb2fc153-34ff-4e03-9ccf-227523870e0a")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R184")
 					(unit 1)
 				)
 			)
@@ -13914,6 +14577,130 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0291")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 671.83 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35b1dff6-ab0d-43df-82a1-9a4b8027cb9a")
+		(property "Reference" "R198"
+			(at 670.56 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 659.13 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 656.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 654.05 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 671.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 651.51 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 670.56 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 671.83 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "962987dc-4151-4a75-91ee-85b143f33866")
+		)
+		(pin "1"
+			(uuid "35b2e8b4-f0e7-4975-957a-c273ae8acb8e")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R198")
 					(unit 1)
 				)
 			)
@@ -14483,8 +15270,8 @@
 		)
 	)
 	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 718.82 96.52 180)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 806.45 294.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14492,60 +15279,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "38bb5a6c-f12f-49e5-855f-856d127dfcfa")
-		(property "Reference" "R190"
-			(at 713.74 95.25 0)
+		(fields_autoplaced yes)
+		(uuid "37c89dca-a2aa-4e58-b4b5-2afbb68991df")
+		(property "Reference" "J6"
+			(at 807.72 292.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R_1k_0402"
-			(at 698.5 83.82 0)
-			(hide yes)
+		(property "Value" "Conn_01x04_Pin"
+			(at 807.72 294.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 698.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 698.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 718.82 96.52 0)
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
+			(at 806.45 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14555,72 +15314,8 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 698.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 698.5 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 698.5 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 698.5 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "1k"
-			(at 721.36 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 698.5 86.36 0)
+		(property "Datasheet" ""
+			(at 806.45 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14628,11 +15323,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Public" "False"
-			(at 698.5 66.04 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 806.45 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14640,19 +15334,35 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(pin "2"
-			(uuid "cb34ed0f-9343-4343-a40d-e2d7de1757ba")
+		(property "LCSC" "C722763"
+			(at 806.45 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fac82341-f05a-48fa-a6a1-954ffeab253e")
+		)
+		(pin "4"
+			(uuid "68e6ad0c-d1cc-495d-94e8-b70fdc77e03f")
 		)
 		(pin "1"
-			(uuid "05189890-d648-42cc-9fb7-1c47395ba4a0")
+			(uuid "1cbbaf3f-9354-4cd2-99fd-d538ea4baaae")
+		)
+		(pin "2"
+			(uuid "1b88b44e-fa08-42a9-b28a-06e73eaa4814")
 		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R190")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14828,6 +15538,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC" "C242160"
+			(at 769.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15908,8 +16629,7 @@
 	)
 	(symbol
 		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 698.5 92.71 90)
-		(mirror x)
+		(at 684.53 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15917,10 +16637,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49f1daf6-d540-4a9e-8b14-6a0fb3643211")
-		(property "Reference" "R187"
-			(at 701.04 92.71 90)
+		(uuid "478f194e-7742-4c3d-963d-75f057d0bd46")
+		(property "Reference" "R196"
+			(at 683.26 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15932,7 +16651,7 @@
 			)
 		)
 		(property "Value" "R_1k_0402"
-			(at 711.2 113.03 0)
+			(at 671.83 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15945,7 +16664,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 713.74 113.03 0)
+			(at 669.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15958,7 +16677,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 716.28 113.03 0)
+			(at 666.75 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +16690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 698.5 92.71 0)
+			(at 684.53 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15982,46 +16701,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 718.82 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 721.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 723.9 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 726.44 113.03 0)
+			(at 664.21 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16034,7 +16714,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 701.04 95.25 90)
+			(at 683.26 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16045,8 +16725,8 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 708.66 113.03 0)
+		(property "LCSC" "C202394"
+			(at 684.53 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16054,31 +16734,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 728.98 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(pin "2"
-			(uuid "33685f03-b402-4244-8836-27e77c5f2e87")
+			(uuid "0bbcdca7-d3a7-4eb7-afb4-d999692bd03c")
 		)
 		(pin "1"
-			(uuid "16743724-7f34-43f7-b7b1-22e9f6fd982b")
+			(uuid "6d2a31b7-f9af-41b4-bc35-5f632a27385b")
 		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R187")
+					(reference "R196")
 					(unit 1)
 				)
 			)
@@ -16386,182 +17053,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 665.48 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5157d2ff-87f2-4381-9a2b-09408e9ea215")
-		(property "Reference" "R182"
-			(at 664.21 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 652.78 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 650.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 647.7 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 665.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 645.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 642.62 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 640.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 637.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "1k"
-			(at 664.21 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 655.32 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 635 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "741f7286-b3a1-4a00-a599-f3568fff23ad")
-		)
-		(pin "1"
-			(uuid "8ca80acb-671d-440f-9128-39b54fc9d3c8")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R182")
 					(unit 1)
 				)
 			)
@@ -18255,6 +18746,130 @@
 		)
 	)
 	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 698.5 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cde8b39-9aff-4fb8-a2f2-27ddbdf3e217")
+		(property "Reference" "R187"
+			(at 697.23 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 685.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 683.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 680.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 698.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 678.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 697.23 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 698.5 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6713eaa0-62cd-434b-b5f3-54df19b8adf6")
+		)
+		(pin "1"
+			(uuid "a0446959-674e-4f61-9726-ca5de2e93dc7")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 656.59 49.53 0)
 		(unit 1)
@@ -18359,6 +18974,84 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 779.78 293.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e5752c-b7ed-4114-8c74-03d9e1127343")
+		(property "Reference" "#PWR0131"
+			(at 779.78 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 779.78 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 779.78 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 779.78 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 779.78 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99737e79-6f4f-4c7a-9dd6-5d4e9acd8c0f")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -18856,6 +19549,88 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 303.53 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb721a1-4666-45f6-8c02-9f06e4b0444a")
+		(property "Reference" "J7"
+			(at 304.8 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 304.8 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 303.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45a8ac8f-001b-48ba-bf6a-5dda5e361e34")
+		)
+		(pin "2"
+			(uuid "66a33a2b-6ef2-42e1-8537-d1369eaf139c")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -19580,6 +20355,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC" "C242160"
+			(at 769.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20637,6 +21423,130 @@
 		)
 	)
 	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 665.48 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae600ed2-7a7b-433a-93be-d3804d3eb0a4")
+		(property "Reference" "R199"
+			(at 664.21 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 652.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 650.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 647.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 665.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 645.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 664.21 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 665.48 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6289e58f-78d5-4dfb-9094-d4e074a9f357")
+		)
+		(pin "1"
+			(uuid "9d3dd111-4b89-442c-ab13-9e5eeccb9819")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 744.22 247.65 90)
 		(unit 1)
@@ -21252,45 +22162,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 668.02 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 665.48 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 662.94 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Val" "1k"
 			(at 689.61 105.41 90)
 			(show_name no)
@@ -21303,8 +22174,8 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 680.72 123.19 0)
+		(property "LCSC" "C202394"
+			(at 690.88 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21312,19 +22183,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 660.4 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(pin "2"
@@ -22025,6 +22883,116 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 774.7 289.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c26c31f7-d915-4172-93c4-7a6048608704")
+		(property "Reference" "#PWR0297"
+			(at 783.59 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 774.7 293.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 783.59 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 783.59 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 774.7 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 783.59 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 783.59 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ff23be54-1408-4cd6-a27a-e16f64cb8c12")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "#PWR0297")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 711.2 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -22573,7 +23541,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 793.75 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22631,9 +23599,6 @@
 		)
 		(pin "15"
 			(uuid "f454c77e-050f-4f08-b21f-4a15556a0ca0")
-		)
-		(pin "MP"
-			(uuid "fca5efb4-65f1-4492-9112-d2d6779ce727")
 		)
 		(instances
 			(project "PC_ExtensionBoard"
@@ -22839,94 +23804,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 302.26 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c90191f0-f265-477e-b8b7-b19a9f325c0e")
-		(property "Reference" "J2"
-			(at 303.53 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 303.53 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical"
-			(at 302.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 302.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "dee1bdc9-1222-4214-8e23-09a0761f5e5b")
-		)
-		(pin "4"
-			(uuid "b0449bb8-3fbf-408c-827f-94d273a81902")
-		)
-		(pin "1"
-			(uuid "03424a4a-7ee9-494f-a4f0-cb3aafe556c7")
-		)
-		(pin "2"
-			(uuid "fc897b5d-93b9-473a-a4a8-410211f9c3f6")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -23564,6 +24441,130 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0289")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 718.82 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1873e37-d923-4311-91d5-3a34a5e1dadf")
+		(property "Reference" "R189"
+			(at 709.168 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 698.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 698.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 698.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 718.82 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 698.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 718.566 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 718.82 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28f90f98-2648-4aef-9d83-3382c25e83a7")
+		)
+		(pin "1"
+			(uuid "36fd4ba1-2338-4c22-b10b-ca1887b34f11")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R189")
 					(unit 1)
 				)
 			)
@@ -24241,6 +25242,130 @@
 		)
 	)
 	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
+		(at 678.18 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de72f83a-272c-47d4-801f-9b429670263d")
+		(property "Reference" "R197"
+			(at 676.91 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 665.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 662.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 660.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 657.86 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1k"
+			(at 676.91 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C202394"
+			(at 678.18 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da4096ee-0a10-4230-80ae-5aa3b39bfa2c")
+		)
+		(pin "1"
+			(uuid "d836dd3f-02cd-4a2c-be16-d8a5bd85771c")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 656.59 57.15 0)
 		(unit 1)
@@ -24565,8 +25690,8 @@
 		)
 	)
 	(symbol
-		(lib_id "A_PC_ExtensionBoard:R_1k_0402")
-		(at 671.83 102.87 270)
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
+		(at 195.58 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24574,9 +25699,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9356ad3-f4ed-43de-962e-459cd0d21d47")
-		(property "Reference" "R183"
-			(at 670.56 102.87 90)
+		(uuid "eb757bd9-9b72-41de-b53c-f28ecaa5b3e2")
+		(property "Reference" "R247"
+			(at 187.96 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24584,11 +25709,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_1k_0402"
-			(at 659.13 123.19 0)
+		(property "Value" "R_0R_0402"
+			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24601,7 +25725,7 @@
 			)
 		)
 		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
-			(at 656.59 123.19 0)
+			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24613,8 +25737,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 654.05 123.19 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 175.26 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24627,7 +25751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 671.83 102.87 0)
+			(at 195.58 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24637,8 +25761,8 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 651.51 123.19 0)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 175.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24650,8 +25774,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 648.97 123.19 0)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24664,7 +25788,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 646.43 123.19 0)
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24677,7 +25801,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 643.89 123.19 0)
+			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24689,8 +25813,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "1k"
-			(at 670.56 105.41 90)
+		(property "Val" "0R"
+			(at 196.85 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24698,23 +25822,35 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 661.67 123.19 0)
+		(property "Tolerance" ""
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Public" "False"
-			(at 641.35 123.19 0)
+			(at 175.26 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24725,16 +25861,16 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
-			(uuid "bc0bf371-6a87-41a5-ad8d-f87ad281598b")
-		)
 		(pin "1"
-			(uuid "e02f69e0-52b0-44bb-8a2a-48a9f417579b")
+			(uuid "f1c6758d-19ab-413d-984b-cdc0a6b522b0")
+		)
+		(pin "2"
+			(uuid "6fd575c2-0a7a-4444-9372-ed3b9ccaea78")
 		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "R183")
+					(reference "R247")
 					(unit 1)
 				)
 			)
@@ -25161,7 +26297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PC_ExtensionBoard:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property "Footprint" "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
 			(at 209.55 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -25185,6 +26321,17 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 256KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 60 GPIO, LQFP64"
+			(at 234.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3034735"
 			(at 234.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25568,6 +26715,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C242160"
+			(at 769.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4138d23e-e196-48fa-a6e9-657de3e8f191")
 		)
@@ -25821,6 +26979,193 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
+		(at 195.58 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa283c6a-d1f6-4b43-8cd5-c02ab76336f0")
+		(property "Reference" "R249"
+			(at 187.96 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 175.26 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 175.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 175.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "0R"
+			(at 196.85 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 175.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4753763a-8334-4168-9d2d-0a22185b4d11")
+		)
+		(pin "2"
+			(uuid "6c4c0894-9d50-44ff-a418-8bb27eac7519")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
+					(reference "R249")
 					(unit 1)
 				)
 			)
