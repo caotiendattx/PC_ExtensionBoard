@@ -12,8 +12,24 @@
 		(uuid "cdbcba3e-cb6a-4a81-a3ea-34de8e593aa9")
 	)
 	(no_connect
+		(at 255.27 223.52)
+		(uuid "00725740-95d5-424d-a405-37614315206b")
+	)
+	(no_connect
 		(at 381 228.6)
 		(uuid "1927f975-68a0-4e30-8ea9-314850e5fdd0")
+	)
+	(no_connect
+		(at 95.25 196.85)
+		(uuid "3ace26a2-fc0b-4498-8637-5195ac5bef8d")
+	)
+	(no_connect
+		(at 264.16 241.3)
+		(uuid "404592a3-4c13-4349-9c92-e9fb7c366fde")
+	)
+	(no_connect
+		(at 222.25 322.58)
+		(uuid "40f8e053-d647-432f-8063-202a479b1765")
 	)
 	(no_connect
 		(at 383.54 228.6)
@@ -24,8 +40,36 @@
 		(uuid "7d7a7a61-e27e-4798-b687-3220e4ce7eca")
 	)
 	(no_connect
+		(at 261.62 241.3)
+		(uuid "87467dc2-b1f9-41d2-ae08-8152edb98d41")
+	)
+	(no_connect
+		(at 266.7 241.3)
+		(uuid "91eb5d84-7156-42eb-aee0-60e5614a35c4")
+	)
+	(no_connect
+		(at 251.46 241.3)
+		(uuid "94a6b8b8-3f8d-4f82-86bf-6c68b29ccf1c")
+	)
+	(no_connect
+		(at 270.51 334.01)
+		(uuid "96b3d251-5d58-4435-95bf-861f40e7770e")
+	)
+	(no_connect
 		(at 355.6 180.34)
 		(uuid "9fc90fbc-0ca4-4b68-a3da-ec5b921fee0c")
+	)
+	(no_connect
+		(at 224.79 322.58)
+		(uuid "ae1e403c-f087-4986-aff9-3f97f859e21f")
+	)
+	(no_connect
+		(at 265.43 334.01)
+		(uuid "b1c391e1-1b25-46c2-b4f6-b304edc0af14")
+	)
+	(no_connect
+		(at 340.36 284.48)
+		(uuid "b4d411fb-e5ad-4715-ab39-3474c913a1a4")
 	)
 	(no_connect
 		(at 438.15 187.96)
@@ -36,12 +80,24 @@
 		(uuid "c38eebc6-a7ed-4e04-822b-ad33a8cf190b")
 	)
 	(no_connect
+		(at 251.46 223.52)
+		(uuid "c785a421-63f8-4b15-b780-bfb3512ac766")
+	)
+	(no_connect
 		(at 358.14 180.34)
 		(uuid "c7cfe2d0-ae21-47f6-a53c-f776c798e357")
 	)
 	(no_connect
+		(at 259.08 241.3)
+		(uuid "ccc51e14-5b64-4159-b593-79ef54decb53")
+	)
+	(no_connect
 		(at 368.3 180.34)
 		(uuid "cec328b2-22d0-4ebc-bf79-af412bbf7383")
+	)
+	(no_connect
+		(at 340.36 276.86)
+		(uuid "d3f15178-b8be-422a-be3a-9bbd3735e210")
 	)
 	(no_connect
 		(at 375.92 228.6)
@@ -98,6 +154,16 @@
 		)
 		(uuid "096ab0f2-9e94-4d6d-a4e9-af0e483af305")
 	)
+	(wire
+		(pts
+			(xy 295.91 227.33) (xy 295.91 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af4edeb-2d62-489c-b51c-e0ee8607aca1")
+	)
 	(bus
 		(pts
 			(xy 323.85 234.95) (xy 309.88 234.95)
@@ -127,6 +193,16 @@
 			(type default)
 		)
 		(uuid "1015583f-5d93-49c8-9cda-8309626e104c")
+	)
+	(wire
+		(pts
+			(xy 295.91 227.33) (xy 316.23 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f724a4-4ea1-4976-a290-711699d8f89e")
 	)
 	(bus
 		(pts
@@ -160,13 +236,13 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 241.3) (xy 226.06 223.52)
+			(xy 312.42 261.62) (xy 326.39 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2033b581-7ca5-43fb-8922-9cb8c8e04f30")
+		(uuid "1bf21510-fb15-4c72-8bb9-f6ae0da4620d")
 	)
 	(bus
 		(pts
@@ -227,6 +303,16 @@
 			(type default)
 		)
 		(uuid "28d33e00-d613-4ad5-b579-1da8ecac2ebe")
+	)
+	(wire
+		(pts
+			(xy 226.06 223.52) (xy 226.06 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d492e2c-1410-41d4-b0d9-306c5bdb8e8a")
 	)
 	(bus
 		(pts
@@ -320,13 +406,13 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 241.3) (xy 228.6 223.52)
+			(xy 326.39 237.49) (xy 372.11 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f3ad2ed-1ccc-459d-b285-0a7e457f943e")
+		(uuid "3e1defb8-c65f-4095-b0d6-fe08a0276605")
 	)
 	(wire
 		(pts
@@ -367,6 +453,16 @@
 			(type default)
 		)
 		(uuid "45454db2-2f9f-46eb-99f5-2cd638ef1ed4")
+	)
+	(wire
+		(pts
+			(xy 341.63 217.17) (xy 316.23 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fcdb75-9773-4b3e-afa9-e7309ccfc90d")
 	)
 	(bus
 		(pts
@@ -629,6 +725,16 @@
 		)
 		(uuid "8499a3d0-6ba7-43ed-86a2-3c73218c6c23")
 	)
+	(wire
+		(pts
+			(xy 316.23 217.17) (xy 316.23 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b16b68f-d58a-43e7-a1a1-0b753efe6bc0")
+	)
 	(bus
 		(pts
 			(xy 185.42 265.43) (xy 204.47 265.43)
@@ -711,6 +817,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 223.52) (xy 228.6 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85bae3f-1b61-40df-a7c9-c5f08ddf16c5")
+	)
+	(wire
+		(pts
 			(xy 97.79 257.81) (xy 48.26 257.81)
 		)
 		(stroke
@@ -749,6 +865,16 @@
 		)
 		(uuid "ae62a627-2642-4d7a-b61c-f51a95ff3117")
 	)
+	(bus
+		(pts
+			(xy 326.39 261.62) (xy 326.39 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ee3bf-63b9-41c7-94df-9ed3429bd280")
+	)
 	(wire
 		(pts
 			(xy 196.85 245.11) (xy 196.85 229.87)
@@ -758,6 +884,16 @@
 			(type default)
 		)
 		(uuid "b872d3cb-d0b6-42e1-920a-6308a7ea8d88")
+	)
+	(wire
+		(pts
+			(xy 246.38 223.52) (xy 246.38 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baafd541-68bb-4149-aa69-b46e1354be0d")
 	)
 	(wire
 		(pts
@@ -881,6 +1017,16 @@
 	)
 	(bus
 		(pts
+			(xy 372.11 237.49) (xy 372.11 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c3d2f0-35c7-4943-a344-e8c73bfd5b38")
+	)
+	(bus
+		(pts
 			(xy 185.42 283.21) (xy 204.47 283.21)
 		)
 		(stroke
@@ -888,6 +1034,16 @@
 			(type default)
 		)
 		(uuid "d900033d-c6a7-4604-b6cd-83e4ed783b8d")
+	)
+	(wire
+		(pts
+			(xy 312.42 292.1) (xy 340.36 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3d928f-26bb-4c6a-9416-666272478f77")
 	)
 	(bus
 		(pts
@@ -1304,7 +1460,7 @@
 			)
 		)
 		(pin "~{PWR_LED}{slash}~{PSON}" input
-			(at 95.25 199.39 180)
+			(at 95.25 196.85 180)
 			(uuid "7957c064-7ed5-46fc-8216-318bb7a9974f")
 			(effects
 				(font
@@ -1569,7 +1725,7 @@
 			)
 		)
 		(pin "USB6{USB}" output
-			(at 292.1 241.3 90)
+			(at 266.7 241.3 90)
 			(uuid "22b06b1d-a0ea-4310-af06-8cb0b3b6904a")
 			(effects
 				(font
@@ -1709,13 +1865,13 @@
 			)
 		)
 		(pin "SATA0{SATA}" output
-			(at 261.62 322.58 270)
+			(at 312.42 261.62 0)
 			(uuid "49f6cbc4-96c7-478f-8ea1-939521abad5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DDI1_AUX_SEL" input
@@ -1739,7 +1895,7 @@
 			)
 		)
 		(pin "LID" input
-			(at 275.59 241.3 90)
+			(at 251.46 241.3 90)
 			(uuid "80c79b0a-9760-473f-a968-4084fa60f6a6")
 			(effects
 				(font
@@ -1759,7 +1915,7 @@
 			)
 		)
 		(pin "SMB{SMBUS_I2C}" output
-			(at 283.21 241.3 90)
+			(at 264.16 241.3 90)
 			(uuid "fdf1336e-dc6c-4880-99b9-1dae3d50fc35")
 			(effects
 				(font
@@ -1809,8 +1965,38 @@
 			)
 		)
 		(pin "GPIO{GPIO_CON}" output
-			(at 267.97 241.3 90)
+			(at 261.62 241.3 90)
 			(uuid "a601ddf4-ef64-4a79-9b39-fdf1ac4e9fc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_OK" input
+			(at 246.38 241.3 90)
+			(uuid "df80b70f-2e1d-4831-ad5e-dc9174891ec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE1-4_SATA_PCIE" input
+			(at 312.42 292.1 0)
+			(uuid "46dad6e5-5244-4ddc-9508-6c46254b6c1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SATA0-1_SATA_PCIE" input
+			(at 295.91 241.3 90)
+			(uuid "0eaa01df-165d-4c97-acb2-523b69665aa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,36 +2048,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "LED_B" input
-			(at 341.63 199.39 180)
-			(uuid "9f63905a-8460-498c-9ae2-a18d184e08c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_G" input
-			(at 341.63 201.93 180)
-			(uuid "3c675660-3a38-42de-a3fa-80b696c744d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_R" input
-			(at 341.63 204.47 180)
-			(uuid "dae172e7-52c9-482e-a0a7-36f8c209d0e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PCIE_{REF0}{PCIe_{REF}}" output
@@ -2025,7 +2181,7 @@
 			)
 		)
 		(pin "SATA0{SATA}" output
-			(at 341.63 215.9 180)
+			(at 372.11 228.6 270)
 			(uuid "058705ee-984a-452b-8df8-e8126001cd38")
 			(effects
 				(font
@@ -2147,6 +2303,16 @@
 		(pin "FAN{FAN_CON}" output
 			(at 341.63 219.71 180)
 			(uuid "10542c30-e835-4aa0-b6fd-c13d9dbe934b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SATA0-1_SATA_PCIE" input
+			(at 341.63 217.17 180)
+			(uuid "d7ddc69f-984c-4cff-be1e-027651723263")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2473,7 @@
 			)
 		)
 		(pin "PSON" input
-			(at 248.92 223.52 270)
+			(at 251.46 223.52 270)
 			(uuid "b9c8d1d8-dc89-4935-b4e0-8b8d803db34f")
 			(effects
 				(font
@@ -2317,7 +2483,7 @@
 			)
 		)
 		(pin "PWR_OK" output
-			(at 251.46 223.52 270)
+			(at 246.38 223.52 270)
 			(uuid "36f9b64b-2023-42df-8f1e-151312f66b0d")
 			(effects
 				(font
@@ -2327,7 +2493,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 264.16 223.52 270)
+			(at 255.27 223.52 270)
 			(uuid "3f11a56f-bc77-404a-8c73-55b5fd686206")
 			(effects
 				(font
@@ -2485,6 +2651,16 @@
 		(pin "~{PERST}" input
 			(at 340.36 284.48 180)
 			(uuid "08b917d6-5957-4f9e-bdbd-3dd4a9c0f63c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE1-4_SATA_PCIE" output
+			(at 340.36 292.1 180)
+			(uuid "3a8a4125-3ed7-494b-a025-9a25780e73af")
 			(effects
 				(font
 					(size 1.27 1.27)

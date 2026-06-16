@@ -9358,6 +9358,10 @@
 		(uuid "54622f21-216b-411d-b148-01dd5f60b59e")
 	)
 	(no_connect
+		(at 265.43 328.93)
+		(uuid "55bcd395-8398-4c6d-87bb-92ff2d20a108")
+	)
+	(no_connect
 		(at 421.64 256.54)
 		(uuid "56b85c0f-f9cd-489f-80c8-7d1ce82aebaa")
 	)
@@ -9440,10 +9444,6 @@
 	(no_connect
 		(at 472.44 195.58)
 		(uuid "83289c70-bfc0-4cb9-b59a-4ad6fad911f3")
-	)
-	(no_connect
-		(at 67.31 105.41)
-		(uuid "83c143a3-08d7-42d1-b308-60220ab50bb2")
 	)
 	(no_connect
 		(at 214.63 139.7)
@@ -9698,10 +9698,6 @@
 		(uuid "bc61acc4-6ec0-4503-80cc-9774a6e0055f")
 	)
 	(no_connect
-		(at 265.43 321.31)
-		(uuid "bc682ffd-8008-4e27-8acf-f8e80a8e6093")
-	)
-	(no_connect
 		(at 472.44 143.51)
 		(uuid "bf8ce798-3dba-47af-a13a-a25e700c04b2")
 	)
@@ -9824,10 +9820,6 @@
 	(no_connect
 		(at 472.44 31.75)
 		(uuid "e97a7c35-36e4-407a-9952-f17b601e8451")
-	)
-	(no_connect
-		(at 265.43 250.19)
-		(uuid "e99e434c-b6e1-45fa-89c0-d0f7e153491e")
 	)
 	(no_connect
 		(at 472.44 292.1)
@@ -12523,6 +12515,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 250.19) (xy 270.51 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89956f02-5409-414d-9144-1d39a84861e4")
+	)
+	(wire
+		(pts
 			(xy 118.11 153.67) (xy 118.11 156.21)
 		)
 		(stroke
@@ -12590,6 +12592,16 @@
 			(type default)
 		)
 		(uuid "8ff7eb8c-6a15-417a-b0a7-2130dd753c88")
+	)
+	(wire
+		(pts
+			(xy 265.43 321.31) (xy 267.97 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d4ce87-785e-490b-9b8d-1b31e926e5a3")
 	)
 	(wire
 		(pts
@@ -13300,6 +13312,16 @@
 			(type default)
 		)
 		(uuid "c4bbcbb5-d4ee-4ff7-85f6-6bedb4687e56")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5beb826-dd2b-4b28-bc1a-85156ebac2d9")
 	)
 	(wire
 		(pts
@@ -15094,6 +15116,17 @@
 		)
 		(uuid "2dd7e2dc-37a2-4672-924c-f333ccf3617d")
 	)
+	(hierarchical_label "SATA0-1_SATA_PCIE"
+		(shape input)
+		(at 270.51 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "395eae4e-6169-4b15-a0c3-7e2696e6ce09")
+	)
 	(hierarchical_label "USB3{USB}"
 		(shape output)
 		(at 46.99 269.24 180)
@@ -15314,6 +15347,17 @@
 		)
 		(uuid "b9082370-088c-40ae-a48c-fb63c62873d5")
 	)
+	(hierarchical_label "PWR_OK"
+		(shape input)
+		(at 63.5 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf2c1bcf-cee3-4168-b8c7-1ee7c267992a")
+	)
 	(hierarchical_label "DDI1{DDI}"
 		(shape input)
 		(at 189.23 50.8 180)
@@ -15346,6 +15390,17 @@
 			(justify right)
 		)
 		(uuid "d65d06ed-e6e8-44e8-baea-95b041beff0c")
+	)
+	(hierarchical_label "PCIE1-4_SATA_PCIE"
+		(shape input)
+		(at 267.97 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7c28b13-b5a5-4a3a-94be-60579e5c2b0c")
 	)
 	(hierarchical_label "DDI2{DDI}"
 		(shape input)

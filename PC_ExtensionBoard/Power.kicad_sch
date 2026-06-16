@@ -15343,6 +15343,12 @@
 		(uuid "67f9d7bc-9433-4ec9-9588-f66e295327d0")
 	)
 	(junction
+		(at 382.27 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f322331-4b44-4d06-b1c3-91f76728b6d2")
+	)
+	(junction
 		(at 281.94 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15509,12 +15515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d995b577-01da-4838-8c6d-dc5bc2a4b441")
-	)
-	(junction
-		(at 382.27 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db5918a4-effc-4c16-8afb-285b7296b6f4")
 	)
 	(junction
 		(at 353.06 55.88)
@@ -15855,16 +15855,6 @@
 			(type default)
 		)
 		(uuid "0f697876-aef9-476b-b494-7c17b6bb5125")
-	)
-	(wire
-		(pts
-			(xy 386.08 143.51) (xy 382.27 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7cecd7-e1a1-4cd0-97bd-bdbfb49c0675")
 	)
 	(wire
 		(pts
@@ -17861,6 +17851,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 138.43) (xy 382.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0502b5-d591-44d2-af94-2654df9795ed")
+	)
+	(wire
+		(pts
 			(xy 370.84 55.88) (xy 370.84 76.2)
 		)
 		(stroke
@@ -18158,6 +18158,16 @@
 			(type default)
 		)
 		(uuid "c1a04cf0-dfb7-4ad3-9820-5367c13a7f39")
+	)
+	(wire
+		(pts
+			(xy 382.27 135.89) (xy 383.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3025f36-74ca-461f-9b05-15171d147d0d")
 	)
 	(wire
 		(pts
@@ -19734,7 +19744,7 @@
 	)
 	(hierarchical_label "PWR_OK"
 		(shape output)
-		(at 386.08 143.51 0)
+		(at 383.54 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28220,6 +28230,193 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A_PC_ExtensionBoard:R_0R_0402")
+		(at 382.27 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "613fb2ee-e0ea-4334-a82c-979367e370bc")
+		(property "Reference" "R103"
+			(at 378.968 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 394.97 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PC_Components_1:R_0402_1005Metric"
+			(at 397.51 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 400.05 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 402.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 405.13 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 407.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 410.21 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "0R"
+			(at 379.222 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 392.43 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 412.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 412.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f8708eae-e9b6-40bd-9158-8508342a7a28")
+		)
+		(pin "1"
+			(uuid "7e216e7b-a553-4513-8ddc-0f3d4ebaac9a")
+		)
+		(instances
+			(project "PC_ExtensionBoard"
+				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/d5783b1a-f6ab-498c-a6d2-017d56dd6434"
+					(reference "R103")
 					(unit 1)
 				)
 			)
