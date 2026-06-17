@@ -4458,7 +4458,7 @@
 	)
 	(bus
 		(pts
-			(xy 43.18 50.8) (xy 43.18 71.12)
+			(xy 43.18 68.58) (xy 43.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4568,7 +4568,7 @@
 	)
 	(bus
 		(pts
-			(xy 41.91 49.53) (xy 43.18 50.8)
+			(xy 41.91 67.31) (xy 43.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4588,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 49.53) (xy 41.91 49.53)
+			(xy 36.83 67.31) (xy 41.91 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4903,7 +4903,7 @@
 	)
 	(hierarchical_label "PCIe_{x1}{PCIe}"
 		(shape input)
-		(at 36.83 49.53 180)
+		(at 36.83 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)

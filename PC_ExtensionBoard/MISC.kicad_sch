@@ -9085,6 +9085,10 @@
 		(uuid "258eb2c1-88da-4cb5-b21c-0839ab5f89fc")
 	)
 	(no_connect
+		(at 753.11 96.52)
+		(uuid "300b5d00-5524-4580-8db8-25fe3f005674")
+	)
+	(no_connect
 		(at 262.89 123.19)
 		(uuid "300d2ff4-f694-4029-8a7c-6f2746fb056e")
 	)
@@ -9189,10 +9193,6 @@
 		(uuid "b61a42b0-87a6-43ea-8874-1338cbbfd774")
 	)
 	(no_connect
-		(at 207.01 72.39)
-		(uuid "bd0493b7-1890-4f2d-a2a5-77634fddc130")
-	)
-	(no_connect
 		(at 262.89 85.09)
 		(uuid "c178e56e-9475-41b0-b40a-5fea2636989a")
 	)
@@ -9211,6 +9211,10 @@
 	(no_connect
 		(at 207.01 107.95)
 		(uuid "da806e01-0e3a-4e4a-9f26-d1d9cdd857b8")
+	)
+	(no_connect
+		(at 753.11 99.06)
+		(uuid "dce89e6a-6fd9-4bcd-865a-6b8388b5dc71")
 	)
 	(no_connect
 		(at 753.11 88.9)
@@ -9634,16 +9638,6 @@
 	)
 	(wire
 		(pts
-			(xy 753.11 96.52) (xy 762 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1802ecfc-2d37-4b8b-92f5-f066595b4c0c")
-	)
-	(wire
-		(pts
 			(xy 788.67 234.95) (xy 778.51 234.95)
 		)
 		(stroke
@@ -9781,6 +9775,16 @@
 			(type default)
 		)
 		(uuid "286eb61a-33f9-4d57-a12a-7fc359bb2b76")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea7ffcb-e78c-41f7-80a3-002c1257bf11")
 	)
 	(wire
 		(pts
@@ -11624,16 +11628,6 @@
 	)
 	(wire
 		(pts
-			(xy 753.11 99.06) (xy 762 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f10c4e03-75cb-493a-be05-42059a39a9d2")
-	)
-	(wire
-		(pts
 			(xy 262.89 80.01) (xy 266.7 80.01)
 		)
 		(stroke
@@ -11952,16 +11946,6 @@
 		)
 		(uuid "811d2cac-fe67-4af8-98f4-120493c5b956")
 	)
-	(label "DIF5+"
-		(at 755.65 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8535e89d-efdd-4913-b691-e81711b8ed44")
-	)
 	(label "SATA0.RX-"
 		(at 741.68 240.03 180)
 		(effects
@@ -12032,6 +12016,16 @@
 		)
 		(uuid "c8bfc7ee-11e7-44b2-a7ea-651e87b09966")
 	)
+	(label "~{PWR_OK}"
+		(at 191.77 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c999a922-ed5c-44a4-a222-a1d366cf2273")
+	)
 	(label "SATA0.RX+"
 		(at 741.68 237.49 180)
 		(effects
@@ -12041,16 +12035,6 @@
 			(justify right bottom)
 		)
 		(uuid "cadc86dd-3521-4be2-9b13-c3e1f2166cd8")
-	)
-	(label "DIF5-"
-		(at 755.65 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb9e270c-4835-440f-90f0-6973a8c18ba9")
 	)
 	(label "SATA0.TX-"
 		(at 741.68 234.95 180)
@@ -13163,10 +13147,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0c571000-7731-43a4-8e07-c3c647662de8")
 		(property "Reference" "R248"
 			(at 187.96 116.84 0)
@@ -13584,10 +13568,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "13fab277-bfe7-4648-8366-aa38cb685a41")
 		(property "Reference" "R245"
 			(at 187.96 88.9 0)
@@ -14654,10 +14638,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "2946e110-6b1d-4ee6-b73a-fc10b32b7244")
 		(property "Reference" "R246"
 			(at 187.96 111.76 0)
@@ -15330,10 +15314,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "3681621a-a281-4d4d-a0c3-91114fd002d8")
 		(property "Reference" "R244"
 			(at 187.96 91.44 0)
@@ -18623,155 +18607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "A_PC_ExtensionBoard:TP_0.75mm_SMD")
-		(at 762 99.06 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6940506f-21ac-4c69-82e9-29929e472dc9")
-		(property "Reference" "TP48"
-			(at 768.35 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 772.795 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
-			(at 772.795 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 779.78 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 762 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 772.795 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 772.795 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 772.795 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 772.795 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 772.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "87bc6dff-669f-4484-bbde-1f153f371879")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "TP48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A_PC_ExtensionBoard:C_22u_16V_0603")
 		(at 246.38 24.13 270)
 		(unit 1)
@@ -18955,155 +18790,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "C111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "A_PC_ExtensionBoard:TP_0.75mm_SMD")
-		(at 762 96.52 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a4fdc21-9911-4c2d-a1a0-fe3da3694274")
-		(property "Reference" "TP47"
-			(at 768.35 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 772.795 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PC_Components_1:TP_SMD_0.75mm"
-			(at 772.795 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 779.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 762 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 772.795 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 772.795 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 772.795 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 772.795 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 772.16 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "66b11915-4eb2-4000-bb6d-7790224ab746")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -20070,10 +19756,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "8069b367-01b4-46fd-add2-2db5dae2c192")
 		(property "Reference" "R243"
 			(at 187.96 93.98 0)
@@ -20395,7 +20081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20779,10 +20465,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "96469f8d-213b-4dd1-8196-2891bbeff052")
 		(property "Reference" "R239"
 			(at 187.96 104.14 0)
@@ -24096,10 +23782,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "c6f9ed00-1cd3-46a1-84fe-9e30de6108c2")
 		(property "Reference" "R240"
 			(at 187.96 101.6 0)
@@ -24963,10 +24649,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ca91f5d9-0a7d-4d8b-b891-856872149092")
 		(property "Reference" "R242"
 			(at 187.96 96.52 0)
@@ -25150,10 +24836,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "cad1aec5-d490-4215-9d13-5b1376b9a79d")
 		(property "Reference" "R238"
 			(at 187.96 106.68 0)
@@ -26687,10 +26373,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "eb757bd9-9b72-41de-b53c-f28ecaa5b3e2")
 		(property "Reference" "R247"
 			(at 187.96 114.3 0)
@@ -26874,10 +26560,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "eb7d89d4-2ace-413f-b666-2340793e00f8")
 		(property "Reference" "R241"
 			(at 187.96 99.06 0)
@@ -27982,10 +27668,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "fa283c6a-d1f6-4b43-8cd5-c02ab76336f0")
 		(property "Reference" "R249"
 			(at 187.96 119.38 0)

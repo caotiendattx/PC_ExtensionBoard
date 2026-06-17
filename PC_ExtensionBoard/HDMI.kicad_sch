@@ -18,7 +18,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D8"
+			(property "Reference" "D1"
 				(at -0.3175 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" "A_DFRobot:D_SOD-323"
+			(property "Footprint" "PC_Components_1:D_SOD-323"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at 0 0 0)
+				(at 2.794 -6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -83,7 +83,7 @@
 				)
 			)
 			(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
-				(at 0 0 0)
+				(at 2.54 -5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -94,7 +94,7 @@
 				)
 			)
 			(property "SCH_Show_Footprint" "SOD-323"
-				(at 0 0 0)
+				(at 0.254 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -104,8 +104,8 @@
 					)
 				)
 			)
-			(property "Field-1" ""
-				(at 0 0 0)
+			(property "LCSC" "C191023"
+				(at 0.254 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -152,10 +152,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -164,10 +164,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4245,142 +4245,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -5431,16 +5295,6 @@
 		)
 		(uuid "1916c2f8-61ed-4c9d-af34-c8cf47197de1")
 	)
-	(wire
-		(pts
-			(xy 270.51 203.2) (xy 278.13 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a257d0d-3ad7-4838-978d-53e233eba5a8")
-	)
 	(bus
 		(pts
 			(xy 45.72 264.16) (xy 54.61 264.16)
@@ -5523,16 +5377,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 309.88) (xy 158.75 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af8d0b4-2112-4f75-a720-a37398a056ac")
-	)
-	(wire
-		(pts
 			(xy 137.16 346.71) (xy 123.19 346.71)
 		)
 		(stroke
@@ -5590,16 +5434,6 @@
 			(type default)
 		)
 		(uuid "33356692-b4b7-469c-9935-9f65e73b524b")
-	)
-	(wire
-		(pts
-			(xy 152.4 312.42) (xy 158.75 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a4e449-80de-4242-80f1-f7b1ac0c1544")
 	)
 	(wire
 		(pts
@@ -6650,6 +6484,16 @@
 			(type default)
 		)
 		(uuid "9b997d64-0b9f-4f5a-a7cd-30430a79a6fd")
+	)
+	(wire
+		(pts
+			(xy 156.21 312.42) (xy 152.4 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da991d9-0656-47f0-8e13-0d39272bcbc3")
 	)
 	(wire
 		(pts
@@ -7871,12 +7715,12 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 270.51 203.2 180)
+		(at 156.21 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f7aeec20-fe29-4654-8710-93b1697f428b")
 	)
@@ -8564,10 +8408,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1723fb4e-19e5-4bef-bc76-55f7ab59d04c")
 		(property "Reference" "J1"
@@ -10195,7 +10039,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 148.59 312.42 0)
+			(at 151.384 319.278 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,7 +10072,7 @@
 			)
 		)
 		(property "DF_Comment" "二极管-1N5819W-SOD323备选型号:B5819WS、JSPD140A"
-			(at 148.59 312.42 0)
+			(at 151.13 317.754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10239,7 +10083,7 @@
 			)
 		)
 		(property "SCH_Show_Footprint" "SOD-323"
-			(at 148.59 312.42 0)
+			(at 148.844 319.024 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10250,7 +10094,7 @@
 			)
 		)
 		(property "LCSC" "C191023"
-			(at 148.59 312.42 0)
+			(at 148.844 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13910,84 +13754,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/6483f6bc-b70b-4928-93ba-bd87660c8c1d"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 309.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe7c0c1-d80b-40d6-a7f5-e98028201939")
-		(property "Reference" "#PWR043"
-			(at 158.75 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 158.75 304.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be5de8cf-74a7-4a95-90dc-4befe53a16d8")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/6483f6bc-b70b-4928-93ba-bd87660c8c1d"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
