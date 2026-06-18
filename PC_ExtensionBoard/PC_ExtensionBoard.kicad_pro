@@ -212,7 +212,10 @@
       "track_widths": [
         0.0,
         0.15,
-        0.2
+        0.2,
+        0.3,
+        0.6,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -548,9 +551,9 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.16,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.16,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "name": "HDMI_HS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -574,7 +577,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.18,
         "diff_pair_width": 0.15,
         "name": "USB2_HS",
@@ -587,8 +590,8 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.18,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
         "diff_pair_width": 0.15,
         "name": "USB3_HS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -765,6 +768,10 @@
         "TX3-",
         "RX3+",
         "RX3-"
+      ],
+      "PCIe_{REF}": [
+        "CK+",
+        "CK-"
       ],
       "SATA": [
         "TX+",

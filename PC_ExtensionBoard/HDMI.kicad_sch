@@ -10142,14 +10142,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 81.28 307.34 0)
+		(property "Value" "+3.3V"
+			(at 83.82 311.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10843,14 +10844,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 43.18 280.67 0)
+		(property "Value" "+3.3V"
+			(at 45.72 284.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10921,7 +10923,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 81.28 363.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13905,14 +13907,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.7 165.1 0)
+		(property "Value" "+3.3V"
+			(at 142.24 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

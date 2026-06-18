@@ -2366,26 +2366,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIE_{REF}{PCIe_{REF}}" input
-			(at 306.07 349.25 0)
-			(uuid "0bfd114b-ab2c-48a7-a1a9-5564a306e8c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIe_{x1}{PCIe}" input
-			(at 248.92 334.01 90)
-			(uuid "47788967-4386-4e45-9aee-39ad48902575")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SUSCLK" input
 			(at 306.07 340.36 0)
 			(uuid "e676a25c-45fc-49e2-9935-27ee4e2f8f33")
@@ -2419,6 +2399,26 @@
 		(pin "~{PERST}" input
 			(at 270.51 334.01 90)
 			(uuid "f44706e8-7f4c-4e29-8482-5dd33233484d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIe_{B1x2}{PCIe}" input
+			(at 248.92 334.01 90)
+			(uuid "1cf66f60-dfd0-44e7-a4d0-62544873d340")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_{REF3}{PCIe_{REF}}" input
+			(at 306.07 349.25 0)
+			(uuid "6bd98bf9-a19c-470c-ad48-af74a05f75f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,26 +2608,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIE_{REF}{PCIe_{REF}}" input
-			(at 439.42 260.35 0)
-			(uuid "38616bf8-a9d4-44f3-978c-9af323399d8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIe_{x4}{PCIe}" input
-			(at 340.36 265.43 180)
-			(uuid "948d4181-3a0a-4b68-a5ea-286893ad5677")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SUSCLK" input
 			(at 340.36 269.24 180)
 			(uuid "1e4e5591-1046-4250-bd3f-cf80752fe01b")
@@ -2666,6 +2646,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCIe_{B1x4}{PCIe}" input
+			(at 340.36 265.43 180)
+			(uuid "ee5c55c4-7afd-44c2-b924-5e330ce19a13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_{REF0}{PCIe_{REF}}" input
+			(at 439.42 260.35 0)
+			(uuid "7181ce0f-d58d-4a75-9a44-b0040ee0fb15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
