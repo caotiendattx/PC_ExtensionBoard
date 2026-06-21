@@ -23720,7 +23720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PC_Components_1:CONN-SMD_2P-P2.00_BX-PH2.0-2PWT"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 267.97 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -30116,10 +30116,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "86d1ab23-e2ea-4833-9a12-803db9ceb5e9")
 		(property "Reference" "#PWR0453"
 			(at 297.18 237.49 0)
@@ -36025,7 +36025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PC_Components_1:CONN-SMD_2P-P2.00_BX-PH2.0-2PWT"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 356.87 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -37454,10 +37454,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec336ccb-9b21-450c-83fb-fe1d9bebf97a")
 		(property "Reference" "SW2"

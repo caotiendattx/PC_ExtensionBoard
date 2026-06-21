@@ -18672,7 +18672,7 @@
 	)
 	(wire
 		(pts
-			(xy 796.29 100.33) (xy 800.1 100.33)
+			(xy 796.29 100.33) (xy 792.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -19342,17 +19342,17 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 800.1 100.33 0)
+		(at 792.48 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "07c38d29-ffad-4854-8c9d-9035b505d7e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 805.8444 100.33 0)
+			(at 786.7356 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19360,7 +19360,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
