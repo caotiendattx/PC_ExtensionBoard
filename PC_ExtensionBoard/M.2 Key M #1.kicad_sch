@@ -7915,6 +7915,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C4710843"
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3478ca90-18a1-4d3a-9375-33451e1f0f72")
 		)

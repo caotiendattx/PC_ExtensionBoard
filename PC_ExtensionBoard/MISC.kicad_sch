@@ -16047,17 +16047,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C722763"
-			(at 806.45 294.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "fac82341-f05a-48fa-a6a1-954ffeab253e")
 		)
