@@ -32,6 +32,10 @@
 		(uuid "40f8e053-d647-432f-8063-202a479b1765")
 	)
 	(no_connect
+		(at 204.47 260.35)
+		(uuid "4358d632-aa3f-4908-b3b8-4cf9a4c7372c")
+	)
+	(no_connect
 		(at 383.54 228.6)
 		(uuid "5b219f16-b2e4-40e8-a7fa-83e99485c23f")
 	)
@@ -42,10 +46,6 @@
 	(no_connect
 		(at 261.62 241.3)
 		(uuid "87467dc2-b1f9-41d2-ae08-8152edb98d41")
-	)
-	(no_connect
-		(at 266.7 241.3)
-		(uuid "91eb5d84-7156-42eb-aee0-60e5614a35c4")
 	)
 	(no_connect
 		(at 251.46 241.3)
@@ -76,6 +76,10 @@
 		(uuid "b90a918b-40d8-4e49-97f2-f536d8cce859")
 	)
 	(no_connect
+		(at 204.47 257.81)
+		(uuid "bd6e5be2-b4f3-4623-abd1-c529870770cf")
+	)
+	(no_connect
 		(at 350.52 180.34)
 		(uuid "c38eebc6-a7ed-4e04-822b-ad33a8cf190b")
 	)
@@ -86,10 +90,6 @@
 	(no_connect
 		(at 358.14 180.34)
 		(uuid "c7cfe2d0-ae21-47f6-a53c-f776c798e357")
-	)
-	(no_connect
-		(at 259.08 241.3)
-		(uuid "ccc51e14-5b64-4159-b593-79ef54decb53")
 	)
 	(no_connect
 		(at 368.3 180.34)
@@ -236,7 +236,7 @@
 	)
 	(bus
 		(pts
-			(xy 312.42 261.62) (xy 326.39 261.62)
+			(xy 312.42 265.43) (xy 326.39 265.43)
 		)
 		(stroke
 			(width 0)
@@ -383,16 +383,6 @@
 			(type default)
 		)
 		(uuid "3ac352eb-cb3a-4454-8676-ae71481da78e")
-	)
-	(bus
-		(pts
-			(xy 312.42 265.43) (xy 340.36 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2056f9-93f3-4c5b-b361-a46eed85beda")
 	)
 	(wire
 		(pts
@@ -867,7 +857,7 @@
 	)
 	(bus
 		(pts
-			(xy 326.39 261.62) (xy 326.39 237.49)
+			(xy 326.39 265.43) (xy 326.39 237.49)
 		)
 		(stroke
 			(width 0)
@@ -1164,6 +1154,16 @@
 			(type default)
 		)
 		(uuid "fdcc744f-39a1-4e24-880e-0e0aef8f92b4")
+	)
+	(bus
+		(pts
+			(xy 312.42 273.05) (xy 340.36 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb079c4-91f9-4775-a9dd-33947c9aae0b")
 	)
 	(sheet
 		(at 97.79 245.11)
@@ -1664,26 +1664,6 @@
 				(justify left)
 			)
 		)
-		(pin "PCIe_{B1x2}{PCIe}" output
-			(at 248.92 322.58 270)
-			(uuid "a7c40054-dd69-4264-a74d-88161c2012d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIe_{B1x4}{PCIe}" output
-			(at 312.42 265.43 0)
-			(uuid "3393f938-07e5-46b6-96c7-95f62b3d5d8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_0_1_OC#" output
 			(at 204.47 267.97 180)
 			(uuid "2492d21a-e0aa-44e4-b9b9-9166c1c1548a")
@@ -1694,24 +1674,14 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_{REF}{PCIe_{REF}}" output
-			(at 309.88 241.3 90)
-			(uuid "218de700-088d-4c63-acf5-7d0720330367")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB4{USB}" output
-			(at 259.08 241.3 90)
+			(at 204.47 257.81 180)
 			(uuid "d9f00261-98fb-4434-ae82-2b2ae9ddda67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USB5{USB}" output
@@ -1725,13 +1695,13 @@
 			)
 		)
 		(pin "USB6{USB}" output
-			(at 266.7 241.3 90)
+			(at 204.47 260.35 180)
 			(uuid "22b06b1d-a0ea-4310-af06-8cb0b3b6904a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USB7{USB}" output
@@ -1865,7 +1835,7 @@
 			)
 		)
 		(pin "SATA0{SATA}" output
-			(at 312.42 261.62 0)
+			(at 312.42 265.43 0)
 			(uuid "49f6cbc4-96c7-478f-8ea1-939521abad5d")
 			(effects
 				(font
@@ -2004,6 +1974,36 @@
 				(justify right)
 			)
 		)
+		(pin "PCIe_B1x2{PCIe}" output
+			(at 248.92 322.58 270)
+			(uuid "a0bccb1f-d1a4-46bc-979e-92e6648d5fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_B1x4{PCIe}" output
+			(at 312.42 273.05 0)
+			(uuid "73678df0-300c-42c1-8d74-1992da8bbe32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_REF{PCIe_REF}" output
+			(at 309.88 241.3 90)
+			(uuid "c71674ab-4c63-45bf-8988-813a2870154d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0"
@@ -2048,26 +2048,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "PCIE_{REF0}{PCIe_{REF}}" output
-			(at 438.15 217.17 0)
-			(uuid "dc69a7a4-0372-4330-abe8-0cb57995ad68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_{REFIN}{PCIe_{REF}}" input
-			(at 341.63 224.79 180)
-			(uuid "6e0e0786-326f-4bd3-a938-db888751f8bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "GPIOEX0" output
@@ -2163,16 +2143,6 @@
 		(pin "MCU_I2C2{I2C}" input
 			(at 438.15 187.96 0)
 			(uuid "db87287d-0bcf-4918-889b-a192cdbef32f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_{REF3}{PCIe_{REF}}" output
-			(at 438.15 210.82 0)
-			(uuid "0f8154be-2b86-483e-ac7d-8a4f11bf2ffd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,6 +2290,36 @@
 				(justify left)
 			)
 		)
+		(pin "PCIE_REF3{PCIe_REF}" output
+			(at 438.15 210.82 0)
+			(uuid "e4d1b9dd-bdd3-46df-8e5a-e7d7e4fb757d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_REF0{PCIe_REF}" output
+			(at 438.15 217.17 0)
+			(uuid "da8507d8-0236-4a25-b1b5-81ac228fdf69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_REFIN{PCIe_REF}" input
+			(at 341.63 224.79 180)
+			(uuid "c813a7ec-5583-4073-8d6b-fc13d1cf54e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0"
@@ -2406,9 +2406,9 @@
 				(justify right)
 			)
 		)
-		(pin "PCIe_{B1x2}{PCIe}" input
-			(at 248.92 334.01 90)
-			(uuid "1cf66f60-dfd0-44e7-a4d0-62544873d340")
+		(pin "PCIE_REF3{PCIe_REF}" input
+			(at 306.07 349.25 0)
+			(uuid "53e9bfd7-6a54-49e2-9305-f4cbc56cf66c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,9 +2416,9 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_{REF3}{PCIe_{REF}}" input
-			(at 306.07 349.25 0)
-			(uuid "6bd98bf9-a19c-470c-ad48-af74a05f75f9")
+		(pin "PCIe_B1x2{PCIe}" input
+			(at 248.92 334.01 90)
+			(uuid "f0746ec9-e1b4-4080-842d-2e3c2a9a8402")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,9 +2648,9 @@
 				(justify left)
 			)
 		)
-		(pin "PCIe_{B1x4}{PCIe}" input
-			(at 340.36 265.43 180)
-			(uuid "ee5c55c4-7afd-44c2-b924-5e330ce19a13")
+		(pin "PCIe_B1x4{PCIe}" input
+			(at 340.36 273.05 180)
+			(uuid "895f5f4f-e900-46a4-89bc-b878b1c2e427")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,9 +2658,9 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_{REF0}{PCIe_{REF}}" input
+		(pin "PCIE_REF0{PCIe_REF}" input
 			(at 439.42 260.35 0)
-			(uuid "7181ce0f-d58d-4a75-9a44-b0040ee0fb15")
+			(uuid "6e6b4eab-febf-4848-9aed-29003cba0a63")
 			(effects
 				(font
 					(size 1.27 1.27)

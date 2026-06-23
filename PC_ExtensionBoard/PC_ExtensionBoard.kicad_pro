@@ -624,6 +624,14 @@
       {
         "netclass": "HDMI_HS",
         "pattern": "*TMDS*"
+      },
+      {
+        "netclass": "PCIE_HS",
+        "pattern": "**TX**"
+      },
+      {
+        "netclass": "PCIE_HS",
+        "pattern": "**CK**"
       }
     ]
   },
@@ -769,6 +777,10 @@
         "RX3+",
         "RX3-"
       ],
+      "PCIe_REF": [
+        "CK+",
+        "CK-"
+      ],
       "PCIe_{REF}": [
         "CK+",
         "CK-"
@@ -838,7 +850,7 @@
         "uuid": "6f8c8ec7-fa36-4248-8716-390866a3d0b0"
       }
     ],
-    "used_designators": "D13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -8893,12 +8893,6 @@
 		(uuid "4f8577d1-0fc1-4e41-845b-0eaccd4005bb")
 	)
 	(junction
-		(at 224.79 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508f9290-540b-4dba-b069-b80ee00a6f2c")
-	)
-	(junction
 		(at 788.67 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9245,15 +9239,6 @@
 		(uuid "fb5229c7-19f5-4398-b90d-cc5a13e19315")
 	)
 	(bus_entry
-		(at 778.51 41.91)
-		(size 1.27 -1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1320e33e-2419-42a8-ae27-4f37ae772ba2")
-	)
-	(bus_entry
 		(at 283.21 118.11)
 		(size 2.54 2.54)
 		(stroke
@@ -9369,15 +9354,6 @@
 			(type default)
 		)
 		(uuid "a039b3cd-6786-4af6-8e65-3e6020909018")
-	)
-	(bus_entry
-		(at 778.51 44.45)
-		(size 1.27 -1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a45aa906-f0b1-42c5-8284-f34fa038e1bc")
 	)
 	(bus_entry
 		(at 692.15 76.2)
@@ -9604,19 +9580,9 @@
 		)
 		(uuid "142299f9-3440-4af3-862e-324bf0d4ef78")
 	)
-	(bus
-		(pts
-			(xy 781.05 36.83) (xy 811.53 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "144c33fd-6724-4cb7-bfcb-c1e48f03fddb")
-	)
 	(wire
 		(pts
-			(xy 224.79 34.29) (xy 234.95 34.29)
+			(xy 213.36 34.29) (xy 234.95 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9803,16 +9769,6 @@
 			(type default)
 		)
 		(uuid "286eb61a-33f9-4d57-a12a-7fc359bb2b76")
-	)
-	(bus
-		(pts
-			(xy 779.78 40.64) (xy 779.78 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7f2db6-5f84-47b6-8b18-da9bc6d9657d")
 	)
 	(wire
 		(pts
@@ -10286,16 +10242,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 29.21) (xy 224.79 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624f162c-1e4d-4ff8-ae36-3c7c222c4edb")
-	)
-	(wire
-		(pts
 			(xy 722.63 60.96) (xy 721.36 60.96)
 		)
 		(stroke
@@ -10474,16 +10420,6 @@
 		)
 		(uuid "73792584-01bf-4284-a301-c316bedaaac3")
 	)
-	(wire
-		(pts
-			(xy 760.73 44.45) (xy 778.51 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e3b552-8e55-4ba5-8c2a-dc4b6b064592")
-	)
 	(polyline
 		(pts
 			(xy 623.57 200.66) (xy 829.31 200.66)
@@ -10636,16 +10572,6 @@
 	)
 	(wire
 		(pts
-			(xy 798.83 66.04) (xy 782.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844f8e1b-3e42-463f-80e6-7c780fc7f8b7")
-	)
-	(wire
-		(pts
 			(xy 735.33 186.69) (xy 735.33 187.96)
 		)
 		(stroke
@@ -10693,16 +10619,6 @@
 			(type default)
 		)
 		(uuid "88cf0a31-1d07-459c-b493-486eba398dae")
-	)
-	(wire
-		(pts
-			(xy 760.73 41.91) (xy 778.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89320d80-27f6-4e67-947e-161437e0d76e")
 	)
 	(wire
 		(pts
@@ -10896,6 +10812,16 @@
 	)
 	(wire
 		(pts
+			(xy 782.32 66.04) (xy 798.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1625e8e-c54e-482a-b922-c52528cc7a61")
+	)
+	(wire
+		(pts
 			(xy 195.58 87.63) (xy 207.01 87.63)
 		)
 		(stroke
@@ -11073,16 +10999,6 @@
 			(type default)
 		)
 		(uuid "b5273820-7eed-4f3c-ae27-f578a553d81b")
-	)
-	(bus
-		(pts
-			(xy 779.78 38.1) (xy 781.05 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b601a1eb-52c2-418c-b76e-079964338465")
 	)
 	(wire
 		(pts
@@ -11476,16 +11392,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 34.29) (xy 224.79 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01afd41-ab8d-4556-a09d-82f1c74abe49")
-	)
-	(wire
-		(pts
 			(xy 262.89 118.11) (xy 283.21 118.11)
 		)
 		(stroke
@@ -11854,16 +11760,6 @@
 		)
 		(uuid "ff0c051e-012a-4a81-a4bc-5c91d4974e7b")
 	)
-	(bus
-		(pts
-			(xy 779.78 43.18) (xy 779.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff303863-e0c5-40ed-877e-8a4bf19ca5e0")
-	)
 	(wire
 		(pts
 			(xy 110.49 90.17) (xy 110.49 91.44)
@@ -11894,7 +11790,7 @@
 		)
 		(uuid "0463ffee-c1eb-439a-b713-6d9421efec25")
 	)
-	(label "PCIE_{REFIN}.CK-"
+	(label "PCIE_REFIN.CK-"
 		(at 692.15 76.2 0)
 		(effects
 			(font
@@ -11924,8 +11820,8 @@
 		)
 		(uuid "24f60400-d1b7-4c08-be96-101aff21b8ac")
 	)
-	(label "PCIE_{REF3}.CK-"
-		(at 784.86 68.58 0)
+	(label "PCIE_REF3.CK-"
+		(at 783.59 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11934,8 +11830,8 @@
 		)
 		(uuid "2ea97b54-bfbf-4831-b83e-9dbb156dec74")
 	)
-	(label "PCIE_{REF3}.CK+"
-		(at 784.86 66.04 0)
+	(label "PCIE_REF3.CK+"
+		(at 783.59 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11954,7 +11850,7 @@
 		)
 		(uuid "49c6d800-1c0a-40ee-8a2b-e94d138f5ae8")
 	)
-	(label "PCIE_{REFIN}.CK+"
+	(label "PCIE_REFIN.CK+"
 		(at 692.15 73.66 0)
 		(effects
 			(font
@@ -11994,8 +11890,8 @@
 		)
 		(uuid "72468d2a-f311-421b-b05c-77ce8eb7314f")
 	)
-	(label "PCIE_{REF0}.CK+"
-		(at 784.86 58.42 0)
+	(label "PCIE_REF0.CK+"
+		(at 782.32 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12073,16 +11969,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdcce867-e4b8-4a15-9f88-e1873da8dfe4")
-	)
-	(label "PCIE_{REF0}.CK+"
-		(at 760.73 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be28a3e8-19b3-4892-8137-74f3b81b3a04")
 	)
 	(label "LED_R"
 		(at 38.1 99.06 0)
@@ -12194,18 +12080,8 @@
 		)
 		(uuid "e385c7fd-ea3b-4a62-8caa-3942514fd547")
 	)
-	(label "PCIE_{REF0}.CK-"
-		(at 760.73 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4b2fe87-8848-4aff-88bc-6d5c81769612")
-	)
-	(label "PCIE_{REF0}.CK-"
-		(at 784.86 60.96 0)
+	(label "PCIE_REF0.CK-"
+		(at 782.32 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12386,7 +12262,7 @@
 		)
 		(uuid "85a138c3-9c88-4a3d-995e-1fe1fbc6354e")
 	)
-	(hierarchical_label "PCIE_{REF0}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REF0{PCIe_REF}"
 		(shape output)
 		(at 805.18 59.69 0)
 		(effects
@@ -12396,17 +12272,6 @@
 			(justify left)
 		)
 		(uuid "885cc267-86c7-493e-9790-288b651d2ef6")
-	)
-	(hierarchical_label "PCIE_{REF0}{PCIe_{REF}}"
-		(shape input)
-		(at 811.53 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8cc3343a-f581-44b4-a9b7-fd64b1c3d45e")
 	)
 	(hierarchical_label "GPIOEX6"
 		(shape output)
@@ -12452,7 +12317,7 @@
 		)
 		(uuid "99524d97-a604-4974-8846-8b65ae2df024")
 	)
-	(hierarchical_label "PCIE_{REFIN}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REFIN{PCIe_REF}"
 		(shape input)
 		(at 685.8 74.93 180)
 		(effects
@@ -12529,7 +12394,7 @@
 		)
 		(uuid "d2c512d2-a63b-421e-9fcc-d72e47b3c70c")
 	)
-	(hierarchical_label "PCIE_{REF3}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REF3{PCIe_REF}"
 		(shape output)
 		(at 805.18 67.31 0)
 		(effects
@@ -20030,116 +19895,6 @@
 			(project "PC_ExtensionBoard"
 				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
 					(reference "R243")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 224.79 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83bdf8e2-8028-4e8c-9f07-da017d607e57")
-		(property "Reference" "#PWR0184"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 224.79 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 240.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 240.03 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "3c5ab749-245b-4f59-ba82-ad32f73f3d49")
-		)
-		(instances
-			(project "PC_ExtensionBoard"
-				(path "/6f8c8ec7-fa36-4248-8716-390866a3d0b0/af316c50-2c03-4317-9203-c5b8561360cf"
-					(reference "#PWR0184")
 					(unit 1)
 				)
 			)

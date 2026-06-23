@@ -9374,6 +9374,10 @@
 		(uuid "6347a09a-671f-4c20-8c63-f9acf8d0748b")
 	)
 	(no_connect
+		(at 472.44 317.5)
+		(uuid "63d59e6d-88c4-492b-a0a0-ed40ca5a824a")
+	)
+	(no_connect
 		(at 265.43 316.23)
 		(uuid "646b7562-d8df-4fb5-989a-d3726d009ec4")
 	)
@@ -9444,6 +9448,10 @@
 	(no_connect
 		(at 472.44 195.58)
 		(uuid "83289c70-bfc0-4cb9-b59a-4ad6fad911f3")
+	)
+	(no_connect
+		(at 472.44 320.04)
+		(uuid "840ad5ea-5bcb-4e5b-ae06-3f841d297a22")
 	)
 	(no_connect
 		(at 214.63 139.7)
@@ -9602,6 +9610,10 @@
 		(uuid "aa9bba5b-2216-4d07-8672-8f1d34b0898b")
 	)
 	(no_connect
+		(at 472.44 314.96)
+		(uuid "abd0c89f-5899-4995-bb9e-7b6db8a76075")
+	)
+	(no_connect
 		(at 265.43 306.07)
 		(uuid "ac0bbe4a-4e8a-4401-adb2-b3677d4d14bd")
 	)
@@ -9724,6 +9736,10 @@
 	(no_connect
 		(at 421.64 31.75)
 		(uuid "c7b1aa7e-3b8b-4388-aef9-64c888ea5d45")
+	)
+	(no_connect
+		(at 472.44 312.42)
+		(uuid "ca6b66dd-d778-4fa6-846c-e1ebbc91a47d")
 	)
 	(no_connect
 		(at 421.64 46.99)
@@ -11983,6 +11999,16 @@
 		)
 		(uuid "5dbb951c-334c-4120-8796-330ba8b61889")
 	)
+	(bus
+		(pts
+			(xy 26.8224 0.1524) (xy 0.1524 0.1524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f595b38-d5cb-431a-bee0-897ee27979d3")
+	)
 	(wire
 		(pts
 			(xy 118.11 179.07) (xy 118.11 181.61)
@@ -13963,7 +13989,7 @@
 		)
 		(uuid "0292e74a-17df-4253-bfd7-3d3df26204f6")
 	)
-	(label "PCIe_{B1x2}.TX0+"
+	(label "PCIe_B1x2.TX0+"
 		(at 267.97 285.75 0)
 		(effects
 			(font
@@ -14023,7 +14049,7 @@
 		)
 		(uuid "10dcb0c4-ea55-41e6-b65b-7d065d068a45")
 	)
-	(label "PCIe_{B1x4}.TX2-"
+	(label "PCIe_B1x4.TX2-"
 		(at 214.63 308.61 180)
 		(effects
 			(font
@@ -14043,7 +14069,7 @@
 		)
 		(uuid "1491c158-c1c5-496c-bddf-4dfeb0cb2b5c")
 	)
-	(label "PCIe_{B1x4}.TX3+"
+	(label "PCIe_B1x4.TX3+"
 		(at 214.63 316.23 180)
 		(effects
 			(font
@@ -14103,7 +14129,7 @@
 		)
 		(uuid "25ba5c7c-9dda-4730-a88e-b15c4f605859")
 	)
-	(label "PCIe_{B1x2}.RX0+"
+	(label "PCIe_B1x2.RX0+"
 		(at 267.97 280.67 0)
 		(effects
 			(font
@@ -14143,7 +14169,7 @@
 		)
 		(uuid "2afca6e2-7e6d-4df8-8790-a8a04703ce97")
 	)
-	(label "PCIe_{B1x2}.RX1-"
+	(label "PCIe_B1x2.RX1-"
 		(at 267.97 293.37 0)
 		(effects
 			(font
@@ -14273,7 +14299,7 @@
 		)
 		(uuid "381be0c4-c26a-4f2e-8985-92166746df50")
 	)
-	(label "PCIe_{B1x4}.RX1-"
+	(label "PCIe_B1x4.RX1-"
 		(at 214.63 293.37 180)
 		(effects
 			(font
@@ -14293,7 +14319,7 @@
 		)
 		(uuid "42966ffa-f330-4a2b-ad72-ff1202bd5a51")
 	)
-	(label "PCIe_{B1x2}.TX0-"
+	(label "PCIe_B1x2.TX0-"
 		(at 267.97 288.29 0)
 		(effects
 			(font
@@ -14373,7 +14399,7 @@
 		)
 		(uuid "5a4f9b82-db92-4abb-9cdb-88862e9d2eb9")
 	)
-	(label "PCIe_{B1x4}.RX3-"
+	(label "PCIe_B1x4.RX3-"
 		(at 214.63 313.69 180)
 		(effects
 			(font
@@ -14393,7 +14419,7 @@
 		)
 		(uuid "62ba7a58-194a-487e-8bdd-13e13736868c")
 	)
-	(label "PCIe_{B1x4}.RX0-"
+	(label "PCIe_B1x4.RX0-"
 		(at 214.63 283.21 180)
 		(effects
 			(font
@@ -14413,7 +14439,7 @@
 		)
 		(uuid "680c93ce-0bb6-4039-87f2-1e83fc6d98c9")
 	)
-	(label "PCIe_{B1x4}.TX0+"
+	(label "PCIe_B1x4.TX0+"
 		(at 214.63 285.75 180)
 		(effects
 			(font
@@ -14453,7 +14479,7 @@
 		)
 		(uuid "709cf536-362e-4db1-8633-00d5da47ed08")
 	)
-	(label "PCIe_{B1x4}.RX3+"
+	(label "PCIe_B1x4.RX3+"
 		(at 214.63 311.15 180)
 		(effects
 			(font
@@ -14513,7 +14539,7 @@
 		)
 		(uuid "7be7de86-56f3-4954-8120-6a63b0845764")
 	)
-	(label "PCIe_{B1x2}.RX1+"
+	(label "PCIe_B1x2.RX1+"
 		(at 267.97 290.83 0)
 		(effects
 			(font
@@ -14523,7 +14549,7 @@
 		)
 		(uuid "7ca180cb-d3c3-4521-bd48-a63bda6754a7")
 	)
-	(label "PCIe_{B1x2}.TX1+"
+	(label "PCIe_B1x2.TX1+"
 		(at 267.97 295.91 0)
 		(effects
 			(font
@@ -14533,7 +14559,7 @@
 		)
 		(uuid "80109061-c7b8-47c3-9e15-d250e29ae4bf")
 	)
-	(label "PCIe_{B1x4}.RX1+"
+	(label "PCIe_B1x4.RX1+"
 		(at 214.63 290.83 180)
 		(effects
 			(font
@@ -14573,7 +14599,7 @@
 		)
 		(uuid "89a9f0fb-64a3-4834-8ad9-34c6d5773b15")
 	)
-	(label "PCIe_{B1x2}.TX1-"
+	(label "PCIe_B1x2.TX1-"
 		(at 267.97 298.45 0)
 		(effects
 			(font
@@ -14593,7 +14619,7 @@
 		)
 		(uuid "8a8b36fd-3cdd-4c82-91e1-fe8a3c588578")
 	)
-	(label "PCIe_{B1x4}.RX2-"
+	(label "PCIe_B1x4.RX2-"
 		(at 214.63 303.53 180)
 		(effects
 			(font
@@ -14603,7 +14629,7 @@
 		)
 		(uuid "8b881458-2d69-4df6-837b-b69adc8a3c9c")
 	)
-	(label "PCIe_{B1x4}.RX2+"
+	(label "PCIe_B1x4.RX2+"
 		(at 214.63 300.99 180)
 		(effects
 			(font
@@ -14703,7 +14729,7 @@
 		)
 		(uuid "a58d8984-0020-4187-ae25-bacafa159ec2")
 	)
-	(label "PCIe_{B1x4}.TX3-"
+	(label "PCIe_B1x4.TX3-"
 		(at 214.63 318.77 180)
 		(effects
 			(font
@@ -14723,7 +14749,7 @@
 		)
 		(uuid "aad74339-4212-4e01-a691-8c21a246e89d")
 	)
-	(label "PCIe_{B1x4}.TX2+"
+	(label "PCIe_B1x4.TX2+"
 		(at 214.63 306.07 180)
 		(effects
 			(font
@@ -14773,7 +14799,7 @@
 		)
 		(uuid "baf093de-20a6-4bf4-bd68-b75f11cb3c90")
 	)
-	(label "PCIE_{REF}.CK+"
+	(label "PCIE_REF.CK+"
 		(at 204.47 332.74 180)
 		(effects
 			(font
@@ -14823,7 +14849,7 @@
 		)
 		(uuid "cea5c963-704b-4b8e-8fec-c4224fe921b7")
 	)
-	(label "PCIe_{B1x4}.RX0+"
+	(label "PCIe_B1x4.RX0+"
 		(at 214.63 280.67 180)
 		(effects
 			(font
@@ -14833,7 +14859,7 @@
 		)
 		(uuid "cf9338bc-0b4d-4f29-9ae1-84d6af743c0c")
 	)
-	(label "PCIe_{B1x4}.TX1+"
+	(label "PCIe_B1x4.TX1+"
 		(at 214.63 295.91 180)
 		(effects
 			(font
@@ -14913,7 +14939,7 @@
 		)
 		(uuid "db6329d4-2e11-41dc-aca8-117cbd91c9bf")
 	)
-	(label "PCIE_{REF}.CK-"
+	(label "PCIE_REF.CK-"
 		(at 204.47 335.28 180)
 		(effects
 			(font
@@ -14923,7 +14949,7 @@
 		)
 		(uuid "e81def8f-a621-4452-bd59-de9487a6fea9")
 	)
-	(label "PCIe_{B1x4}.TX1-"
+	(label "PCIe_B1x4.TX1-"
 		(at 214.63 298.45 180)
 		(effects
 			(font
@@ -14953,7 +14979,7 @@
 		)
 		(uuid "ed3ce668-2646-49a8-8c0c-b3a5eec1ca09")
 	)
-	(label "PCIe_{B1x2}.RX0-"
+	(label "PCIe_B1x2.RX0-"
 		(at 267.97 283.21 0)
 		(effects
 			(font
@@ -14983,7 +15009,7 @@
 		)
 		(uuid "f3f3520a-70b0-49a8-b682-bed4611ce089")
 	)
-	(label "PCIe_{B1x4}.TX0-"
+	(label "PCIe_B1x4.TX0-"
 		(at 214.63 288.29 180)
 		(effects
 			(font
@@ -15094,7 +15120,7 @@
 		)
 		(uuid "293cc22e-13cf-4c4c-a9b4-70fd5a32c196")
 	)
-	(hierarchical_label "PCIE_{REF}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REF{PCIe_REF}"
 		(shape output)
 		(at 184.15 328.93 180)
 		(effects
@@ -15171,7 +15197,7 @@
 		)
 		(uuid "5d851418-6db9-46c7-b92c-32af7af4ae7d")
 	)
-	(hierarchical_label "PCIe_{B1x2}{PCIe}"
+	(hierarchical_label "PCIe_B1x2{PCIe}"
 		(shape output)
 		(at 288.29 300.99 0)
 		(effects
@@ -15259,7 +15285,7 @@
 		)
 		(uuid "803381ed-3722-4eb6-b715-744d41759927")
 	)
-	(hierarchical_label "PCIe_{B1x4}{PCIe}"
+	(hierarchical_label "PCIe_B1x4{PCIe}"
 		(shape output)
 		(at 191.77 322.58 180)
 		(effects
@@ -15732,7 +15758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 82.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17135,7 +17161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -18538,7 +18564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 229.87 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -20179,7 +20205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -21924,7 +21950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 85.09 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -23595,7 +23621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -24998,7 +25024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -26535,7 +26561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 229.87 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -27938,7 +27964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 229.87 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -29341,7 +29367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -30744,7 +30770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -32147,7 +32173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 229.87 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -33684,7 +33710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 85.09 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -35087,7 +35113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 436.88 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -36490,7 +36516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 229.87 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -37893,7 +37919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DatCao_FootPrint:CORE_BOARD_CUSTOM_440_PIN"
+		(property "Footprint" "PC_Components_1:EPT_401-51501-51"
 			(at 85.09 304.8 0)
 			(hide yes)
 			(show_name no)

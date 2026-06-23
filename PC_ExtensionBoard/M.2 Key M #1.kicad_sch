@@ -4769,7 +4769,7 @@
 		)
 		(uuid "fffb2eef-1b0b-43d3-85c2-7a1b82e23ee9")
 	)
-	(label "PCIe_{B1x4}.TX2+"
+	(label "PCIe_B1x4.TX2+"
 		(at 68.58 105.41 0)
 		(effects
 			(font
@@ -4779,7 +4779,7 @@
 		)
 		(uuid "099f88da-aeeb-47c2-b1d4-3eb35ad1d71b")
 	)
-	(label "PCIe_{B1x4}.TX3-"
+	(label "PCIe_B1x4.TX3-"
 		(at 68.58 123.19 0)
 		(effects
 			(font
@@ -4799,7 +4799,7 @@
 		)
 		(uuid "291c293b-cb58-406e-8395-067493e09118")
 	)
-	(label "PCIe_{B1x4}.RX3-"
+	(label "PCIe_B1x4.RX3-"
 		(at 68.58 130.81 0)
 		(effects
 			(font
@@ -4809,7 +4809,7 @@
 		)
 		(uuid "3286cc76-f90a-4162-b6a8-80b94726de9e")
 	)
-	(label "PCIe_{B1x4}.RX2+"
+	(label "PCIe_B1x4.RX2+"
 		(at 68.58 113.03 0)
 		(effects
 			(font
@@ -4819,7 +4819,7 @@
 		)
 		(uuid "451bccc5-205f-4b82-aeb0-3319e3e4e6fc")
 	)
-	(label "PCIe_{B1x4}.RX0+"
+	(label "PCIe_B1x4.RX0+"
 		(at 68.58 82.55 0)
 		(effects
 			(font
@@ -4829,7 +4829,7 @@
 		)
 		(uuid "4d0671bb-8e54-4a12-bcf8-d56bfc91657f")
 	)
-	(label "PCIE_{REF0}.CK+"
+	(label "PCIE_REF0.CK+"
 		(at 110.49 66.04 180)
 		(effects
 			(font
@@ -4839,7 +4839,7 @@
 		)
 		(uuid "4e144b8c-8a00-454a-b07b-175b95aff026")
 	)
-	(label "PCIe_{B1x4}.TX1+"
+	(label "PCIe_B1x4.TX1+"
 		(at 68.58 90.17 0)
 		(effects
 			(font
@@ -4849,7 +4849,7 @@
 		)
 		(uuid "50cd9f38-d31c-4519-8e7c-8c7910b83746")
 	)
-	(label "PCIe_{B1x4}.TX3+"
+	(label "PCIe_B1x4.TX3+"
 		(at 68.58 120.65 0)
 		(effects
 			(font
@@ -4859,7 +4859,7 @@
 		)
 		(uuid "5bd16920-8e42-4a60-b974-346c23508685")
 	)
-	(label "PCIe_{B1x4}.TX2-"
+	(label "PCIe_B1x4.TX2-"
 		(at 68.58 107.95 0)
 		(effects
 			(font
@@ -4869,7 +4869,7 @@
 		)
 		(uuid "6bf40c37-c393-4293-8237-8763e19c1e9d")
 	)
-	(label "PCIe_{B1x4}.TX0-"
+	(label "PCIe_B1x4.TX0-"
 		(at 68.58 77.47 0)
 		(effects
 			(font
@@ -4879,7 +4879,7 @@
 		)
 		(uuid "786db323-4acd-4779-8cfd-efe75a90895a")
 	)
-	(label "PCIe_{B1x4}.RX3+"
+	(label "PCIe_B1x4.RX3+"
 		(at 68.58 128.27 0)
 		(effects
 			(font
@@ -4889,7 +4889,7 @@
 		)
 		(uuid "a7a324e9-1ef7-49c4-a83c-5d3880c2bd15")
 	)
-	(label "PCIe_{B1x4}.RX0-"
+	(label "PCIe_B1x4.RX0-"
 		(at 68.58 85.09 0)
 		(effects
 			(font
@@ -4899,7 +4899,7 @@
 		)
 		(uuid "ab5f1441-f386-4ea3-a751-5787e6110d07")
 	)
-	(label "PCIe_{B1x4}.TX1-"
+	(label "PCIe_B1x4.TX1-"
 		(at 68.58 92.71 0)
 		(effects
 			(font
@@ -4909,7 +4909,7 @@
 		)
 		(uuid "bd2d72b7-4dc2-4e92-a0e0-91c686070cc9")
 	)
-	(label "PCIE_{REF0}.CK-"
+	(label "PCIE_REF0.CK-"
 		(at 110.49 68.58 180)
 		(effects
 			(font
@@ -4919,7 +4919,7 @@
 		)
 		(uuid "c09c9174-2628-4981-a491-06e5f356b794")
 	)
-	(label "PCIe_{B1x4}.RX2-"
+	(label "PCIe_B1x4.RX2-"
 		(at 68.58 115.57 0)
 		(effects
 			(font
@@ -4929,7 +4929,7 @@
 		)
 		(uuid "c702d6cc-0447-4ca1-a87c-845d74e37278")
 	)
-	(label "PCIe_{B1x4}.TX0+"
+	(label "PCIe_B1x4.TX0+"
 		(at 68.58 74.93 0)
 		(effects
 			(font
@@ -4939,7 +4939,7 @@
 		)
 		(uuid "c8de3237-63c0-45e3-828d-8198d0295854")
 	)
-	(label "PCIe_{B1x4}.RX1+"
+	(label "PCIe_B1x4.RX1+"
 		(at 68.58 97.79 0)
 		(effects
 			(font
@@ -4959,7 +4959,7 @@
 		)
 		(uuid "e7b049c2-f390-47be-8adb-c8cd0768c413")
 	)
-	(label "PCIe_{B1x4}.RX1-"
+	(label "PCIe_B1x4.RX1-"
 		(at 68.58 100.33 0)
 		(effects
 			(font
@@ -4991,7 +4991,7 @@
 		)
 		(uuid "3d2e6224-6975-4322-ad18-0e84a85a6673")
 	)
-	(hierarchical_label "PCIE_{REF0}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REF0{PCIe_REF}"
 		(shape input)
 		(at 59.69 60.96 180)
 		(effects
@@ -5013,7 +5013,7 @@
 		)
 		(uuid "820f3c8b-6d17-45c4-9479-36cda7f75419")
 	)
-	(hierarchical_label "PCIe_{B1x4}{PCIe}"
+	(hierarchical_label "PCIe_B1x4{PCIe}"
 		(shape input)
 		(at 59.69 68.58 180)
 		(effects

@@ -4696,7 +4696,7 @@
 		)
 		(uuid "2981aa0c-4f3f-4e16-8425-36977faf94f0")
 	)
-	(label "PCIe_{B1x2}.RX1-"
+	(label "PCIe_B1x2.RX1-"
 		(at 62.23 100.33 180)
 		(effects
 			(font
@@ -4706,7 +4706,7 @@
 		)
 		(uuid "2a108ad0-5e37-4ccf-962d-e374a59a1682")
 	)
-	(label "PCIe_{B1x2}.RX0+"
+	(label "PCIe_B1x2.RX0+"
 		(at 45.72 80.01 0)
 		(effects
 			(font
@@ -4716,7 +4716,7 @@
 		)
 		(uuid "37fe457f-51ef-44c2-8a57-5f992603835e")
 	)
-	(label "PCIe_{B1x2}.TX0+"
+	(label "PCIe_B1x2.TX0+"
 		(at 45.72 72.39 0)
 		(effects
 			(font
@@ -4746,7 +4746,7 @@
 		)
 		(uuid "5e907cde-d997-4d6b-ba99-67994ec98522")
 	)
-	(label "PCIE_{REF3}.CK+"
+	(label "PCIE_REF3.CK+"
 		(at 63.5 64.77 0)
 		(effects
 			(font
@@ -4756,7 +4756,7 @@
 		)
 		(uuid "6857cad4-c81d-46bc-aabd-c5b97a40abfe")
 	)
-	(label "PCIe_{B1x2}.RX1+"
+	(label "PCIe_B1x2.RX1+"
 		(at 62.23 97.79 180)
 		(effects
 			(font
@@ -4766,7 +4766,7 @@
 		)
 		(uuid "8356e830-7603-42fb-a7a9-1e3cabcdc2af")
 	)
-	(label "PCIe_{B1x2}.TX1+"
+	(label "PCIe_B1x2.TX1+"
 		(at 60.96 90.17 180)
 		(effects
 			(font
@@ -4776,7 +4776,7 @@
 		)
 		(uuid "8ba96b31-55e4-4034-89a5-30a83d3a73b9")
 	)
-	(label "PCIe_{B1x2}.RX0-"
+	(label "PCIe_B1x2.RX0-"
 		(at 45.72 82.55 0)
 		(effects
 			(font
@@ -4796,7 +4796,7 @@
 		)
 		(uuid "b1c66503-b3ea-4ec0-a8f0-6dcd6f2a2f3b")
 	)
-	(label "PCIE_{REF3}.CK-"
+	(label "PCIE_REF3.CK-"
 		(at 63.5 67.31 0)
 		(effects
 			(font
@@ -4816,7 +4816,7 @@
 		)
 		(uuid "c39cbde0-769b-4d40-8807-2014d2f651d1")
 	)
-	(label "PCIe_{B1x2}.TX0-"
+	(label "PCIe_B1x2.TX0-"
 		(at 45.72 74.93 0)
 		(effects
 			(font
@@ -4836,7 +4836,7 @@
 		)
 		(uuid "c600fe94-1363-4003-8e02-ebbda1c555fa")
 	)
-	(label "PCIe_{B1x2}.TX1-"
+	(label "PCIe_B1x2.TX1-"
 		(at 62.23 92.71 180)
 		(effects
 			(font
@@ -4879,7 +4879,7 @@
 		)
 		(uuid "2d7a1437-1902-4a01-8d4f-9fe0273f26d2")
 	)
-	(hierarchical_label "PCIE_{REF3}{PCIe_{REF}}"
+	(hierarchical_label "PCIE_REF3{PCIe_REF}"
 		(shape input)
 		(at 36.83 59.69 180)
 		(effects
@@ -4901,7 +4901,7 @@
 		)
 		(uuid "6afe6a72-4ae2-4d9b-9d19-c34760f5fbba")
 	)
-	(hierarchical_label "PCIe_{B1x2}{PCIe}"
+	(hierarchical_label "PCIe_B1x2{PCIe}"
 		(shape input)
 		(at 36.83 67.31 180)
 		(effects
