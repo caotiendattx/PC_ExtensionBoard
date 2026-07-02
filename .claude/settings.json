@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F'\"' '{print $2}')",
+      "Bash(grep -vE '_[0-9]+_[0-9]+$')",
+      "Bash(cd \"C:/Users/Dustin/Desktop/PC_ExtensionBoard\" && echo \"=== R symbol \\(simple, full\\) ===\" && sed -n '/^\\\\t\\(symbol \"R\"/,/^\\\\t\\(symbol \"R_0R001_0805\"/p' \"Libs/symbol/A_PC_ExtensionBoard.kicad_sym\" | head -90)",
+      "Bash(grep -nE '\\\\\\(layers$|\\\\\\(setup$|\\\\\\(net [0-9]|\\\\\\(footprint |\\\\\\(general$|\\\\\\(paper ' PC_ExtensionBoard.kicad_pcb)",
+      "Bash(python \"C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/gen_batch1.py\")",
+      "Read(//c/Program Files/KiCad/**)",
+      "Bash(py -3 --version)",
+      "Bash(\"/c/Program Files/KiCad/10.0/bin/python.exe\" \"C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/gen_batch1.py\")",
+      "Bash(\"/c/Program Files/KiCad/10.0/bin/python.exe\" -)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/kicad-cli.exe' sch export netlist -o /tmp/n.net PC_ExtensionBoard.kicad_sch)",
+      "Bash(grep -nE '^#{1,2} ' ExtensionBoard_Design.md)",
+      "Bash(awk '/^\\\\t\\\\\\(sheet$/{c++} c==1{print} /^\\\\t\\\\\\)$/{if\\(c==1\\)exit}')",
+      "Bash(awk '/^\\\\t\\\\\\(symbol$/{c++} c==1{print} c==1&&/^\\\\t\\\\\\)$/{exit}')",
+      "Bash(\"/c/Program Files/KiCad/10.0/bin/python.exe\" \"C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/gen_sheets.py\")",
+      "Bash('/c/Program Files/KiCad/10.0/bin/kicad-cli.exe' sch export netlist -o /tmp/eb.net PC_ExtensionBoard.kicad_sch)",
+      "Bash(echo \"EXIT=$?\")",
+      "Read(//tmp/**)",
+      "Bash(grep -c '\\(comp$' /tmp/eb.net)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/kicad-cli.exe' sch erc -o /tmp/erc.rpt PC_ExtensionBoard.kicad_sch)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/kicad-cli.exe' sch export pdf -o /tmp/eb.pdf PC_ExtensionBoard.kicad_sch)",
+      "Bash(\"/c/Program Files/KiCad/10.0/bin/python.exe\" -c \"import re;d=open\\('/tmp/eb.pdf','rb'\\).read\\(\\);print\\(len\\(re.findall\\(rb'/Type\\\\s*/Page[^s]',d\\)\\)\\)\")",
+      "Read(//c/Users/Dustin/AppData/Local/Temp/**)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/python.exe' -c 'import re;d=open\\(r'\\\\''C:/Users/Dustin/AppData/Local/Temp/eb.pdf'\\\\'','\\\\''rb'\\\\''\\).read\\(\\);print\\('\\\\''PDF pages:'\\\\'',len\\(re.findall\\(rb'\\\\''/Type\\\\s*/Page[^s]'\\\\'',d\\)\\)\\)')",
+      "Bash('/c/Program Files/KiCad/10.0/bin/python.exe' -c 'import re;print\\('\\\\''PDF pages:'\\\\'',len\\(re.findall\\(rb'\\\\''/Type\\\\s*/Page[^s]'\\\\'',open\\(r'\\\\''__TRACKED_VAR__'\\\\'','\\\\''rb'\\\\''\\).read\\(\\)\\)\\)\\)')",
+      "Bash('/c/Program Files/KiCad/10.0/bin/python.exe' - C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/eb.net)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/kicad-cli.exe' sch export pdf -o C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/eb.pdf PC_ExtensionBoard.kicad_sch)",
+      "Bash('/c/Program Files/KiCad/10.0/bin/python.exe' -c 'import re;print\\('\\\\''PDF pages:'\\\\'',len\\(re.findall\\(rb'\\\\''/Type\\\\s*/Page[^s]'\\\\'',open\\(r'\\\\''C:/Users/Dustin/AppData/Local/Temp/claude/c--Users-Dustin-Desktop-PC-ExtensionBoard/bd25d091-f64e-4963-a582-d640977a50ea/scratchpad/eb.pdf'\\\\'','\\\\''rb'\\\\''\\).read\\(\\)\\)\\)\\)')"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Dustin\\Desktop\\PC_ExtensionBoard\\Libs\\symbol",
+      "\\tmp"
+    ]
+  }
+}
